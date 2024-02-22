@@ -2,7 +2,7 @@
 layout: post
 title: "Principios SOLID"
 ---
-Mantener siempre en mente estos principios:
+Mantener siempre en mente estos principios:<!--more-->
 
 
 |  |  |

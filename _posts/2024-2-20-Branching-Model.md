@@ -2,7 +2,7 @@
 layout: post
 title: "Branching model"
 ---
-Hay muchas versiones, una muy común es
+Hay muchas versiones, una muy común es<!--more-->
 * feature → master 
 * feature → develop → master 
 * feature → feature/US → develop → master 

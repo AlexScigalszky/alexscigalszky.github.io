@@ -2,7 +2,7 @@
 layout: post
 title: "End of Day"
 ---
-Este es un email, con una reseña simple y concisa para el equipo sobre tres puntos. Sirve para que el equipo se coordine y cada individuo planee su siguiente día: 
+Este es un email, con una reseña simple y concisa para el equipo sobre<!--more--> tres puntos. Sirve para que el equipo se coordine y cada individuo planee su siguiente día: 
 
 * **¿qué se terminó hoy?** Un listado de todas las tareas que finalizaron la etapa desarrollada. Pasan a siguiente etapa o se cierran 
 
