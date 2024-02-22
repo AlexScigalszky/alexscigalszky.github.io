@@ -11,7 +11,7 @@ layout: default
       <div class="entry">
         <!-- {{ post.excerpt }} -->
         <!-- {{ page.excerpt | strip_html | strip_newlines | truncate: 3 }}   -->
-        {{ page.excerpt | strip_html | strip_newlines | truncatewords: 10 }}
+        {{ page.excerpt | truncatewords: 10 }}
         {{ "Ground control to Major Tom." | truncatewords: 3 }}
       </div>
 
