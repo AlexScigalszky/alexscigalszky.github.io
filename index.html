@@ -9,8 +9,8 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
-        {{ post.excerpt }}
-        {{ page.excerpt | strip_html | strip_newlines | truncate: 156 }}  
+        <!-- {{ post.excerpt }} -->
+        <!-- {{ page.excerpt | strip_html | strip_newlines | truncate: 3 }}   -->
         {{ page.excerpt | strip_html | strip_newlines | truncatewords: 10 }}
         {{ "Ground control to Major Tom." | truncatewords: 3 }}
       </div>
