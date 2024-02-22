@@ -51,6 +51,10 @@ h1 {
   }
 }
 
+.title {
+  margin-top: 0;
+}
+
 h2 {
   font-size: 24px;
 }
@@ -118,6 +122,8 @@ img {
 .date {
   font-style: italic;
   color: $gray;
+  font-size: 0.7rem;
+  margin-top: 2rem;
 }
 
 // Specify the color of the selection
