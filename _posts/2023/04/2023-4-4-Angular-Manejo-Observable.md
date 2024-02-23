@@ -27,7 +27,7 @@ En cambio si se hace con el pipe async en el template todo esto se evita. Angula
     ...
 </form>
 ```
-Este codigo lo agregué porque necesitaba poner la validación para las fechas (dicho de paso, si utilizo un subscribe, tendría que agregar otra variable y subscripción por cada validación que necesite.
+Este codigo lo agregué porque necesitaba poner la validación para las fechas (dicho de paso, si utilizo un subscribe, tendría que agregar otra variable y subscripción por cada validación que necesite).
 ```typescript
 combineLatest([
       this.f[this.INPUT_TIME_FROM].valueChanges,
