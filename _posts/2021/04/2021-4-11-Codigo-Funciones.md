@@ -2,7 +2,7 @@
 layout: post
 title: "Buenas prácticas en el código: Funciones"
 ---
-Deben ser reducidas (~20 líneas) y con nombres descriptivos (no importan si son un poco largos). Debemos evitar el anidamiento excesivo (~complejidad ciclomática). 
+Deben ser reducidas (~20 líneas) y con nombres descriptivos (no importan si son un poco largos). Debemos evitar<!--more--> el anidamiento excesivo (~complejidad ciclomática). 
 Solo deben hacer una cosa. Para adivinar si una función hace más de una cosa intentamos describirla en una frase: “PARA (nombredefunción) […]”. Ej: “Para RenderPageWithSetup comprobamos si la página es de prueba y en caso afirmativo añadimos configuración y detalles. En cualquier caso, renderizamos en HTML”. Todo el contenido de una función debería estar al mismo nivel de abstracción. De igual forma, el siguiente nivel de abstracción debería estar en la función que sigue. De esta forma una clase se puede leer secuencialmente de arriba hacia abajo.
 Evitar instrucciones switch en funciones escondiéndolas en clases abstractas (patrón Factory+strategy).
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Buenas prácticas en el código: Comentarios"
 ---
-Los comentarios solo están justificados cuando no somos capaces de expresarnos con el código. En general, basta con escribir y encapsular todo en una función que se llame como lo que hay en el comentario.
+Los comentarios solo están justificados cuando no somos capaces de expresarnos con el código. En general,<!--more--> basta con escribir y encapsular todo en una función que se llame como lo que hay en el comentario.
 ## Solo algunos comentarios son positivos:
 - Comentarios legales, de derechos de autor
 - Comentarios informativos de lo que devuelve una función, aunque también se pueden eliminar si en el nombre de la función especificamos lo que se devuelve
