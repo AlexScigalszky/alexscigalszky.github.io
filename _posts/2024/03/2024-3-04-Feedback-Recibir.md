@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feedback : Recibir"
+title: "Feedback: Recibir"
 ---
 Escuchar detenidamente.
 Cualquier cosa que digan, siempre es bueno (aunque no guste).
