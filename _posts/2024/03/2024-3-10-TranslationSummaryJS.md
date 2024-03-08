@@ -2,11 +2,12 @@
 layout: post
 title: "Librería: TranslationSummaryJS (Javascript)"
 ---
-# Link
-(link to nopm package)[https://www.npmjs.com/package/@translation-summary/core]
 
-Librería que permite visualizar un resumen los archivos de traducción dentro de una carpeta.
+Librería que permite visualizar un <!--more-->resumen los archivos de traducción dentro de una carpeta.
 Ayuda a encontrar los archivos de traducción faltantes dentro de la carpeta `docs`
+
+# Link
+(link to npm package)[https://www.npmjs.com/package/@translation-summary/core]
 
 ## Salida
 

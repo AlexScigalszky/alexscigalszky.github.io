@@ -2,7 +2,7 @@
 layout: post
 title: "Librería: FunctionSimpleMapper (C#)"
 ---
-Librería que permite crear functiones para mapear objetos pero aislarlas en un mapper.
+Librería que permite crear functiones para mapear objetos pero <!--more-->aislarlas en un mapper.
 Permite crear una función en un lugar y utilizar el mapper en todos los lugares requeridos.
 
 # Link
