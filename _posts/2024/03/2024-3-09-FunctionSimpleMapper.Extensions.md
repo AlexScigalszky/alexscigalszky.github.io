@@ -3,6 +3,8 @@ layout: post
 title: "Librería: FunctionSimpleMapper.Extensions (C#)"
 ---
 Extensión de la librería FunctionSimpleMapper que  hasta el momento permite agregarlo al ServiceCollection
+
+# Link
 (Nuget)[https://www.nuget.org/packages/FunctionSimpleMapper]
 
 ## ¿Cómo usarlo?
