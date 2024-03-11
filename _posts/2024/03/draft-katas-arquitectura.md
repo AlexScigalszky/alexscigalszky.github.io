@@ -358,3 +358,6 @@ A local copy shop chain wants to offer its customers an 'all-in-one' computing e
     Additional Context:
         Main reason for this initiative is better customer engagement and loyalty
         for historical reasons, operations is handled by another company and isn't very responsive
+
+## Explicacion:
+https://manuelzapata.co/katas-arquitectura/
