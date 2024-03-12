@@ -4,15 +4,25 @@ title: "Camino del Senior(.Net + Angular): Fundamentos HTML: Introduccion a CSS3
 ---
 Etiquetas CSS3 disponibles.<!--more-->
 
+## Viewport
+```html
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- el viewport(ventana de visualización) el área visible del usuario de una página web. -->
+	<!-- width=device-width establece el ancho de la página para seguir el ancho de pantalla del dispositivo (que variará en función del dispositivo). -->
+	<!-- initial-scale=1.0 fija el nivel de zoom inicial cuando la página se carga por primera vez por el navegador.-->
+```
+
+## CSS
 ```css
 *{
 	margin:0;
 	padding:0;
 	list-style:none;
 	font-family:sans-serif;
-	}
+}
 	
-#chat{
+#id{
 	position:fixed;
 	width:250px;
 	height:40px;
@@ -27,28 +37,16 @@ Etiquetas CSS3 disponibles.<!--more-->
 	font-size:20px;
 	border-radius:20px 20px 0 0;
 	cursor:pointer;
-	}
+}
 
 header{
 	position:relative;
 	margin:20px auto;
 	width:1000px;
 	height:120px;
-	}
+}
 	
-#logo{
-	position:absolute;
-	top:30px;
-	left:30px;
-	width:200px;
-	height:60px;
-	font-family: 'Kaushan Script', cursive;
-	font-size:50px;
-	text-align:center;
-	line-height:60px;
-	}
-	
-.redes{
+.class{
 	position:absolute;
 	width:42px;
 	height:42px;
@@ -57,196 +55,39 @@ header{
 	text-align:center;
 	line-height:42px;
 	color:white;
-	}
-	
-#icono1{
-	top:42px;
-	right:120px;
-	background:blue;
-	}
-	
-#icono2{
-	top:42px;
-	right:71px;
-	background:green;
-	}
-	
-#icono3{
-	top:42px;
-	right:19px;
-	background:red;
-	}
-		
-nav{
-	position:relative;
-	margin:auto;
-	width:1000px;
-	height:48px;
-	}
-		
-.botones{
-	float:left;
-	width:196px;
-	margin:0px 2px;
-	height:48px;
-	background:rgba(100,0,255,1);
-	font-family: 'Kaushan Script', cursive;
-	color:white;
-	text-align:center;
-	line-height:48px;
-	}
-	
-a .botones:hover{
+}	
+a .class:hover{
 	background:rgba(100,0,255,.4);
-	}
+}
 	
-a .botones:active{
+a .class:active{
 	background:rgba(255,0,100,1);
-	}
-	
-#top{
-	position:relative;
-	margin:20px auto;
-	width:1000px;
-	height:192px;
-	}
+}
 
-#top ul{
-	width:1010px;
-	height:192px;
-	}
-	
-#top ul li{
-	float:left;
-	width:326px;
-	height:192px;
-	margin-right:10px;
-	text-align:center;
-	}
-	
-#top ul li img{
-	border-radius:100%;
-	height:100px;
-	}
-	
-#top ul li h1{
-	font-family: 'Kaushan Script', cursive;
-	}
-	
-#top ul li p{
-	font-size:14px;
-	margin:10px;
-	}
-	
-section{
-	position:relative;
-	margin:auto;
-	width:1000px;
-	height:453px;
-	}
-	
-aside#izq{
+aside#id{
 	position:absolute;
 	left:0;
 	top:0;
 	width:200px;
 	height:453px;
-	}
+}
 	
-	
-aside#izq ul li{
-	
-	background:#aaa;
-	padding:10px;
-	margin:2px 10px;
-	list-style:square;
-	list-style-position:inside;
-	list-style-image:url(lista.png);
-	}
-	
-aside#izq ul li a{
-	text-decoration:none;
-	
-	}
-	
-article{
-	position:absolute;
-	left:200px;
-	top:0;
-	width:600px;
-	height:453px;
-	}
-	
-article h1{
-	font-family: 'Kaushan Script', cursive;
-	font-size:40px;
-	margin:20px;
-	}
-	
-article p img{
-	float:left;
-	margin-right:20px;
-	}
-	
-article p {
-	margin:5px 20px;
-	font-size:14px;
-	text-align:justify;
-	
-	}
-	
-aside#der{
+aside.class{
 	position:absolute;
 	right:0;
 	top:0;
 	width:200px;
 	height:453px;
-	}
-	
-aside#der h1{
-	width:200px;
-	height:50px;
-	line-height:50px;
-	text-align:center;
-	background:rgba(100,0,255,1);
-	color:white;
-	margin-bottom:5px;
-	}
-	
-aside#der input{
-	padding:10px;
-	margin:5px 0;
-	width:176px;
-	}
+}
 
-aside#der input[type="text"]{
-	background:url(usuario.png);
-	background-repeat:no-repeat;
-	background-position:right;
-	background-size:contain;
-	}
-	
-aside#der input[type="password"]{
-	background:url(password.png);
-	background-repeat:no-repeat;
-	background-position:right;
-	background-size:contain;
-	}
-	
-aside#der input[type="submit"]{
-	width:200px;
-	background:rgba(100,0,100,.5);
-	border:0;
-	}
-	
-footer{
-	position:relative;
-	margin:20px auto;
-	width:1000px;
-	height:70px;
-	background:rgba(100,0,255,1);
-	text-align:center;
-	line-height:70px;
-	color:white;
-	}
+[class*="col-"]{
+    float: left;
+    border: 1px solid black;
+    padding 20px;
+}
+
+# media query para restringir incluir un bloque sólo si se cumplen las reglas de media query
+@media(max-width:991px) and (min-width:768px) {
+	.col-sm-12{width:100%;}
+}
 ```
