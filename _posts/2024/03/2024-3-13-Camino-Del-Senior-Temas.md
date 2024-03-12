@@ -1,35 +1,15 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Temas"
+title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Arquitectura básica de Angular"
 ---
-Voy a comenzar mi camino hacia el rol de *Senior Developer*
 
-# Frontend:
-
-## Fundamentos HTML
-HTML5
-CSS3
-## Fundamentos CSS
-## Fundamentos de Angular
-## Masterclass de Angular Testing
-## RxJS Básico
-## Angular Pro
-## NGRX Store + Effects
-## RxJS MasterClass
-
-# Backend:
-## Fundamentos de C# con Microsoft (Junior)
-## Conceptos de C# (Junior)
-## Tutorial LINQ (Junior)
-## Entity Frameword Core (Junior)
-## Curso ASP.Net (Junior)
-## Curso xUnit (Junior)
-## SQL Book (Junior)
-
-## Antipatrones C#
-## AZ-900 Curso de Azure
-## Microservicios
-## RabbitMQ
-## Código de alto rendimiento
-## CI/CD
-## Temas avanzados en C#
+# Modules
+Bloque principal de angular, contiene rutas, componentes, servicios y más.
+# Components
+Contienen un template, datos, logica y forma parte del árbol del DOM.
+# Directives
+Algo que podemos juntar con un elemento existente que extiende o transforma el elemento.
+# Services
+Una capa de datos, la lógica no debe estar relacionada en los servicios. Algo como API request por ejemplo
+# Routing
+Renderiza un componente en base a la URL
