@@ -80,6 +80,8 @@ gems:
 show_excerpts: true
 excerpt_separator: "<!--more-->" #global excerpt separator for the blog posts
 
+future: true
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
