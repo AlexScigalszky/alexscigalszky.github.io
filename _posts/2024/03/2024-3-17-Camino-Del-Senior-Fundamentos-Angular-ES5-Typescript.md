@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: ES5 and TypeScript"
+title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: ES5 y TypeScript"
 ---
 
 # Funciones Javascript
