@@ -2,7 +2,7 @@
 layout: post
 title: "Camino del Senior(.Net + Angular): Temas"
 ---
-Voy a comenzar mi camino hacia el rol de *Senior Developer*
+Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 
 # Frontend:
 

@@ -3,7 +3,7 @@ layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Referencias al Template"
 ---
 
-La referencia al template se utiliza para acceder a los elementos del template en el componente
+La referencia al template se utiliza para acceder a<!--more--> los elementos del template en el componente
 
 ```ts
 import { Component } from '@angular/core'

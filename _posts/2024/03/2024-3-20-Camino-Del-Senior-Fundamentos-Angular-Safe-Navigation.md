@@ -3,7 +3,7 @@ layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Safe Navigation"
 ---
 
-Podemos usar Safe Navigation para situaciones dónde un objeto puede ser null o no.
+Podemos usar Safe Navigation para situaciones dónde un objeto puede ser <!--more-->null o no.
 
 Para utilizarlo usamos el caracter `?` de la siguiente manera
 
