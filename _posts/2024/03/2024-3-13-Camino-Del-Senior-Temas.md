@@ -4,6 +4,19 @@ title: "Camino del Senior(.Net + Angular): Temas"
 ---
 Voy a comenzar mi camino hacia el rol de *Senior Developer*
 
+# Frontend:
+
+## Fundamentos HTML
+HTML5
+CSS3
+## Fundamentos CSS
+## Fundamentos de Angular
+## Masterclass de Angular Testing
+## RxJS Básico
+## Angular Pro
+## NGRX Store + Effects
+## RxJS MasterClass
+
 # Backend:
 ## Fundamentos de C# con Microsoft (Junior)
 ## Conceptos de C# (Junior)
@@ -20,14 +33,3 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*
 ## Código de alto rendimiento
 ## CI/CD
 ## Temas avanzados en C#
-
-# Frontend:
-
-## Fundamentos HTML
-## Fundamentos CSS
-## Fundamentos de Angular
-## Masterclass de Angular Testing
-## RxJS Básico
-## Angular Pro
-## NGRX Store + Effects
-## RxJS MasterClass

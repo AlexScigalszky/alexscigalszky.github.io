@@ -6,7 +6,6 @@ Etiquetas CSS3 disponibles.<!--more-->
 
 ## Viewport
 ```html
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- el viewport(ventana de visualización) el área visible del usuario de una página web. -->
 	<!-- width=device-width establece el ancho de la página para seguir el ancho de pantalla del dispositivo (que variará en función del dispositivo). -->
