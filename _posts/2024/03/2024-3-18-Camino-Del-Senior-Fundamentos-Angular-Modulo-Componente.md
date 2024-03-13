@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common'
     imports: [
         BrowserModule,
         CommonModule
-    ]
+    ],
     boostrap: [AppComponent]
 })
 export class AppModule { // class of the component
