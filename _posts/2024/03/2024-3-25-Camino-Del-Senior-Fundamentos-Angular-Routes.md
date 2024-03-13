@@ -59,6 +59,17 @@ const routes : Routes[] = [
 Utilizar `**` significa: cada ruta que no coincida con la lista, renderiza el componente correspondiente. En este caso, NotFoundComponent
 
 
+## Redirect
+
+Para redirigir una ruta hay que especificar la ruta desde y hacia dónde queremos redirigir.
+```ts
+const routes : Routes[] = [
+  { path: '', redirect: 'users', patchMatch: 'full' }, // redirection
+  { path: 'users', component: HomeComponent },
+  { path: '**', component: NotFoundComponent},
+]
+```
+
 # RouterLink
 Para agregar navegación se utiliza la directiva *RouterLink* en el template
 
