@@ -21,6 +21,27 @@ export class ChatModule {
 
 }
 ```
+Si queremos que los componentes que se definen dentro de un modulo se puedan utilizar fuera, se deben agregarse en la sección exports el módulo
+```ts
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common'
+import { AvatarComponent } from
+
+@NgModule({
+  declarations:[
+    AvatarComponent
+  ],
+  imports:[
+    CommonModule
+  ],
+  exports:[
+    AvatarComponent
+  ]
+})
+export class ChatModule {
+
+}
+```
 
 después se tienen que importar en el AppModule principal
 
@@ -45,3 +66,4 @@ export class AppModule {
     
 }
 ```
+
