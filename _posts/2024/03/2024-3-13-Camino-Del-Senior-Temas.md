@@ -12,7 +12,16 @@ CSS3
 ## Fundamentos CSS
 ## Fundamentos de Angular
 Arquitectura básica de Angular
-ES5 and TypeScript
+ES5 y TypeScript
+Modulo y Componente
+Referencias al Template
+Safe Navigation
+Smart Dumb Components
+Feature Module
+LifeCycle
+Http
+Form Stateless
+Routes
 ## Masterclass de Angular Testing
 ## RxJS Básico
 ## Angular Pro
