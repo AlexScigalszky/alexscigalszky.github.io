@@ -3,7 +3,7 @@ layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores de Creación"
 ---
 
-Existen varios operadores dentro de la librería con los cuales<!--more--> se pueden manejar, modificar y deterner los datos en el flujo, hasta se puede detener el flujo con ellos.
+Existen varios operadores dentro de la librería con los cuales<!--more--> se pueden crear observables.
 
 # Operadores de creación
 
@@ -84,5 +84,16 @@ import { log } from './log';
 import  { Observable, timer } from 'rxjs';
 
 var source$ = timer(1000); // 1 second
+source$.subscribe(x => log(x));
+```
+
+## empty
+Crea un observable vacío
+
+```javascript
+import { log } from './log';
+import  { Observable, empty } from 'rxjs';
+
+var source$ = empty();
 source$.subscribe(x => log(x));
 ```
