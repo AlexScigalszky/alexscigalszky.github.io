@@ -34,7 +34,7 @@ const interval$ = interval(1000);
 
 merge(
     interval$.pipe(take(3)),
-    interval$.pipe(take())
+    interval$.pipe(take(2))
 ).subcribe()0,1,2,0,1
 ```
 
