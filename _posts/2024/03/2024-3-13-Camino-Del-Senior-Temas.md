@@ -24,6 +24,12 @@ Form Stateless
 Routes
 ## Masterclass de Angular Testing
 ## RxJS Básico
+Introducción
+Operadores de Creación
+Pipe
+Operadores Básicos
+Operadores de Filtro
+Operadores de Combinación
 ## Angular Pro
 ## NGRX Store + Effects
 ## RxJS MasterClass
