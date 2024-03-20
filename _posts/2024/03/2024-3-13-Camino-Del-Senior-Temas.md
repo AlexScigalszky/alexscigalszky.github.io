@@ -36,7 +36,17 @@ Operadores de Combinación
 
 # Backend:
 ## Fundamentos de C# con Microsoft (Junior)
+Escribe el primer codigo C#
+Crea y Ejecuta una aplicación de consola en C#
+Agrega lógica a la aplicación de consola
+Variables
+Métodos
+Debug
 ## Conceptos de C# (Junior)
+Elvis Operator
+Extension Methods
+Métodos Anónimos
+Tipos Anónimos
 ## Tutorial LINQ (Junior)
 ## Entity Frameword Core (Junior)
 ## Curso ASP.Net (Junior)
