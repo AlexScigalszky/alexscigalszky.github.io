@@ -22,3 +22,8 @@ var user = users.ElementAtDefault(10); // si es null utiliza el método default 
 > **Nota 1:** Si el indice no se encuentra en la colleción, disparará una excepción en tiempo de ejecución.
 
 > **Nota 2:** El índice comienza en **0 (cero)**.
+
+Se puede buscar desde el final usando el operador `^`. Por ejemplo
+```csharp
+var user = users.ElementAt(^2); // anteúltimo elemento
+```

@@ -7,9 +7,9 @@ SE una forma de escribir consultas expresivas y <!--more-->legibles sobre colecc
 
 En este caso, los números mayores que 2:
 ```csharp
-List<int> numeros = new List<int> { 1, 2, 3, 4, 5 };
-var numerosMayoresQueDos = from num in numeros
-                           where num > 2
-                           select num;
+List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };
+var numbersGreaterThan2 = from num in numbers
+                          where num > 2
+                          select num;
 ```
 > **Nota 1:** Las consultas complejas se hacen más legible de esta forma.

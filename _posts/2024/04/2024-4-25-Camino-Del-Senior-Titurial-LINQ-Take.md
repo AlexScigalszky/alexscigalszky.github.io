@@ -28,3 +28,9 @@ En este caso, devuelve los primeros usuarios menores de edad.
 var minors = users.TakeWhile(x => x.Age < 18);
 ```
 > **Nota 2:** `TakeWhile` es muy útil para largas colecciones ordenadas (el método `While` chequea todos los elementos). Hay que pensar en colecciones de 2 millones de items.
+
+Se puede buscar una página usando el operador de rango `..`. Por ejemplo
+```csharp
+var page = numbers.Take(2..6);// elementos entre la posición 2 y 6
+var page = numbers.Take(5..);// todos los elementos luego de la posición 5
+```

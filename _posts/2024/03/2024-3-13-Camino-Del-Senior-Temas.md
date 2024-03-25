@@ -78,6 +78,7 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Aggreate
 - Zip
 - Sintaxis Query
+- Chunk
 
 ## Entity Frameword Core (Junior)
 ## Curso ASP.Net (Junior)
