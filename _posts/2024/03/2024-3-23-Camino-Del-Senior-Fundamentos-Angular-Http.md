@@ -83,7 +83,7 @@ export class AppComponent {
 }
 ```
 
-*Nota:* Los métodos `get`, `post`,`put` y `delete` permiten utilizar un tipo generico (T) para especificar el dato de respuesta
+> *Nota 1:* Los métodos `get`, `post`,`put` y `delete` permiten utilizar un tipo generico (T) para especificar el dato de respuesta
 
 ```ts
 return this.http.get<T>(`${environment.API_URL}${path}`, { params })...
