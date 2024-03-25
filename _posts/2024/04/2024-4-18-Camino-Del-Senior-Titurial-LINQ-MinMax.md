@@ -6,17 +6,31 @@ title: "Camino del Senior(.Net + Angular): Tutorial LINQ: MinMax"
 Devuelve el menor o mayor valor de <!--more-->una colleción usando el parámetro para seleccionar el criterio.
 
 # Max
+En este caso, obtiene la edad del usuario con **mayor** edad
+
+```csharp
+int oldestAge = users.Max(x => x.Age);
+```
+
+# MaxBy
 En este caso, obtiene el usuario con **mayor** edad
 
 ```csharp
-int oldest = users.Max(x => x.Age);
+int oldestUser = users.MaxBy(x => x.Age);
 ```
 
 # Min
+En este caso, obtiene la edad del usuario con **menor** edad
+
+```csharp
+int youngestAge = users.Min(x => x.Age);
+```
+
+# MinBy
 En este caso, obtiene el usuario con **menor** edad
 
 ```csharp
-int youngest = users.Max(x => x.Age);
+int youngestUser = users.MinBy(x => x.Age);
 ```
 
 # Sin parámetros
@@ -28,8 +42,8 @@ class User : IComparable<User> {
         return Age.CompareTo(other.Age); // compara por edad
     }
 }
-int oldest = users.Max();
-int youngest = users.Max();
+int oldestAge = users.Max();
+int youngestAge = users.Max();
 ```
 
 > **Nota 1:** Si la colección está vacía, disparará una excepción en tiempo de ejecución.
