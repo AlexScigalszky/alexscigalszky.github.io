@@ -15,11 +15,44 @@ public class Book {
 ```
 
 # Column
-Pra definir el nombre de una columna.
+Para definir el nombre de una columna.
 ```csharp
 public class Book {
     // properties
     [Column("cl_name")]
+    public string Name { get; set; }
+
+}
+```
+
+# Required
+Para definir que una columna es requerida y si o sí debe completarse al momento de agregar o modificar registros en esa tabla.
+```csharp
+public class Book {
+    // properties
+    [Required]
+    public string Name { get; set; }
+
+}
+```
+
+# MaxLength
+Para definir la longitud máxima de una propiedad del tipo string
+```csharp
+public class Book {
+    // properties
+    [MaxLength(50)]
+    public string Name { get; set; }
+
+}
+```
+
+# NotMapped
+Para definir una propiedad que no va a ser mapeada a una columna en la tabla. Sólo tendrá la aplicación C# como alcance y no llegará a la base de datos
+```csharp
+public class Book {
+    // properties
+    [NotMapped(50)]
     public string Name { get; set; }
 
 }
