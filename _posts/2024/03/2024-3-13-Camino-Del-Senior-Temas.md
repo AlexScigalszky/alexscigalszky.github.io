@@ -81,6 +81,17 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Chunk
 
 ## Entity Frameword Core (Junior)
+- DBContext
+- Migraciones
+- Data Annotations
+- Relaciones en Entity Framework
+- Fluent API
+- Consultas para Filtrar
+- CRUD
+- Change Tracker
+- Tracking vs No Tracking
+- Vistas y Stored Procedures
+- Raw SQL
 ## Curso ASP.Net (Junior)
 ## Curso xUnit (Junior)
 ## SQL Book (Junior)
