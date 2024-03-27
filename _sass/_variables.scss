@@ -24,3 +24,9 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+
+:root { 
+  --main-text-color: #{$darkGray};
+  --main-background-color: #{$lightGray};
+  --link-color: #{$blue};  
+}

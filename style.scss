@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: $white;
+	background: var(--main-background-color);
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: var(--main-text-color);
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: $darkerGray;
+  color: var(--main-text-color);
   font-weight: bold;
 
   line-height: 1.7;
@@ -73,11 +73,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: var(--link-color);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: var(--link-color);
   }
 }
 
@@ -198,7 +198,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: var(--main-text-color);
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
@@ -231,14 +231,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: var(--main-text-color);
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: var(--link-color);
     }
   }
 }
@@ -281,7 +281,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: var(--main-background-color)
 }
 
 footer {
