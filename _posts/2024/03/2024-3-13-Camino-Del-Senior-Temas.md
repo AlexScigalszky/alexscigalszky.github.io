@@ -86,8 +86,7 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Data Annotations
 - Relaciones
 - Fluent API
-- Consultas para Filtrar
-- CRUD
+- Consultas
 - Change Tracker
 - Tracking vs No Tracking
 - Vistas y Stored Procedures
