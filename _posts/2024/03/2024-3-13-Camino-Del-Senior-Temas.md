@@ -84,7 +84,7 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - DBContext
 - Migraciones
 - Data Annotations
-- Relaciones en Entity Framework
+- Relaciones
 - Fluent API
 - Consultas para Filtrar
 - CRUD
