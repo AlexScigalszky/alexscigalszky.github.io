@@ -2,6 +2,7 @@
 layout: post
 title: "Programador Receta (cursos) vs Programador que analiza"
 ---
+Sé un programador que analiza<!--more-->
 
 | Programador Receta | Programador que analiza |
 |:--------|:------- |
