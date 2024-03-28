@@ -17,7 +17,7 @@ Los objetos trackeados por EF pueden tener diferentes estados:
 
 
 |  |  |
-|:--------|:-------:|
+|:--------|:------- |
 | Added   | El objeto está marcado para agregarse pero aún no está en la BD   |
 | Unchanged   | La entidad se encuentra trackeada y en la BD pero aún no tiene ningún cambio registrado   |
 | Modified   | La entidad está trackeada y en la BD y tiene cambios que faltan realizar en la BD   |

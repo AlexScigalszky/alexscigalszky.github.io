@@ -6,7 +6,7 @@ Mantener siempre en mente estos principios:<!--more-->
 
 
 |  |  |
-|:--------|:-------:|
+|:--------|:------- |
 | S   | Principio de responsabilidad única   |
 | O   | Principio abierto-cerrado   |
 | L   | Principio de Sustitución de Liskov   |
