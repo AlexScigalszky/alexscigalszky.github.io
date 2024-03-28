@@ -6,7 +6,6 @@ title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Change Tracker
 Se puede ver qué entidades están siendo trackeadas <!--more-->por Entity Framework.
 
 # Listar entidades trackeadas
-Se hacer con las líneasrecursos)
 ```csharp
 using var context = new ApplicationDbContext();
 var trackedEntities = context.ChangeTracker.Entries();
@@ -16,7 +15,7 @@ var trackedEntities = context.ChangeTracker.Entries();
 Los objetos trackeados por EF pueden tener diferentes estados:
 
 
-|  |  |
+| Estado | Descripción |
 |:--------|:------- |
 | Added   | El objeto está marcado para agregarse pero aún no está en la BD   |
 | Unchanged   | La entidad se encuentra trackeada y en la BD pero aún no tiene ningún cambio registrado   |
