@@ -40,23 +40,28 @@
     {% include analytics.html %}
 
     <script>
+      const LIGHT_MODE = "Light Mode";
+      const DARK_MODE = "Dark Mode";
+
       let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
       let theme = sessionStorage.getItem("theme");
+      let themeToggle = document.getElementById("theme-toggle");
+      const setAttribute = (selector, value) => document.documentElement.setAttribute(selector, value);
 
       if (systemInitiatedDark.matches) {
-        document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        themeToggle.innerHTML = LIGHT_MODE;
       } else {
-        document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        themeToggle.innerHTML = DARK_MODE;
       }
 
       function prefersColorTest(systemInitiatedDark) {
         if (systemInitiatedDark.matches) {
-          document.documentElement.setAttribute("data-theme", "dark");
-          document.getElementById("theme-toggle").innerHTML = "Light Mode";
+          setAttribute("data-theme", "dark");
+          themeToggle.innerHTML = LIGHT_MODE;
           sessionStorage.setItem("theme", "");
         } else {
-          document.documentElement.setAttribute("data-theme", "light");
-          document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+          setAttribute("data-theme", "light");
+          themeToggle.innerHTML = DARK_MODE;
           sessionStorage.setItem("theme", "");
         }
       }
@@ -65,32 +70,32 @@
       function modeSwitcher() {
         let theme = sessionStorage.getItem("theme");
         if (theme === "dark") {
-          document.documentElement.setAttribute("data-theme", "light");
+          setAttribute("data-theme", "light");
           sessionStorage.setItem("theme", "light");
-          document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+          themeToggle.innerHTML = DARK_MODE;
         } else if (theme === "light") {
-          document.documentElement.setAttribute("data-theme", "dark");
+          setAttribute("data-theme", "dark");
           sessionStorage.setItem("theme", "dark");
-          document.getElementById("theme-toggle").innerHTML = "Light Mode";
+          themeToggle.innerHTML = LIGHT_MODE;
         } else if (systemInitiatedDark.matches) {
-          document.documentElement.setAttribute("data-theme", "light");
+          setAttribute("data-theme", "light");
           sessionStorage.setItem("theme", "light");
-          document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+          themeToggle.innerHTML = DARK_MODE;
         } else {
-          document.documentElement.setAttribute("data-theme", "dark");
+          setAttribute("data-theme", "dark");
           sessionStorage.setItem("theme", "dark");
-          document.getElementById("theme-toggle").innerHTML = "Light Mode";
+          themeToggle.innerHTML = LIGHT_MODE;
         }
       }
 
       if (theme === "dark") {
-        document.documentElement.setAttribute("data-theme", "dark");
+        setAttribute("data-theme", "dark");
         sessionStorage.setItem("theme", "dark");
-        document.getElementById("theme-toggle").innerHTML = "Light Mode";
+        themeToggle.innerHTML = LIGHT_MODE;
       } else if (theme === "light") {
-        document.documentElement.setAttribute("data-theme", "light");
+        setAttribute("data-theme", "light");
         sessionStorage.setItem("theme", "light");
-        document.getElementById("theme-toggle").innerHTML = "Dark Mode";
+        themeToggle.innerHTML = DARK_MODE;
       }
     </script>
   </body>
