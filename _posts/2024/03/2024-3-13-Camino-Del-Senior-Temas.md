@@ -93,6 +93,14 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Raw SQL
 ## Curso ASP.Net (Junior)
 ## Curso xUnit (Junior)
+Asserts
+Arrange
+Paralelismo
+DDT (Data Driven Tests)
+Mocks
+Legacy Code
+TDD (Test Driven Development)
+Medidas y Test Coverage
 ## SQL Book (Junior)
 ## Antipatrones C# (Intermediate)
 ## AZ-900 Curso de Azure (Intermediate)
