@@ -92,4 +92,4 @@ npm publish
 ```
 
 # Paquete listo para usar
-(NPM Link)[https://www.npmjs.com/package/angular-test-extensions]
+[NPM Link](https://www.npmjs.com/package/angular-test-extensions)
