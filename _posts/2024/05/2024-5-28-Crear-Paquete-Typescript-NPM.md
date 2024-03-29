@@ -24,6 +24,14 @@ Iniciar el projecto especificando.
 npm init
 ```
 
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
 # Instalar dependecias
 ```bash
 npm install typescript ts-node --save-dev
@@ -31,8 +39,6 @@ npm -g install @angular/cli
 npm install @angular/core --save
 npm install @jest/globals --save
 ```
-
-mermeid
 
 # Configurar el compilador de Typescript
 ```bash
