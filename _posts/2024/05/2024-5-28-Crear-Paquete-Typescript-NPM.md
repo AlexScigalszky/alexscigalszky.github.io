@@ -24,14 +24,6 @@ Iniciar el projecto especificando.
 npm init
 ```
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
-
 # Instalar dependecias
 ```bash
 npm install typescript ts-node --save-dev
