@@ -15,6 +15,19 @@ layout: default
   {% endif %} {% endfor %}
 </div>
 
+<h1>senior</h1>
+<div class="posts">
+  {% for post in site.posts %} {% if post.categories contains 'senior' %}
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    <div class="entry">{{ post.excerpt }}...</div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
+  </article>
+  {% endif %} {% endfor %}
+</div>
+
 <h1>all</h1>
 <div class="posts">
   {% for post in site.posts %}
