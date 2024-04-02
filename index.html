@@ -2,17 +2,28 @@
 layout: default
 ---
 
+<h1>cats</h1>
+<div class="posts">
+  {% for post in site.posts %} {% if post.categories contains 'mycat' %}
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+    <div class="entry">{{ post.excerpt }}...</div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
+  </article>
+  {% endif %} {% endfor %}
+</div>
+
+<h1>all</h1>
 <div class="posts">
   {% for post in site.posts %}
-    <article class="post">
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <div class="entry">{{ post.excerpt }}...</div>
 
-      <div class="entry">
-        {{ post.excerpt }}...
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
-    </article>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Leer mas</a>
+  </article>
   {% endfor %}
 </div>
