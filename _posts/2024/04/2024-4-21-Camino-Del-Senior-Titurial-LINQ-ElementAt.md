@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: ElementAt"
+categories: senior
 ---
 
 Devuelve el elemento que se encuentra en la <!--more-->la posición dada dentro de una colleción.

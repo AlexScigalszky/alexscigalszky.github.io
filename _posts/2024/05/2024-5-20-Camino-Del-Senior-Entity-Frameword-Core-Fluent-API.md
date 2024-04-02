@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Fluent API"
+categories: senior
 ---
 
 Permite definir usando *código* (sin annotations) las <!--more-->relaciones entre las clases, propiedades y valores de la base de datos. A veces hasta tiene mayor alcance.

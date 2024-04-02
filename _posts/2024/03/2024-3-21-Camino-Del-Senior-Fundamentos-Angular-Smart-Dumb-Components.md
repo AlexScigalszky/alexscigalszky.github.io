@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Smart Dumb Components"
+categories: senior
 ---
 
 Una forma de dividir los componentes es en base a su función:<!--more-->

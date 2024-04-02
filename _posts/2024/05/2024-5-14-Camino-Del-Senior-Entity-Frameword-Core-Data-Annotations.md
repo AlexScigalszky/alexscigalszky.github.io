@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Data Annotations"
+categories: senior
 ---
 
 Para definir las propiedades de columnas o tablas en las clases se<!--more--> pueden usan los **Data Annotations**.

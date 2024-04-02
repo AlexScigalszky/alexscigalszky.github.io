@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Sintaxis Query"
+categories: senior
 ---
 
 SE una forma de escribir consultas expresivas y <!--more-->legibles sobre colecciones, usando palabras clave proporcionadas por LINQ (Language Integrated Query).

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): xUnit: Template"
+categories: senior
 ---
 
 Este es el template de un test con xUnit<!--more-->.

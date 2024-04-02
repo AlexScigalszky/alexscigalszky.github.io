@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Angular Pro: Content Child"
+categories: senior
 ---
 
 Se puede tener una referencia al elemento en nuestro template.<!--more-->

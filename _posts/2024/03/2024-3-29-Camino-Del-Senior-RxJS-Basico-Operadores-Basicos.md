@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores Basicos"
+categories: senior
 ---
 
 Estos son los operadores comunmente utilizados<!--more-->.

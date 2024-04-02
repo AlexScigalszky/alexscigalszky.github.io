@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Http"
+categories: senior
 ---
 
 Para realizar peticiones Http se utiliza un cliente que <!--more-->nos permite ir al servidor a buscar los datos y obtenerlos como objetos.

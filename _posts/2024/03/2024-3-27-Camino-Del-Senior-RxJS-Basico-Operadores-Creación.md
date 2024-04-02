@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores de Creación"
+categories: senior
 ---
 
 Existen varios operadores dentro de la librería con los cuales<!--more--> se pueden crear observables.

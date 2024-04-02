@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Arquitectura básica de Angular"
+categories: senior
 ---
 La arquitectura básica de angular se compone de:<!--more-->
 # Modules

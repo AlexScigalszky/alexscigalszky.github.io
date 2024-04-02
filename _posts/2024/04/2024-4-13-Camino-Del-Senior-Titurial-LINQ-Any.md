@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Any"
+categories: senior
 ---
 
 Se utiliza para chequear una condición en una <!--more-->colleción al menos una vez. Devuelve un booleano.

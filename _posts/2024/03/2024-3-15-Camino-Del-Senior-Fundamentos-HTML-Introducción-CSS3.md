@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos HTML: Introduccion a CSS3"
+categories: senior
 ---
 Etiquetas CSS3 disponibles.<!--more-->
 

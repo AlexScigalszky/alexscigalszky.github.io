@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Conceptos C#: Tipos Anónimos"
+categories: senior
 ---
 
 Son tipos de data que no tienen nombre y que sólo <!--more-->almacenan datos.

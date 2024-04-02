@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Referencias al Template"
+categories: senior
 ---
 
 La referencia al template se utiliza para acceder a<!--more--> los elementos del template en el componente

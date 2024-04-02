@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Where"
+categories: senior
 ---
 
 Filtra una colección en base a un <!--more-->predicado.

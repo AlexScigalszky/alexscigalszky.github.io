@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Conceptos C#: Elvis Operator"
+categories: senior
 ---
 
 Elvis Operator en C# es el término para referirse al <!--more-->condicional null que se representa como "?." en el código. 

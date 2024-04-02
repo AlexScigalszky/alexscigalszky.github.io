@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Safe Navigation"
+categories: senior
 ---
 
 Podemos usar Safe Navigation para situaciones dónde un objeto puede ser <!--more-->null o no.

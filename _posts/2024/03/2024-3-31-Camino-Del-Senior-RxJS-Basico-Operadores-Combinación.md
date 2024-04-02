@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores de Combinación"
+categories: senior
 ---
 
 Operadores que trabajan con varios observables como entrada y devolviendo un nuevo observable.<!--more-->

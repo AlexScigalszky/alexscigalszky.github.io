@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Skip"
+categories: senior
 ---
 
 Saltea los primeros elementos de <!--more-->una de una colección y devuelve el resto.

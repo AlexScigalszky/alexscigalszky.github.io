@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Expresiones Lamda"
+categories: senior
 ---
 
 Son parte del lenguaje C#.<!--more-->Una lambda es una función anónima que puede definirse en línea. 

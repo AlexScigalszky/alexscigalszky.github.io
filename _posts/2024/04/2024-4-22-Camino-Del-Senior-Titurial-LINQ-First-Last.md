@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: First y Last"
+categories: senior
 ---
 
 Devuelve el primer y el último elemento <!--more-->de una colleción. O sea, el elemento en el indice **0 (cero)**.

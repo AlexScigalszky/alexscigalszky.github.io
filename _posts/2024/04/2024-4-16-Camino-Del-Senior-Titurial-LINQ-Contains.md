@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Contains"
+categories: senior
 ---
 
 Se utiliza para corroborar que al menos un elemento existe en la colleción<!--more-->. Devuelve un booleano.

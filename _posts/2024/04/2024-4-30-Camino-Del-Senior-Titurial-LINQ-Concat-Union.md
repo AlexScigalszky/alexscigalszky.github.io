@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Concat y Union"
+categories: senior
 ---
 
 Combina dos colecciones del<!--more--> mismo tipo.

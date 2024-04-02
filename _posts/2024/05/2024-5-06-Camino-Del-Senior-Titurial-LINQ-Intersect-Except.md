@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Intersect y Except"
+categories: senior
 ---
 
 Permiten buscar datos en común o diferente entre <!--more-->dos colecciones.

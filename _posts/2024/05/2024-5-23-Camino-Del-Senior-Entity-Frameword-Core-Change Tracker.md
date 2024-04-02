@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Change Tracker"
+categories: senior
 ---
 
 Se puede ver qué entidades están siendo trackeadas <!--more-->por Entity Framework.

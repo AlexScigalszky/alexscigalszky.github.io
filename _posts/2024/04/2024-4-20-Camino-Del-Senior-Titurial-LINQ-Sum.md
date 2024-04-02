@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Sum"
+categories: senior
 ---
 
 Devuelve la suma de todos los valores de <!--more-->una colleción usando el parámetro para seleccionar el criterio.

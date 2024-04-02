@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Pipe"
+categories: senior
 ---
 
 La función pipe se utiliza para pode aplicar los operadores a un obserble de forma encadenada<!--more-->.

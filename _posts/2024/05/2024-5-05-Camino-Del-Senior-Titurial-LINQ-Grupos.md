@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Grupos"
+categories: senior
 ---
 
 Permite agrupar los elemento a partir<!--more--> de un criterio.

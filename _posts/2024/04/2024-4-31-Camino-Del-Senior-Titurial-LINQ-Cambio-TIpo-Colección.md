@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Cambio de tipo de colección"
+categories: senior
 ---
 
 Existe toda una familia de métodos que <!--more-->pueden usarse para cambiar el tipo de colección.

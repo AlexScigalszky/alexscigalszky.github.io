@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: MinMax"
+categories: senior
 ---
 
 Devuelve el menor o mayor valor de <!--more-->una colleción usando el parámetro para seleccionar el criterio.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Migraciones"
+categories: senior
 ---
 
 Una vez creado el contexto y vinculado a la base de datos, se deben manejar los cambios de estructura (y datos) a travéz de migraciones<!--more-->. Para eso se utiliza la herramienta: Tools > Nuget Package Manager > Nuget Package Console.

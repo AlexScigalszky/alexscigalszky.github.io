@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores de Filtro"
+categories: senior
 ---
 
 Operadores que filtran el flujo de datos en un obserable<!--more-->.

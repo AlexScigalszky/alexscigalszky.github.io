@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Consultas"
+categories: senior
 ---
 
 Para realizar consultas a la base de datos <!--more-->existen varias formas.

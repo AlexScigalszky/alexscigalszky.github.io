@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Prepare y Append"
+categories: senior
 ---
 
 Agregan un nuevo elemento a una colección<!--more-->. La colleción original no se modifica,

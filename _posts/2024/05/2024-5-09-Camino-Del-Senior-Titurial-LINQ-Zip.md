@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Zip"
+categories: senior
 ---
 
 Aplica una función a cada elemento de dos colecciones<!--more--> a la vez para obtener un valor resultante (de cualquier tipo).

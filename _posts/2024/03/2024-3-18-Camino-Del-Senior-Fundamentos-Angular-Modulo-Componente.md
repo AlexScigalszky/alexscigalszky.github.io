@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Modulo y Componente"
+categories: senior
 ---
 
 Estructura de un módulo y componente en angular. <!--more-->

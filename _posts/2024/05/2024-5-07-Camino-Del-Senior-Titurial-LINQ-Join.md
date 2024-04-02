@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Join"
+categories: senior
 ---
 
 Cómo unir dos colecciones de diferentes tipos<!--more-->. 

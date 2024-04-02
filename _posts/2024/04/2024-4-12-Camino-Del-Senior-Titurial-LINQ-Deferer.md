@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: deferer execution con LINQ"
+categories: senior
 ---
 
 **deferer execution** significa que no se evalúa una expresión hasta <!--more-->necesitarse. Esto ayuda a la permormance del código evitando ejecuciones no necesarias

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Relaciones"
+categories: senior
 ---
 
 Existen diferentes formas de relacionar las tablas/clases<!--more--> en Entity Framework Core.

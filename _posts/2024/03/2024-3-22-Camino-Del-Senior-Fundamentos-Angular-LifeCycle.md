@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: LifeCycle"
+categories: senior
 ---
 
 Los cambios de estados de cada componente en angular se pueden <!--more--> entender en el siguiente gráfico.

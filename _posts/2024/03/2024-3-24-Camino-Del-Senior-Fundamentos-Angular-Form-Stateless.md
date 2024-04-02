@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Form Stateless"
+categories: senior
 ---
 
 Formulario que posee ni modifica el estado interno.<!--more-->

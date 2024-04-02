@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Nuevas colleciones"
+categories: senior
 ---
 
 Existen varios métodos para generar colecciones<!--more-->.

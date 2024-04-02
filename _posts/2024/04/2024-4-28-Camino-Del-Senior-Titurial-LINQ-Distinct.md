@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Distinct"
+categories: senior
 ---
 
 Remueve todos los elementos duplicados <!--more-->de una colección. La función resultante tiene todos elementos únicos

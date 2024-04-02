@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: OrderBy"
+categories: senior
 ---
 
 Ordena una colleción usando un criterio que <!--more--> es pasado como parámetro.

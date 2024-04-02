@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Routes"
+categories: senior
 ---
 
 Primero se debe agregar las rutas principales en el AppModule<!--more-->. Agregando el router module junto con la lista de rutas definidas en una constante:

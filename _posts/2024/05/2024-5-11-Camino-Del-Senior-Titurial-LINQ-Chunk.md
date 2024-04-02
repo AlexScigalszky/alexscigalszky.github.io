@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Chunk"
+categories: senior
 ---
 
 Permite dividir una colección en <!--more-->colecciones del mismo tamaño

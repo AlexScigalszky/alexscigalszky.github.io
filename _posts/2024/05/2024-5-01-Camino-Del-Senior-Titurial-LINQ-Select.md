@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Select"
+categories: senior
 ---
 
 Proyecta cada elemento en un nuevo objeto <!--more-->(puede ser una clase especifica o anonima).

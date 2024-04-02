@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): RxJS Básico: Introducción"
+categories: senior
 ---
 
 RxJs es una librería para manejar reactividad utilizando<!--more--> observer y observables.

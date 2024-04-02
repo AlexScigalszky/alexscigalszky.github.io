@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: OfType"
+categories: senior
 ---
 
 Filtra los elementos que <!--more--> son de un tipo específico. La colección puede ser una combinación de muchos tipos de datos o clases.

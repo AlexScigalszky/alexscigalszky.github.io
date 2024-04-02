@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Single"
+categories: senior
 ---
 
 Devuelve el único elemento que cumple la<!--more--> condición dada de una colección. Si existe más de un elemento, entonces dispara una excepción

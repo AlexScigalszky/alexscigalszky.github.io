@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Camino del Senior(.Net + Angular): Conceptos C#: Extension Methods"
+categories: senior
 ---
 
 Extension methods son una forma de agregar funcionalidad a una clase sin tener que modificarla directamente<!--more-->.
