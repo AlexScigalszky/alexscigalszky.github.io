@@ -11,7 +11,7 @@ using xUnit;
 
 public class CalculatorTest {
     [Fact]
-    public void GivenTwoNumbers_WhenAdd_ReturnResult {
+    public void GivenTwoNumbers_WhenAdd_ReturnResult() {
         // arrange
         // act
         // assert
@@ -27,7 +27,7 @@ using xUnit;
 public class CalculatorTest {
     [Fact]
     [Trait("Category", "Fibonacci")] // for fibonacci category
-    public void GivenTwoNumbers_WhenAdd_ReturnResult {
+    public void GivenTwoNumbers_WhenAdd_ReturnResult() {
     }
 }
 ```
@@ -53,7 +53,7 @@ public class CalculatorTest : IClassFixture<CalculatorFixture> {
 
     [Fact]
     [Trait("Category", "Fibonacci")] // for fibonacci category
-    public void GivenTwoNumbers_WhenAdd_ReturnResult {
+    public void GivenTwoNumbers_WhenAdd_ReturnResult() {
         ..._fixture.Instance...
     }
 }
