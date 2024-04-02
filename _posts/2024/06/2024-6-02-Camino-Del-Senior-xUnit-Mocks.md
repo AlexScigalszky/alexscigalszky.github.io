@@ -4,128 +4,122 @@ title: "Camino del Senior(.Net + Angular): xUnit: Mocks"
 categories: senior
 ---
 
-Para realizar tests, muchas veces necesitamos diferentes<!--more--> valores y obtener otros distintos. 
-Para eso se necesita parametrizar los tests.
+Para mockear objetos con la librería Moq<!--more-->. 
 
-# Atributos en linea
-- no compartible entre tests y clases.
-- se necesito un desarrollador para eso.
+Se crea un objeto Mock especificando el tipo de objeto a "falsear" especificando qué métodos o propiedades se van a mockear.
+Luego se utiliza la propiedad `.Object` parta acceder al objeto mockeado.
 
-Se utiliza un atributo llamado `InlineData` para asignar los datos estáticamente a los parámetros del tests.
+
+# Setup
+Para configurar la respuesta para un método o propiedad dada.
 ```csharp
 using xUnit;
+using Moq;
 
 public class CalculatorTest {
-    [Theory]
-    [InlineData(3, 5, 8)]
-    [InlineData(2, 4, 6)]
-    [InlineData(10, 15, 25)]
-    public void GivenTwoNumbers_WhenAdd_ReturnResult(int a, int b, int rst) {
-        ...
+    [Fact]
+    public void Given_When_Then() {
+        var mockSource = new Mock<Source>();
+        
+        mockSource
+            .Setup(x => x.Data) // la propiedad a mockear
+            .Returns(new object[]{ 1,2,3,4,5 }); // el valor que devolverá cuando se llame a la propiedad
+
+        var fakeObject = mockSource.Object; // obtener el objeto falso
+
+        Assert.Equal(new object[]{ 1,2,3,4,5 }, fakeObject.Data); // utilizar la propiedad falseada
+    }
+
+    [Fact]
+    public void Given_When_Then() {
+        var mockSource = new Mock<Source>();
+
+        mockSource
+            .Setup(x => x.GetData()) // la función a mockear
+            .Returns(new object[]{ 1,2,3,4,5 }); // el valor que devolverá cuando se llame a la propiedad
+
+        var fakeObject = mockSource.Object; // obtener el objeto falso
+
+        Assert.Equal(new object[]{ 1,2,3,4,5 }, fakeObject.Data); // utilizar la propiedad falseada
     }
 }
 ```
 
-# Propiedades o Métodos
-- se pueden compartir entre tests métodos y clases.
-- se necesito un desarrollador para eso.
-
-Se pueden hacer de dos formas diferentes con **yield** o **TheoryData**.
+# SetupSecuence
+Para configuar la respuesta para una secuencia de llamadas.
 ```csharp
 using xUnit;
-public static class DataSource {
-    public static IEnumerable<object[]> Numbers => {
-        get {
-            yield return new []{ 3, 5, 8 };
-            yield return new []{ 2, 4, 6 };
-            yield return new []{ 10, 15, 25 };
-        }
-    }
-
-    public static TheoryData<int, int, int> OtherNumbers()
-    {
-        var data = new TheoryData<int, int, int>();
-        data.Add(3, 5, 8);
-        data.Add(2, 4, 6);
-        data.Add(10, 15, 25);
-        return data;
-    }
-}
+using Moq;
 
 public class CalculatorTest {
-    [Theory]
-    [MemberData(typeof(DataSource.Numbers), MemberType= typeof(DataSource))]
-    public void GivenTwoNumbers_WhenAdd_ReturnResult(int a, int b, int rst) {
-        ...
-    }
+    [Fact]
+    public void Given_When_Then() {
+        var mockSource = new Mock<Source>();
 
-    [Theory]
-    [MemberData(nameof(DataSource.OtherNumbers), MemberType = typeof(DataSource))]
-    public void Suma_DebeCalcularCorrectamente(int a, int b, int rst){
-        ...
-    }
-    
-}
-```
+        mockSource
+            .SetupSecuence(x => x.Data)
+            .Returns(new object[]{ 1,2 }); // el valor que devolverá cuando se llame a la propiedad por 1era vez
+            .Returns(new object[]{ 1,2,3 }); // el valor que devolverá cuando se llame a la propiedad por 2da vez
+            .Returns(new object[]{ 1,2,3,4,5 }); // el valor que devolverá cuando se llame a la propiedad por 3era vez
 
-# Datos externos
-- se pueden compartir entre tests métodos.
-- No se necesita desarrollador y un tester puede modificarlo.
+        var fakeObject = mockSource.Object;
 
-Basicamente es una clase stática que obtiene los datos de una fuente externa. En este caso es un `.csv` con dos columnas.
-```csharp
-using xUnit;
-public static class DataSource {
-    public static IEnumerable<object[]> OtherNumbersFromTxt()
-    {
-        var allLines = System.IO.File.ReadAllLines("datasource.txt");
-        return allLines.Select(x => {
-            var splittedLine = x.Split(",");
-            return new object[]{
-                splittedLine[0],
-                splittedLine[1]
-            }
-        })
-    }
-}
-
-public class CalculatorTest {
-    [Theory]
-    [MemberData(typeof(DataSource.Numbers), MemberType= typeof(DataSource))]
-    public void GivenTwoNumbers_WhenAdd_ReturnResult(int input, int rst) {
-        ...
+        Assert.Equal(new object[]{ 1,2 }, fakeObject.Data);
+        Assert.Equal(new object[]{ 1,2,3 }, fakeObject.Data);
+        Assert.Equal(new object[]{ 1,2,3,4,5 }, fakeObject.Data);
     }
 }
 ```
 
-# Attributos Especificos
-- se pueden compartir entre tests métodos.
-- se necesito un desarrollador para eso.
-
-Se realizan creando los propios atributos para los tests.
+# It
+Cuando se mockea un método con parámetros se puede especificar qué valores puede tener ese parámetro
 ```csharp
 using xUnit;
-namespace XUnitTest.Tests{
-    public static class DataSourceAttribute : DataAttribute {
-        public static IEnumerable<object[]> GetData(MethodInfo testMethod)
-        {
-            get {
-            yield return new []{ 3, 5 };
-            yield return new []{ 2, 4 };
-            }
-        }
-    }
-}
+using Moq;
 
 public class CalculatorTest {
-    [Theory]
-    [DataSource] // el nuevo atributo 
-    public void GivenTwoNumbers_WhenAdd_ReturnResult(int input, int rst) {
-        ...
+    [Fact]
+    public void Given_When_Then() {
+        
+        mockSource
+            .Setup(x => x.GetData("Sarasa"))// únicamente será mockeada el llamado con el valor exacto
+            .Returns(...);
+
+        mockSource
+            .Setup(x => x.GetData(It.IsAny<string>()))// puede ser cualquier valor de un tipo
+            .Returns(...);
+
+        mockSource
+            .Setup(x => x.GetData(It.Is<ComplexObject>(x => x.Age > 18)))// para que se mockea los llamado con parámetros cuya edad sea mayor de edad
+            .Returns(...);
     }
 }
 ```
 
-> **Nota 1:** el attributo debe estar en el namespace `XUnitTest.Tests` para acceder a `DataAttribute`.
 
-> **Nota 2:** se puede usar también para obtener datos externos.
+# Verify y Verifiable
+Se puede agregar una validación para chequear que el método será (en la sección arrange) o fué llamado (en la sección assert)
+```csharp
+using xUnit;
+using Moq;
+
+public class CalculatorTest {
+    [Fact]
+    public void Given_When_Then() {
+        
+        // arrange
+        mockSource
+            .Setup(...)
+            .Returns(...)
+            .Verifiable(); // valida que se haya llamado al menos una vez
+
+        // act 
+        ...
+
+        // assert
+        mockSource
+            .Setup(...)
+            .Verify(Times.Once)// valida que se haya llamado una sóla vez (ni más ni menos)
+    }
+}
+```
