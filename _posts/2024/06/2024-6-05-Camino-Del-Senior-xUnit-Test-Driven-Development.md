@@ -9,7 +9,7 @@ El TDD no es un framework, es una<!--more--> forma de realizar tests.
 # Tres pasos
 TDD funciona en tres pasos
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="360px" height="245px" viewBox="-0.5 -0.5 360 245" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-04-03T14:34:54.458Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0&quot; version=&quot;24.1.0&quot; etag=&quot;nBbQBrD4fTNBh7XEn0hq&quot; scale=&quot;1&quot; border=&quot;0&quot;>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="auto" viewBox="-0.5 -0.5 360 245" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-04-03T14:34:54.458Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0&quot; version=&quot;24.1.0&quot; etag=&quot;nBbQBrD4fTNBh7XEn0hq&quot; scale=&quot;1&quot; border=&quot;0&quot;>
   <diagram name=&quot;Page-1&quot; id=&quot;4MPHy6rcGR8FCnxEbbV9&quot;>
     <mxGraphModel dx=&quot;2284&quot; dy=&quot;1874&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;850&quot; pageHeight=&quot;1100&quot; math=&quot;0&quot; shadow=&quot;0&quot;>
       <root>
