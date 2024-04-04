@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Tracking vs No Tracking"
+title: "Entity Frameword Core: Tracking vs No Tracking"
 categories: senior
 ---
 

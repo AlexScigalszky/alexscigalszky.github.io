@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Where"
+title: "Tutorial LINQ: Where"
 categories: senior
 ---
 

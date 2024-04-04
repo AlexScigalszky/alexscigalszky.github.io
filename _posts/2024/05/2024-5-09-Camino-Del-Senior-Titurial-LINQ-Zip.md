@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Zip"
+title: "Tutorial LINQ: Zip"
 categories: senior
 ---
 

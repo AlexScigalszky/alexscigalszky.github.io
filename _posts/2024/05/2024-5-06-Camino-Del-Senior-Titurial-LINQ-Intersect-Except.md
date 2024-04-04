@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Intersect y Except"
+title: "Tutorial LINQ: Intersect y Except"
 categories: senior
 ---
 

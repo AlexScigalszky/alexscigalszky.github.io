@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores de Filtro"
+title: "RxJS Básico: Operadores de Filtro"
 categories: senior
 ---
 

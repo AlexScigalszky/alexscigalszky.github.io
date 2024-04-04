@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: MinMax"
+title: "Tutorial LINQ: MinMax"
 categories: senior
 ---
 

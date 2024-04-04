@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos HTML: Introduccion a HTML5"
+title: "Fundamentos HTML: Introduccion a HTML5"
 categories: senior
 ---
 Etiquetas HTML disponibles.<!--more-->

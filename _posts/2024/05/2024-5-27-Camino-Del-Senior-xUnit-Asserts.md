@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): xUnit: Asserts"
+title: "xUnit: Asserts"
 categories: senior
 ---
 

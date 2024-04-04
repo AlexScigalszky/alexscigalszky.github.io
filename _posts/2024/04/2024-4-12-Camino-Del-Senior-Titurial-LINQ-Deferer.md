@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: deferer execution con LINQ"
+title: "Tutorial LINQ: deferer execution con LINQ"
 categories: senior
 ---
 

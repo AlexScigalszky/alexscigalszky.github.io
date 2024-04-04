@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): RxJS Básico: Operadores de Combinación"
+title: "RxJS Básico: Operadores de Combinación"
 categories: senior
 ---
 

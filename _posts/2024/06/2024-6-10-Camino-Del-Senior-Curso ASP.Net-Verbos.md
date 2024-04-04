@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Curso ASP.Net: Verbos"
+title: "Curso ASP.Net: Verbos"
 categories: senior
 ---
 

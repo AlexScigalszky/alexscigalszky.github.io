@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Angular Pro: Content Proyection"
+title: "Angular Pro: Content Proyection"
 categories: senior
 ---
 

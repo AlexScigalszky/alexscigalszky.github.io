@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: All"
+title: "Tutorial LINQ: All"
 categories: senior
 ---
 Se utiliza para chequear una condición en una <!--more-->colleción en todos los elementos. Devuelve un booleano.

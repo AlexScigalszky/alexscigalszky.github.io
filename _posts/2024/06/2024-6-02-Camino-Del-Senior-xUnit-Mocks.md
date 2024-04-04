@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): xUnit: Mocks"
+title: "xUnit: Mocks"
 categories: senior
 ---
 

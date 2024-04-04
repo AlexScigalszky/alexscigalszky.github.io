@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Migraciones"
+title: "Entity Frameword Core: Migraciones"
 categories: senior
 ---
 

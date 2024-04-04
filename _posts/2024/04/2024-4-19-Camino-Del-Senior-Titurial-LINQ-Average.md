@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Average"
+title: "Tutorial LINQ: Average"
 categories: senior
 ---
 

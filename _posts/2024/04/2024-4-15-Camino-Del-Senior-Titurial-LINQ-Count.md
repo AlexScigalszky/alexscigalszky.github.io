@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Count"
+title: "Tutorial LINQ: Count"
 categories: senior
 ---
 Se utiliza para contar dentro de una colleción basandose en una condición <!--more--> data. Devuelve un booleano.

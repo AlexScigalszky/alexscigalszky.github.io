@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): RxJS Básico: Introducción"
+title: "RxJS Básico: Introducción"
 categories: senior
 ---
 

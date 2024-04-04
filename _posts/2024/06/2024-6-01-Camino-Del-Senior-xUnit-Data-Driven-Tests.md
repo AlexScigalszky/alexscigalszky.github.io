@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): xUnit: DDT (Data Driven Tests)"
+title: "xUnit: DDT (Data Driven Tests)"
 categories: senior
 ---
 

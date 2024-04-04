@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): xUnit: Legacy Code"
+title: "xUnit: Legacy Code"
 categories: senior
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Feature Module"
+title: "Fundamentos de Angular: Feature Module"
 categories: senior
 ---
 

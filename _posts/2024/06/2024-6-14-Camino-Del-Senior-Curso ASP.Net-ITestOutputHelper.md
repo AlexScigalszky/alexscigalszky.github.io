@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Curso ASP.Net: ITestOutputHelper"
+title: "Curso ASP.Net: ITestOutputHelper"
 categories: senior
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Curso ASP.Net: WebApplicationFactory"
+title: "Curso ASP.Net: WebApplicationFactory"
 categories: senior
 ---
 

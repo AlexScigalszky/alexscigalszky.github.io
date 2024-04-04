@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Safe Navigation"
+title: "Fundamentos de Angular: Safe Navigation"
 categories: senior
 ---
 

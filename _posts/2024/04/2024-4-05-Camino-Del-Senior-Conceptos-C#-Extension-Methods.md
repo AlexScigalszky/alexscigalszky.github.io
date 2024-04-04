@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Conceptos C#: Extension Methods"
+title: "Conceptos C#: Extension Methods"
 categories: senior
 ---
 

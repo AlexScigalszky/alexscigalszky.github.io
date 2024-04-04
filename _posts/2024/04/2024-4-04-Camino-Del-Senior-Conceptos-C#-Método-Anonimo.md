@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Conceptos C#: Métodos Anónimos"
+title: "Conceptos C#: Métodos Anónimos"
 categories: senior
 ---
 

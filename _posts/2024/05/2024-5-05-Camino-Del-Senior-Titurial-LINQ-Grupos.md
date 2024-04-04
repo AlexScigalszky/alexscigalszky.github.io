@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Grupos"
+title: "Tutorial LINQ: Grupos"
 categories: senior
 ---
 

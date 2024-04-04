@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Chunk"
+title: "Tutorial LINQ: Chunk"
 categories: senior
 ---
 

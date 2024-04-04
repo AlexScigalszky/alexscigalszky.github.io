@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Cambio de tipo de colección"
+title: "Tutorial LINQ: Cambio de tipo de colección"
 categories: senior
 ---
 

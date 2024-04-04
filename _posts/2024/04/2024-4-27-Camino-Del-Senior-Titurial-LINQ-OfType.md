@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: OfType"
+title: "Tutorial LINQ: OfType"
 categories: senior
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Conceptos C#: Elvis Operator"
+title: "Conceptos C#: Elvis Operator"
 categories: senior
 ---
 

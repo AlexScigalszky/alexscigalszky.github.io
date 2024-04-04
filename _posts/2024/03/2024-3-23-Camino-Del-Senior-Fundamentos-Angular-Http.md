@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Http"
+title: "Fundamentos de Angular: Http"
 categories: senior
 ---
 

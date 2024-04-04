@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Data Annotations"
+title: "Entity Frameword Core: Data Annotations"
 categories: senior
 ---
 

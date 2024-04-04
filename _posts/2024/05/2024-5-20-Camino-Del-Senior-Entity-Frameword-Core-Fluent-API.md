@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Fluent API"
+title: "Entity Frameword Core: Fluent API"
 categories: senior
 ---
 

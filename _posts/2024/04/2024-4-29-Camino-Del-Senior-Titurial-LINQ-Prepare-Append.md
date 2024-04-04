@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Prepare y Append"
+title: "Tutorial LINQ: Prepare y Append"
 categories: senior
 ---
 

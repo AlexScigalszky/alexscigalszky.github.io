@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Form Stateless"
+title: "Fundamentos de Angular: Form Stateless"
 categories: senior
 ---
 

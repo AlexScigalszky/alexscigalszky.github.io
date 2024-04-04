@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): xUnit: TDD (Test Driven Development)"
+title: "xUnit: TDD (Test Driven Development)"
 categories: senior
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Curso ASP.Net: Status Codes"
+title: "Curso ASP.Net: Status Codes"
 categories: senior
 ---
 

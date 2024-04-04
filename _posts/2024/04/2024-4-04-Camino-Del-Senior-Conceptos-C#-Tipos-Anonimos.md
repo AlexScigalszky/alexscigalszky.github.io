@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Conceptos C#: Tipos Anónimos"
+title: "Conceptos C#: Tipos Anónimos"
 categories: senior
 ---
 

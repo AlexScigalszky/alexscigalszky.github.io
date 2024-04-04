@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Angular Pro: Content Child"
+title: "Angular Pro: Content Child"
 categories: senior
 ---
 

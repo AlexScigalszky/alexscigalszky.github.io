@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Concat y Union"
+title: "Tutorial LINQ: Concat y Union"
 categories: senior
 ---
 

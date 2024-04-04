@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Referencias al Template"
+title: "Fundamentos de Angular: Referencias al Template"
 categories: senior
 ---
 

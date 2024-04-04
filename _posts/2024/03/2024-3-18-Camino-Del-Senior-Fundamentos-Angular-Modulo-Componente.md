@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: Modulo y Componente"
+title: "Fundamentos de Angular: Modulo y Componente"
 categories: senior
 ---
 

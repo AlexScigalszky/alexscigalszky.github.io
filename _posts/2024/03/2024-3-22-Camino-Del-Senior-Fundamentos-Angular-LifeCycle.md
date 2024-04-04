@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Fundamentos de Angular: LifeCycle"
+title: "Fundamentos de Angular: LifeCycle"
 categories: senior
 ---
 

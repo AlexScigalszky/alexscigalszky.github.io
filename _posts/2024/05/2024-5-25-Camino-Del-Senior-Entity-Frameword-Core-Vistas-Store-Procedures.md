@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Entity Frameword Core: Vistas y Stored Procedures"
+title: "Entity Frameword Core: Vistas y Stored Procedures"
 categories: senior
 ---
 

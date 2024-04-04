@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Tutorial LINQ: Expresiones Lamda"
+title: "Tutorial LINQ: Expresiones Lamda"
 categories: senior
 ---
 

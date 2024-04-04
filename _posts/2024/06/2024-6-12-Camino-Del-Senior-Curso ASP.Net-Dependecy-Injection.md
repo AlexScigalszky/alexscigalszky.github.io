@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Camino del Senior(.Net + Angular): Curso ASP.Net: Dependecy Injection"
+title: "Curso ASP.Net: Dependecy Injection"
 categories: senior
 ---
 
