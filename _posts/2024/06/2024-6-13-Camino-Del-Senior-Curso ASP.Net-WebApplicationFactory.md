@@ -10,6 +10,9 @@ Se utiliza para crear versiones del<!--more--> Startup. Se usa para crear client
 public class ServerTest {
 
     private readonly WebApplicationFactory<Startup> _factory;
+    public ServerTest(){
+        _factory = new WebApplicationFactory<Startup>();
+    }
 
     [Fact]
     public void Given_When_Then() {
