@@ -100,6 +100,8 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Verbos
 - Parámetros
 - Dependecy Injection
+- WebApplicationFactory
+- ITestOutputHelper
 ## Curso xUnit (Junior)
 - Template
 - Asserts

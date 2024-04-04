@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Camino del Senior(.Net + Angular): Curso ASP.Net: WebApplicationFactory"
+categories: senior
+---
+
+Se utiliza para crear versiones del<!--more--> Startup. Se usa para crear clientes Http en los tests.
+
+```csharp
+public class ServerTest {
+
+    private readonly WebApplicationFactory<Startup> _factory;
+
+    [Fact]
+    public void Given_When_Then() {
+        var client = _factory.CreateDefaultClient();// crea una nueva instancia del cliente
+
+        HttpResponse response = await client.GetAsync("/home/route"); // realizar una petición GET
+        
+        HttpResponse response = await client.PostAsync("/home/route"); // realizar una petición POST
+    }
+}
+```
+
+> **Nota 1:** Existen version no Async de cada método.
