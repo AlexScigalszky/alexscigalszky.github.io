@@ -93,20 +93,22 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Vistas y Stored Procedures
 - Raw SQL
 ## Curso ASP.Net (Junior)
-.Net Core vs .Net Framework vs .Net Standard
-ASP .Net Core
-REST Api
-Status Codes
-Verbos
+- .Net Core vs .Net Framework vs .Net Standard
+- ASP .Net Core
+- REST Api
+- Status Codes
+- Verbos
+- Parámetros
+- Dependecy Injection
 ## Curso xUnit (Junior)
-Template
-Asserts
-Arrange
-Paralelismo
-DDT (Data Driven Tests)
-Mocks
-Legacy Code
-TDD (Test Driven Development)
+- Template
+- Asserts
+- Arrange
+- Paralelismo
+- DDT (Data Driven Tests)
+- Mocks
+- Legacy Code
+- TDD (Test Driven Development)
 ## SQL Book (Junior)
 ## Antipatrones C# (Intermediate)
 ## AZ-900 Curso de Azure (Intermediate)

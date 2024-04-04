@@ -15,3 +15,18 @@ Es un protocolo de comunicación que corresponde a **Simple Object Access Protoc
 
 # WCF
 Corresponde al **Windows Comunication Fundation**.
+
+# Rutas
+Se pueden agregar con la anotación `[Route]` en la clase controlador o en los métodos.
+```csharp
+[Route("api/[controller]")] // [controller] es para usar el nombre del controller (sin la palabra controller)
+public class HomeController {
+
+    [Route("index")]
+    public IActionResult Index() {
+        ...
+    }
+}
+```
+
+De esta forma la url para acceder al método Index es `/api/home/index`.
