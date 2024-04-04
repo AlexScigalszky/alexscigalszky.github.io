@@ -26,3 +26,5 @@ public class CalculatorTest {
     }
 }
 ```
+
+Luego de ejecutar un test, se pueden ver en el output del test.

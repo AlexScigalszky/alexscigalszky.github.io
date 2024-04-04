@@ -20,7 +20,7 @@ public class ServerTest {
 
         HttpResponse response = await client.GetAsync("/home/route"); // realizar una petición GET
         
-        HttpResponse response = await client.PostAsync("/home/route"); // realizar una petición POST
+        HttpResponse response = await client.PostAsync("/home/route", data); // realizar una petición POST
     }
 }
 ```
