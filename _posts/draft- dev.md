@@ -22,4 +22,11 @@ Compañeros de equipo. Diferentes formas de trabajar, aceptar que tienen otra fo
 
 Tablas para tomar decisiones. Entre varios opciones, cada fila conpunta del 1 al 5/1'0, semáforo para mostrar complejidad. etc
 
-Ley de Conway
+qué significa:
+    IETF
+    RFC
+
+
+Swagger
+    ¿qué es?
+    archivo json para describir
