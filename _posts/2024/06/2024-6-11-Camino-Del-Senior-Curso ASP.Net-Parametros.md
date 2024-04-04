@@ -6,7 +6,7 @@ categories: senior
 
 Las formas de pasar parámetros a una API más comunes son<!--more-->:
 
-# Route
+# FromRoute
 Se utiliza la anotación `[FromRoute]`. Se agregan en la url como valores en la ruta
 ```csharp
 public class HomeController {
@@ -18,7 +18,7 @@ public class HomeController {
 }
 ```
 De esta forma la url es `/home/1/10`.
-# Query
+# FromQuery
 Se utiliza la anotación `[FromQuery]`. Se agregan en la url luego del `?` separados por `&` y son del tipo clave-valor.
 ```csharp
 public class HomeController {
@@ -33,7 +33,7 @@ De esta forma la url es `/home/list?page=1&size=10`.
 
 > **Nota 1:** Si los parametros de un **GET** no tienen anotación, por defecto es del tipo FromQuery.
 
-# Body
+# FromBody
 Se utiliza la anotación `[FromBody]`. Se agregan en el cuerpo del request que debe ser del verbo **POST**. Puede ser un tipo primitivo o clases complejas. En este caso, el tipo Pagination.
 ```csharp
 public class Pagination {
@@ -59,9 +59,8 @@ POST /home/list
 
 > **Nota 1:** Si los parametros del **POST** no tienen anotación, por defecto es del tipo FromBody.
 
-# Service
-Se utiliza la anotación `[FromService]`. 
-Se usa un servicio y si interface que será injectada por DI.
+# FromServices
+Se utiliza la anotación `[FromService]`. Se usa un servicio y su interface que será injectada por DI.
 ```csharp
 public class Pagination {
     public int Page { get; set; }
@@ -78,15 +77,12 @@ public class PaginationService : IPaginationService {
     }
 }
 public class HomeController {
-    private IPaginationService _paginationService;
-    public HomeController(IPaginationService paginationService){
-        _paginationService = paginationService;
-    }
-
+    
     [Route("list")]
-    public IActionResult List([FromService] Pagination pagination) {
+    public IActionResult List([FromServices] IPaginationService paginationService) {
+        var pagination = paginationService.Example();
         ...
     }
 }
 ```
-
+De esta forma la url es `/home/list`.
