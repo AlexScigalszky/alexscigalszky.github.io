@@ -117,7 +117,8 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Números Booleanos
 - Fechas en forma de string
 - Manejo de memoria manual
-
+- Anti Singleton
+- Expresiones Yoda
 ## AZ-900 Curso de Azure (Intermediate)
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
