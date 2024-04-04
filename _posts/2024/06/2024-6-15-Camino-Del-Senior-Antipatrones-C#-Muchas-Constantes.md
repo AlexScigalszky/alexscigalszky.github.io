@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Antipatrones C#: Muchas constantes"
+title: "Antipatrones C#: Muchas Constantes"
 categories: senior
 ---
 

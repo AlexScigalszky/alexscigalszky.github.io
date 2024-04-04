@@ -113,8 +113,8 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - TDD (Test Driven Development)
 ## SQL Book (Junior)
 ## Antipatrones C# (Intermediate)
-- Muchas constantes
-- Números booleanos
+- Muchas Constantes
+- Números Booleanos
 - Fechas en forma de string
 - Manejo de memoria manual
 

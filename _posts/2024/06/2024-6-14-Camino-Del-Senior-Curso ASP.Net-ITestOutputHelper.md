@@ -7,7 +7,6 @@ categories: senior
 Es una interfaz que brinda el paquete<!--more--> xUnit que permite realizar outputs durante las pruebas unitarias.
 
 ```csharp
-
 public class CalculatorTest {
 
     private readonly ITestOutputHelper _outputHelper;
