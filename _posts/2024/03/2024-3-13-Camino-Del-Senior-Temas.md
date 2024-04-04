@@ -113,6 +113,11 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - TDD (Test Driven Development)
 ## SQL Book (Junior)
 ## Antipatrones C# (Intermediate)
+- Muchas constantes
+- Números booleanos
+- Fechas en forma de string
+- Manejo de memoria manual
+
 ## AZ-900 Curso de Azure (Intermediate)
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
