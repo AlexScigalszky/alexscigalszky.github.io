@@ -5,17 +5,17 @@ categories: senior
 ---
 
 Las expresiones Yoda son<!--more--> aquellas donde los valores se escriben de otra manera. 
-Por ejemplo
-
+Por ejemplo:
 ```csharp
 if (200 == GetHttpResponse()){
     ...
 }
 ```
+O
 
-
+```csharp
+if (GetHttpResponse().Equals(200)){
+    ...
+}
+```
 Se usaba para evitar asignaciones por error (usar `=` en vez de `==`).
-<!-- * El método `GetInstance()` debe ser sin parámetros de inicialización.
-* La instancia debe ser **inmutable**.
-* Solo debe proveer **una sóla instancia** en cualquier momento.
-* **Nunca** inicializar un singleton con el constructor público. -->
