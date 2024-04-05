@@ -119,6 +119,7 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Manejo de memoria manual
 - Anti Singleton
 - Expresiones Yoda
+- Spagheti Code
 ## AZ-900 Curso de Azure (Intermediate)
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
