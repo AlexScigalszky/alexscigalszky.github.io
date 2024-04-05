@@ -123,6 +123,7 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Tipo de antipatrón: Amante de los Patrones
 - Tipo de antipatrón: Swift-Army-Knife
 - Tipo de antipatrón: Asumir lo Peor
+- Tipo de antipatrón: Bola de Cristal
 ## AZ-900 Curso de Azure (Intermediate)
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
