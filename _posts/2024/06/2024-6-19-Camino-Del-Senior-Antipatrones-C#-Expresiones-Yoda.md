@@ -4,8 +4,17 @@ title: "Antipatrones C#: Expresiones Yoda"
 categories: senior
 ---
 
-Las expresiones Yoda son<!--more-->:
+Las expresiones Yoda son<!--more--> aquellas donde los valores se escriben de otra manera. 
+Por ejemplo
 
+```csharp
+if (200 == GetHttpResponse()){
+    ...
+}
+```
+
+
+Se usaba para evitar asignaciones por error (usar `=` en vez de `==`).
 <!-- * El método `GetInstance()` debe ser sin parámetros de inicialización.
 * La instancia debe ser **inmutable**.
 * Solo debe proveer **una sóla instancia** en cualquier momento.
