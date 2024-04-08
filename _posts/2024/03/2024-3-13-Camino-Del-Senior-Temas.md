@@ -125,6 +125,15 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Tipo de antipatrón: Asumir lo Peor
 - Tipo de antipatrón: Bola de Cristal
 ## AZ-900 Curso de Azure (Intermediate)
+Azure Concepts
+Could Concepts
+Azure Architecture
+Compute
+Networking
+Storage
+Database
+Authentication and Authorization
+Azure Solutions
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
 ## Código de alto rendimiento (Senior)
