@@ -4,7 +4,7 @@ title: "AZ-900 Curso de Azure: Azure Concepts"
 categories: senior
 ---
 
-Los conceptos claves de la nube son<!--more-->.
+Los conceptos claves de azure son<!--more-->:
 
 # Azure Portal
 Es la página dónde se pueden acceder a las features de azure
