@@ -4,55 +4,83 @@ title: "AZ-900 Curso de Azure: Could Concepts"
 categories: senior
 ---
 
-Los conceptos claves de la nube son<!--more-->.
 
-# Azure Portal
-Es la página dónde se pueden acceder a las features de azure
-## Personalización
-Se puede acomodar el dashboard, workflos, colores, etc.
-## Control de acceso
-Se puede configurar el acceso a personas de la organzacion
-## Manejo de costos
-Seguimiento de costo actual y qué consume cada recurso de azure.
-## On Stop Shop
-Un sólo lugar para ver todas las cosas de Azure.
-# Actualizaciones
-Está constantemente actualizada.
-## Multi-Plataforma
-Se puede ver web, android y ios
-# Azure CLI
-Es herramienta de la consola de comandos para realizar lo mismo que con el portal pero con comandos de textos. (crear maquinas virtuales). Las ventajas son
-- Estable
-- Structurado y siempre sigue el mismo patrón
-- Cross platform
-- Sirve para automatizar trabajos
-- Puede servir para logear quién hace qué cosa
-# Azure PowerShell
-Es una consola de comandos que sólo posee los comandos de Azure. Por ejemplo New-AzVm
-# Azure Cloud Shell
-Es una consola accesible desde un browser para manejar recursos de azure.
-Ventajas:
-- Accesible y seguro
-- Permite Bash o PowerShell
-- Incluye herramientas de azure y permite Node, .Net y python
-- Datos de session persistibles
-- Tiene un editor de archivos
-# Azure Mobile Shell
-para trabajar desde cualquier lugar. Hay versiones en:
-- iOS
-- Android
-Usa AzureResourceManager para manejar los recursos de Azure.
-También tiene acceso a la terminal de Azure.
-# ARM Template
-Azure Resources Manager.
-Los templateste ayudan a trabajar con los recursos más fácilmente:
-- Describen lo que estás haciendo
-- Tienen una sintaxis normalizada entre todos los templates.
-- Son idempotentes.
-Se trata de un JSON descriptivo que tiene:
-- $schema: describe las propiedades disponibles para ese template.
-- contentVersion: version del template. Para indicar cambios.
-- resources: Lista de recursos que se quieren manipular en el template.
-- variables: se pueden usar variables que serán asignadas cuando se ejecute el template.
-# Azure Advisor
-Te da recomendaciones sobre un mejor manejo de los recursos. Ayuda a tener mejor seguridad.
+Los sistemas Could computing se distinguen entre<!--more-->:
+- Compute
+- Networking
+- Storage
+Los conceptos claves de la nube son:
+
+# Lenguage
+## High availablity
+Es el Core de could computing. No tiene hardward pero e puden crear server facilmente
+Si el hardward falla, es automaticamente reemplazado.
+## Reliability
+(aka Faul Tolerance/Disaster recovery)
+El sistema se recupera rápidamente de fallos y continua funcionando.
+Se deploya en muchas ubicaciones.
+Cada vez que una computado falla, otra la reemplaza.
+## Scalability
+Se pueden crear nuevos recursos (maquinas virtuales, memoria, etc) a medida que los actuales no son suficientes a la cantidad de peticiones actuales. Se agregan y quitan muy rapidamente.
+Existe escalabilidad:
+- Vertical (más memoria, cpu, ram, etc)
+- Horizontal (más copias de la misma máquina virtual)
+## Security
+Control total de la seguridad, mantenimiento, control de red y más dentro del ambiente cloud.
+## Predictability
+### Costos
+No existen sorpresas inesperadas en la factura
+Azure permite seguir y mantener los costoa en tiempo real.
+Azure provee analitica para identificar patrones/tendencias para optimizar el uso.
+### Performance
+Se puede predecir cuándo se requiren más o menos recursos.
+Esto brinda la misma experiencia sin verse afectado por el tráfico.
+## Governance
+- Entornos estandarizados
+- Auditorías de conformidad
+## Managebility
+Se trata de la Manejabilidad:
+### De la nube
+- Auto escalamiento
+- Monitorización
+- Deploys basados en templates
+### En la nube
+- Portal
+- CLI
+- APIs
+# Economía / Costos
+Términos
+## Capital Expenditure (CapEx)
+Dinero gastado en edificios, tierras o equipamento. Grandes inversiones.
+## Operationa Expenditure (OpEx)
+Costos por ejecutar un sistema, costos anuales.
+Existen dos modelos:
+### Precio por hora
+Se paga por hora que se usa un recurso. Por ejemplo Azure Functions (pagas por ejecución, segundo y su combinación).
+### Precio por consumo
+Se paga por los recursos utilizados
+# Modelos de Cloud Service
+Existen 3 modelos:
+## Infraestructure as a Service (IaaS)
+Servidores que se crean y destruyen. No se ve el Hardware, se tiene servidores a disposición sin el trabajo por detrás.
+## Platform as a Service (PaaS)
+IaaS con la infraestructura agregadas (middlewares, manejadores de bases de datos, herramientos,  etc).
+Está hecho para soportar el ciclo de vida de un desarrolo completo (desarrollo, test, deploy, prod).
+Evita problemas de licencias.
+## Software as a Service (SaaS)
+Es PaaS con aplicaciones ya hechas. No se debe mantener nada por detrás. Por ejemplo Office 365.
+Un ejemplo extremos son las Azure Functions.
+> **Nota 1:** A medida que se pasa de IaaS, PaaS, SaaS la responsabilidad de mantener las aplicaciones se van pasando a Microsoft.
+# Marketplace
+Es un store con herramientas/sistemas para comprar/utilizar en el portal. Se puede tomar como Solutions as a Service.
+Se accede desde el Azure App Store, algunos son pagos otros gratuitos. Se pueden crear los propies. Son componentes listos para utilizarse.
+# Modelos de Arquitecturas Cloud
+Existen tres modelos:
+## Privado
+Los servicios pueden utilizarlo sólamente los usuarios de la cuenta. Control completo de la infraestructura. mejor seguridad y privacidad.
+IT es responsable de mantenerlo
+## Publico
+Cualquier puede conectarse. Hay que controlar la privacidad y seguridad. No se paga por el hardware. Tiene menos costo mensualmente. Se tiene control de las versiones
+## Hibrido
+Es una mezcla de ambos. Sirve para tener sistemas con partes privadas y publicas. Es mucho más compleja de mantener.
+> **Nota 2:** Hay que elegir la arquitectura con mucho cuidado porque no se puede cambiar
