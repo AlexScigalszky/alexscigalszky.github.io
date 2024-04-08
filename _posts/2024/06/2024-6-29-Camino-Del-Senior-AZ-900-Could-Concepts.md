@@ -28,11 +28,11 @@ Existe escalabilidad:
 ## Security
 Control total de la seguridad, mantenimiento, control de red y más dentro del ambiente cloud.
 ## Predictability
-### Costos
+# Costos
 No existen sorpresas inesperadas en la factura
 Azure permite seguir y mantener los costoa en tiempo real.
 Azure provee analitica para identificar patrones/tendencias para optimizar el uso.
-### Performance
+## Performance
 Se puede predecir cuándo se requiren más o menos recursos.
 Esto brinda la misma experiencia sin verse afectado por el tráfico.
 ## Governance
