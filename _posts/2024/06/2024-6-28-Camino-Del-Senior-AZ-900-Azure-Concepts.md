@@ -28,12 +28,14 @@ Está constantemente actualizada.
 Se puede ver web, android y ios.
 
 # Azure CLI
-Es herramienta de la consola de comandos para realizar lo mismo que con el portal pero con comandos de textos. (crear maquinas virtuales). Las ventajas son
+Es herramienta de la consola de comandos para realizar lo mismo que con el portal pero con comandos de textos. (crear maquinas virtuales). 
+Las ventajas son:
 - Estable
 - Structurado y siempre sigue el mismo patrón
 - Cross platform
 - Sirve para automatizar trabajos
 - Puede servir para logear quién hace qué cosa
+.
 
 # Azure PowerShell
 Es una consola de comandos que sólo posee los comandos de Azure. Por ejemplo New-AzVm.
