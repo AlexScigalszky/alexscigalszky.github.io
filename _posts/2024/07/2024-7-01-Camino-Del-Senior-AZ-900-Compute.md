@@ -21,7 +21,7 @@ Se necesita total control
 se necesita instalar una aplicación particular
 Para infraestructuras ya existentes y se están migrando.
 
-## Contras
+### Contras
 No es para todo, a veces sirve pero otras veces no lo vale.
 Mantener una VM es mucho más dificil que otros recursos.
 
