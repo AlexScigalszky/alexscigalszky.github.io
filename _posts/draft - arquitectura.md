@@ -1,6 +1,8 @@
 Plugin Architecture
 Event Source
 
+connection multiplexer
+
 Layered Architecture
     Conceptos clave
     Capas abiertas y Capas cerradas
