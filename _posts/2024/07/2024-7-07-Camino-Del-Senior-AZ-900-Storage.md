@@ -51,10 +51,42 @@ Más rápido y con mejor performance que el Standard SSD. Se usa para flujos cr�
 Para flujos muy demandantes y trabajo intensos. Puede tener hasta 67TB.
 
 # File
+Sirve para guardar archivos en Azure
+
+## Beneficios
+- Sharing
+- Administrables
+- Cortes de luz, nunca afectarán a los datos
+.
 
 # Archive
+- Es el sistema más barato.
+- Duradero.
+- Encriptado.
+- Corre sobre Blob.
+- Seguro, sirve para información personal.
+- Sirve para datos que deben almacenarse mucho tiempo por legislaciones y políticas de seguridad.
+.
 
 # Storage Redundancy
+Para evitar que se pierdan datos o no estén disponibles por cierto tiempo. Azure crea una redundancia del almacenamiento para asegurarlo.
+- Es automático.
+- Al menos 3 copias en cada región.
+- Invisible al usuario final.
+
+> Accidentes pasan y se deben contemplar.
+
+## Opciones de redundancia
+Se pueden cambiar las opciones de redundancias entre: una zona, multiples zonas, multiples regiones. Mayor disponibilidad, mayor costo.
+
+### Single Region
+- __Locally Redundan Storage (LRS)__: El más barato. Protege de fallos en disco. Tres copias en el mismo datacenter
+- __Zone-Redundan Storage (ZRS)__: Tres copias en tres cada zona de la región. Protege sobre problemas en la zona.
+.
+### Multi Region
+- __Geo-Redundant Storage__: Tres copias en un datacenter de dos regiones diferentes. Protege de fallos en la región. Se puede habilitar de sólo lectura a los archivos de la segunda región.
+- __Geo-Zone-Redundant Storage__: El más caro. La mayor redundancia posible. Tres copias en tres datacentes de dos regiones diferentes. Se puede habilitar de sólo lectura a los archivos de la segunda región.
+.
 
 # Moving Data
 
