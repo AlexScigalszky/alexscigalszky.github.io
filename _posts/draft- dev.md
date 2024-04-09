@@ -12,8 +12,6 @@ Guilds. Gente que se junta a aprender un tema en común.
 
 Detalles de diapositivas. Pocas palabras, claras, no más de 7 cosas a la vez. las diapositivas son de ayuda, no de lectura. Fotos sin mucho detalle. Colores no cansadores.
 
-Bench. Aprovechar lo más posible. Te pagan por estudiar, te pagan por mejorar.
-
 Assesment del proyecto. Analizar todo lo que se hizo y lo que falta de un proyecto.
 
 Pip. Qué es y cuándo se usa. La realidad que mucho lo ven como un despido desfasado pero hay que tomarlo como una oportunidad a mejorar.
@@ -34,3 +32,17 @@ Swagger
 
 Docket
     qué es?
+
+Ser claro hablando con la gente de otra cultura.
+
+Repetir lo que dicen con otras palabras para aclarar dudas y demostrar que se entendió lo explicado.
+
+Notas en papel antes de una meeting
+
+Test first. Forma de programar test antes del código.
+
+Domain MAP.- Tabla dónde se pueden identificar quienes conocen sobre un tema
+
+Uso de la cámara en reuniones virtuales.
+
+Evitar frases como " tal como lo dije ayer.." evitan problemas
