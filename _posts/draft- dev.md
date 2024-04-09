@@ -14,7 +14,7 @@ Detalles de diapositivas. Pocas palabras, claras, no más de 7 cosas a la vez. l
 
 Assesment del proyecto. Analizar todo lo que se hizo y lo que falta de un proyecto.
 
-Pip. Qué es y cuándo se usa. La realidad que mucho lo ven como un despido desfasado pero hay que tomarlo como una oportunidad a mejorar.
+Pip. Qué es y cuándo se usa. La realidad que mucho lo ven como un despido desfasado pero hay que tomarlo como una oportunidad a mejorar. (ejemplo que hacía JC)
 
 Tablas para tomar decisiones. Entre varios opciones, cada fila conpunta del 1 al 5/1'0, semáforo para mostrar complejidad. etc
 

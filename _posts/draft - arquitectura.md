@@ -14,3 +14,4 @@ Layered Architecture
         Escalabilidad: Baja
         Facilidad de desarrollo: Alta
 Event-Driven Architecture
+
