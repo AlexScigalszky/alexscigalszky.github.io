@@ -45,7 +45,14 @@ Azure tiene bases de datos creadas por MySql que es open source.
 - Cualquier lenguale puede conectarse.
 - Alta avilidad (cloud).
 - Seguridad igual que todo Azure.
+.
 
 # PostgresSQL
+Azure tiene bases de datos creadas por PostgresSQL que es open source.
 
-# Database Migration Services
+## Ventajas
+- En azure se encuentra como **Platform as a Service**
+- Muchas extensiones.
+- Permite JSONB, funciones geoespaciales (GIS).
+- Escalamiento horizontal (grande rendimiento para usar datos en muchos datacenters).
+- Completamente manejado por Azure
