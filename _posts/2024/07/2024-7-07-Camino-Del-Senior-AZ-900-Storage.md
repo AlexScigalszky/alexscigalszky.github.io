@@ -89,7 +89,55 @@ Se pueden cambiar las opciones de redundancias entre: una zona, multiples zonas,
 .
 
 # Moving Data
+Para mover los datos en/hacia/desde azure se usan diferentes soluciones:
+
+## AzCopy
+Comando de consola para transferir Blobs y Files. Últil para transferir datos usando scripts.
+```bash
+azcopy cp "filename.mp4" "htpps://mystorageaccount.blob.core.windows.net/my-container"
+```
+
+## Azure Storage Explorer
+Interfaz descargable para transferir datos a azure. Permite todo tipos de almacenaje
+
+## Azure File Sync
+sincroniza los Azure Files de una carpeta local y el almacenaje de azure. Se usa para backup de los archivos locales. Se pueden sincronizar diferentes services on-promise o no.
 
 # Data Migration Options
+Hay dos escenarios más para la migración de datos que son utilizando:
 
-# Premium performance options
+## Azure Data Box
+- Subir muchos datos con ancho de banda limitado.
+- También se puede enviar o recibir datos offline. Basicamente se copian los datos a un box y se envían por correo a Azure. Luego ellos lo cargan.
+- Para la primer migración de base de datos.
+- Para casos de pérdida total de datos (response).
+- Para casos de restricción de datos por polítcas de seguridad y privacidad.
+.
+
+## Azure Migrate
+- Para migrar datos **hacia** azure. No se limita a únicamente Storage Accounts.
+- Se usa para migrar los datacenters desde on-promise a azure.
+- Migrar Máquinas virtuales, bases de datos, etc
+
+# Premium performance Options
+Opciones para mejor velocidad. sirve migraciones en SSDs.
+## Consideraciones
+1. los tipos de almacenajhe disponibles para cada tipo de opción.
+2. Opciones de redundancia. Mejor performance cuando mejor es la redundancia. Todos los tipos están disponibles para LRS y ZRS.
+3. Estas opciones premium tienen mayor precio
+
+## Opciones
+
+### Standard
+Simple para todos los tipos y permite todo tipo de redundancia
+
+### Premium
+
+#### Premium block blobs
+Soporta Blob Storage, ideal para trabajos de baja latencia como aplicaciones de IA o análisis de IoT.
+
+#### Premium page blobs
+Soporta Page Blobs, y tiene acceso a una API standalone.
+
+#### Premium file shares
+Soporta Azure Files. Ideal para aplicaciones empresariales de alto rendimiento. Soporta archivos Server Message Block (SMB) y Network File System (NFS)
