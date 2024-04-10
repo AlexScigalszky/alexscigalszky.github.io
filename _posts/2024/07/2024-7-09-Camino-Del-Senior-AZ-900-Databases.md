@@ -30,11 +30,11 @@ Lo mismo pero SQL Managed Instance le agrega funcionalidad compatible con las in
 |:--------|:------- |
 | SQL Database | SQL Managed Instance |
 | Recuperación automatica desde backups |  Recuperación automática desde backups y backups completos de SQL |
-| Replicación GEO | - |
-| Autoescalable soportado en el modelo serverless | - |
-| Tuning automático | - |
-| - | SQL Server Profiler |
-| - | SQL Server Agent |
+| Replicación GEO | No |
+| Autoescalable soportado en el modelo serverless | No |
+| Tuning automático | No |
+| No | SQL Server Profiler |
+| No | SQL Server Agent |
 
 # MySql
 
