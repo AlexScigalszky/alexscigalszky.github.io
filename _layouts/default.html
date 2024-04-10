@@ -17,16 +17,18 @@
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">
-              {{ site.description }}
-              <a id="theme-toggle" onclick="modeSwitcher()"></a>
-            </p>
+            <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav>
             <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/senior">Senior Path</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+            <a href="{{ site.baseurl }}/about">
+              <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-person">
+                <path d="M10.561 8.073a6.005 6.005 0 0 1 3.432 5.142.75.75 0 1 1-1.498.07 4.5 4.5 0 0 0-8.99 0 .75.75 0 0 1-1.498-.07 6.004 6.004 0 0 1 3.431-5.142 3.999 3.999 0 1 1 5.123 0ZM10.5 5a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"></path>
+              </svg>
+            </a>
+            <a id="theme-toggle" onclick="modeSwitcher()"></a>
           </nav>
         </header>
       </div>
@@ -47,23 +49,22 @@
       let theme = sessionStorage.getItem("theme");
       let themeToggle = document.getElementById("theme-toggle");
       const setAttribute = (selector, value) => document.documentElement.setAttribute(selector, value);
-      const setClassToToggle = (clazz) => themeToggle.className = clazz;
-
+      const setClassToToggle = (clazz) => (themeToggle.className = clazz);
 
       if (systemInitiatedDark.matches) {
-        setClassToToggle('light-icon');
+        setClassToToggle("dark-icon");
       } else {
-        setClassToToggle('dark-icon');
+        setClassToToggle("light-icon");
       }
 
       function prefersColorTest(systemInitiatedDark) {
         if (systemInitiatedDark.matches) {
           setAttribute("data-theme", "dark");
-          setClassToToggle('light-icon');
+          setClassToToggle("dark-icon");
           sessionStorage.setItem("theme", "");
         } else {
           setAttribute("data-theme", "light");
-          setClassToToggle('dark-icon');
+          setClassToToggle("light-icon");
           sessionStorage.setItem("theme", "");
         }
       }
@@ -74,30 +75,30 @@
         if (theme === "dark") {
           setAttribute("data-theme", "light");
           sessionStorage.setItem("theme", "light");
-          setClassToToggle('dark-icon');
+          setClassToToggle("light-icon");
         } else if (theme === "light") {
           setAttribute("data-theme", "dark");
           sessionStorage.setItem("theme", "dark");
-          setClassToToggle('light-icon');
+          setClassToToggle("dark-icon");
         } else if (systemInitiatedDark.matches) {
           setAttribute("data-theme", "light");
           sessionStorage.setItem("theme", "light");
-          setClassToToggle('dark-icon');
+          setClassToToggle("light-icon");
         } else {
           setAttribute("data-theme", "dark");
           sessionStorage.setItem("theme", "dark");
-          setClassToToggle('light-icon');
+          setClassToToggle("dark-icon");
         }
       }
 
       if (theme === "dark") {
         setAttribute("data-theme", "dark");
         sessionStorage.setItem("theme", "dark");
-        setClassToToggle('light-icon');
+        setClassToToggle("dark-icon");
       } else if (theme === "light") {
         setAttribute("data-theme", "light");
         sessionStorage.setItem("theme", "light");
-        setClassToToggle('dark-icon');
+        setClassToToggle("light-icon");
       }
     </script>
   </body>
