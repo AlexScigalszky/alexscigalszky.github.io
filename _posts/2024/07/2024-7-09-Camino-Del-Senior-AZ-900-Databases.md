@@ -27,9 +27,8 @@ Escalable. Hasta 100Terabytes de tamaño. La misma seguridad incluida en Azure.
 ## SQL Database vs SQL Managed Instance
 Lo mismo pero SQL Managed Instance le agrega funcionalidad compatible con las instancias de SQL on-promise y facilita la migración hacia la nube.
 
-|  |  |
-|:--------|:------- |
 | SQL Database | SQL Managed Instance |
+|:--------|:------- |
 | Recuperación automatica desde backups |  Recuperación automática desde backups y backups completos de SQL |
 | Replicación GEO | No |
 | Autoescalable soportado en el modelo serverless | No |
