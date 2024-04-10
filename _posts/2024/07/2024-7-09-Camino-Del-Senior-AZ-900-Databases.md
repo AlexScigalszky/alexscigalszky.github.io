@@ -26,6 +26,7 @@ Escalable. Hasta 100Terabytes de tamaño. La misma seguridad incluida en Azure.
 
 ## SQL Database vs SQL Managed Instance
 Lo mismo pero SQL Managed Instance le agrega funcionalidad compatible con las instancias de SQL on-promise y facilita la migración hacia la nube.
+
 |  |  |
 |:--------|:------- |
 | SQL Database | SQL Managed Instance |
@@ -37,6 +38,14 @@ Lo mismo pero SQL Managed Instance le agrega funcionalidad compatible con las in
 | No | SQL Server Agent |
 
 # MySql
+Azure tiene bases de datos creadas por MySql que es open source.
+
+## Ventajas
+- En azure se encuentra como **Platform as a Service**
+- Enfocarse en el desarrollo.
+- Cualquier lenguale puede conectarse.
+- Alta avilidad (cloud).
+- Seguridad igual que todo Azure.
 
 # PostgresSQL
 
