@@ -17,11 +17,13 @@
 
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+            <p class="site-description">
+              {{ site.description }}
+              <a id="theme-toggle" onclick="modeSwitcher()"></a>
+            </p>
           </div>
 
           <nav>
-            <a id="theme-toggle" onclick="modeSwitcher()"></a>
             <a href="{{ site.baseurl }}/">Home</a>
             <a href="{{ site.baseurl }}/senior">Senior Path</a>
             <a href="{{ site.baseurl }}/about">About</a>
