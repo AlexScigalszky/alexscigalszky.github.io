@@ -7,6 +7,7 @@ categories: senior
 Azure implementa diferentes motores de bases de datos<!--more-->.
 
 # Cosmos DB
+Cosmos DB es un servicio de base de datos multimodelo que admite múltiples modelos de datos. Basado en Documentos.
 Puede estar globalmente desde el inicio. Se pueden agregar regiones con un click y se mantiene actualizada automáticamente. Latencia menor de 9 milisegundos
 
 # Scalabilidad
