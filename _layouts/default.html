@@ -43,28 +43,27 @@
     {% include analytics.html %}
 
     <script>
-      const LIGHT_MODE = "Light Mode";
-      const DARK_MODE = "Dark Mode";
-
       let systemInitiatedDark = window.matchMedia("(prefers-color-scheme: dark)");
       let theme = sessionStorage.getItem("theme");
       let themeToggle = document.getElementById("theme-toggle");
       const setAttribute = (selector, value) => document.documentElement.setAttribute(selector, value);
+      const setClassToToggle = (clazz) => themeToggle.className = clazz;
+
 
       if (systemInitiatedDark.matches) {
-        themeToggle.innerHTML = LIGHT_MODE;
+        setClassToToggle('light-icon');
       } else {
-        themeToggle.innerHTML = DARK_MODE;
+        setClassToToggle('dark-icon');
       }
 
       function prefersColorTest(systemInitiatedDark) {
         if (systemInitiatedDark.matches) {
           setAttribute("data-theme", "dark");
-          themeToggle.innerHTML = LIGHT_MODE;
+          setClassToToggle('light-icon');
           sessionStorage.setItem("theme", "");
         } else {
           setAttribute("data-theme", "light");
-          themeToggle.innerHTML = DARK_MODE;
+          setClassToToggle('dark-icon');
           sessionStorage.setItem("theme", "");
         }
       }
@@ -75,30 +74,30 @@
         if (theme === "dark") {
           setAttribute("data-theme", "light");
           sessionStorage.setItem("theme", "light");
-          themeToggle.innerHTML = DARK_MODE;
+          setClassToToggle('dark-icon');
         } else if (theme === "light") {
           setAttribute("data-theme", "dark");
           sessionStorage.setItem("theme", "dark");
-          themeToggle.innerHTML = LIGHT_MODE;
+          setClassToToggle('light-icon');
         } else if (systemInitiatedDark.matches) {
           setAttribute("data-theme", "light");
           sessionStorage.setItem("theme", "light");
-          themeToggle.innerHTML = DARK_MODE;
+          setClassToToggle('dark-icon');
         } else {
           setAttribute("data-theme", "dark");
           sessionStorage.setItem("theme", "dark");
-          themeToggle.innerHTML = LIGHT_MODE;
+          setClassToToggle('light-icon');
         }
       }
 
       if (theme === "dark") {
         setAttribute("data-theme", "dark");
         sessionStorage.setItem("theme", "dark");
-        themeToggle.innerHTML = LIGHT_MODE;
+        setClassToToggle('light-icon');
       } else if (theme === "light") {
         setAttribute("data-theme", "light");
         sessionStorage.setItem("theme", "light");
-        themeToggle.innerHTML = DARK_MODE;
+        setClassToToggle('dark-icon');
       }
     </script>
   </body>
