@@ -132,7 +132,7 @@ Compute
 Networking
 Storage
 Database
-Authentication and Authorization
+Authentication y Authorization
 Azure Solutions
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
