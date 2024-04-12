@@ -13,6 +13,61 @@
 /* BASE RULES */
 /**************/
 
+html, html[data-theme="light"] {
+	--link-color: #{$blue}; //rgb(0, 112, 201);
+  --main-background-color: #{$lightGray}; //hsl(0, 0%, 90%);
+  --main-text-color: #{$darkGray}; //hsl(0, 0%, 20%);
+  --h1: #{$black};
+  --h2: #{$darkerGray};
+  --h3: #{$darkGray};
+  --h4: #{$gray};
+  --h4: #{$gray};
+  --h5: #{$gray};
+}
+
+html[data-theme="dark"] {
+  --link-color: #{$blue}; //rgb( 100, 210, 255);
+  --main-background-color: #{$darkGray}; //hsl(0, 0%, 20%);
+  --main-text-color: #{$lightGray}; //hsl(0, 0%, 85%); 
+  --h1: #{$white};
+  --h2: #{$lightGray};
+  --h3: #{$darkGray};
+  --h4: #{$darkerGray};
+  --h4: #{$gray};
+  --h5: #{$gray};
+}
+
+
+@media (prefers-color-scheme: dark) {
+    html, html[data-theme="dark"] {
+      --link-color: #{$blue}; //rgb( 100, 210, 255);
+      --main-background-color: #{$darkGray}; //hsl(0, 0%, 20%);
+      --main-text-color: #{$lightGray}; //hsl(0, 0%, 85%); 
+      --h1: #{$white};
+      --h2: #{$lightGray};
+      --h3: #{$darkGray};
+      --h4: #{$darkerGray};
+      --h4: #{$gray};
+      --h5: #{$gray};
+    }
+
+    html[data-theme="light"] {
+      --link-color: #{$blue}; //rgb(0, 112, 201);
+      --main-background-color: #{$lightGray}; //hsl(0, 0%, 90%);
+      --main-text-color: #{$darkGray}; //hsl(0, 0%, 20%);
+      --h1: #{$black};
+      --h2: #{$darkerGray};
+      --h3: #{$darkGray};
+      --h4: #{$gray};
+      --h4: #{$gray};
+      --h5: #{$gray};
+  } 
+}
+
+/**************/
+/* BASE RULES */
+/**************/
+
 html {
   font-size: 100%;
 }
@@ -341,3 +396,4 @@ body table td {
   text-align: center;
   text-decoration: none;
 }
+
