@@ -48,8 +48,23 @@ Muestra gráficos de métricas de las aplicaciones web. Por ejemplo: requests fa
 Son alertas que aparecen cuando algo se rompe y hay que resolverlo. Por ejemplo, VM que no funcionan, exceso de CPU o latencias muy altas. Se pueden configurar **reglas** para monitorear los recursos y **action group** para reaccionar en caso de que una regla se cumpla.
 
 # Azure Service Health
+Notifica de incidentes planeado y no planeados en la plataforma. Tiene las opciones:
+- Dashboard.
+- Alertas personalizadas.
+- Seguimiento en tiempo real.
+- Es gratis.
+.
 
 # Compliance
+Para el control y observacion de las legislaciones. Existe:
+
+## Azure Compliance Manager
+- Ofrece recomendaciones.
+- Se pueden crear tareas para ciertas regulaciones y hacer seguimiento.
+- Seguir el porcentaje de regulaciones resultas.
+- Almacenamiento seguro para registrar documentos que prueban que la regulación está implementada.
+- Generar reportes para gerentes y auditores.
+.
 
 # Privacy
 

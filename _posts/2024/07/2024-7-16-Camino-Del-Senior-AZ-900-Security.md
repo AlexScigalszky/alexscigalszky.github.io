@@ -32,7 +32,7 @@ Para protejer la red, Azure usa un firewall.
 - Tiene un set de reglas para permitir o negar paquetes de red.
 - Existen muchas variantes, para pequeñas o grandes redes.
 - Todas las redes que requieran seguridad, tendrán un firewall.
-.
+
 ## Distributed Denial of Service (DDoS)
 Muchas peticiones (el record fué de 127millones de peticiones por segundo) a la misma vez a un mismo servicio.
 Azure va a proteger sin dar de baja el servicio.
