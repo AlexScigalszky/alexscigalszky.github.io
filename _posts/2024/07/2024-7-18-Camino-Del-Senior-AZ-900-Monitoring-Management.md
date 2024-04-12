@@ -53,7 +53,6 @@ Notifica de incidentes planeado y no planeados en la plataforma. Tiene las opcio
 - Alertas personalizadas.
 - Seguimiento en tiempo real.
 - Es gratis.
-.
 
 # Compliance
 Para el control y observacion de las legislaciones. Existe:
@@ -64,7 +63,7 @@ Para el control y observacion de las legislaciones. Existe:
 - Seguir el porcentaje de regulaciones resultas.
 - Almacenamiento seguro para registrar documentos que prueban que la regulación está implementada.
 - Generar reportes para gerentes y auditores.
-.
+
 
 # Privacy
 

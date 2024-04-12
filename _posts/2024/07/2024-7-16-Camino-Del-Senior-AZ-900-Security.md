@@ -13,7 +13,6 @@ La defenza en Azure está definida en diferentes niveles dependiendo el tipo de 
 - Fisico. Seguridad del edificio, hardward y personal.
 - Líneas de defensa. Diferentes niveles como tarjetas de acceso, puertas, guardias, firewalls, etc.
 - Todo debe administrarse desde la empresa.
-.
 
 ## Servidores en Azure
 Hay 7 niveles de seguridad:
@@ -63,7 +62,7 @@ Es un portal para manejar la seguridad en el portal de azure.
 - Provee todas las alertas.
 - Permite todas las arquitecturas.
 - Muestra las reglas y sus buenas prácticas.
-.
+
 Para usarlo hay que:
 1. Definir las restricciones
 2. Proteger los recursos.
