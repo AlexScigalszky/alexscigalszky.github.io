@@ -44,7 +44,7 @@ html[data-theme="dark"] {
       --main-background-color: #{$darkGray}; //hsl(0, 0%, 20%);
       --main-text-color: #{$lightGray}; //hsl(0, 0%, 85%); 
       --h1: #{$white};
-      --h2: #{$lightGray};
+      --h2: #{$secondTitle};
       --h3: #{$darkGray};
       --h4: #{$darkerGray};
       --h4: #{$gray};
@@ -56,7 +56,7 @@ html[data-theme="dark"] {
       --main-background-color: #{$lightGray}; //hsl(0, 0%, 90%);
       --main-text-color: #{$darkGray}; //hsl(0, 0%, 20%);
       --h1: #{$black};
-      --h2: #{$darkerGray};
+      --h2: #{$secondTitle};
       --h3: #{$darkGray};
       --h4: #{$gray};
       --h4: #{$gray};
