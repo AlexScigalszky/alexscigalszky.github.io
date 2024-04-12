@@ -28,5 +28,12 @@ $georgia: Georgia, serif;
 :root { 
   --main-text-color: #{$darkGray};
   --main-background-color: #{$lightGray};
-  --link-color: #{$blue};  
+  --link-color: #{$blue};
+
+  --h1: #{$black};
+  --h2: #{$darkerGray};
+  --h3: #{$darkGray};
+  --h4: #{$gray};
+  --h4: #{$gray};
+  --h5: #{$gray};
 }
