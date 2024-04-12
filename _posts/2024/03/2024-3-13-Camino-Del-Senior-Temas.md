@@ -134,6 +134,7 @@ Storage
 Database
 Authentication y Authorization
 Azure Solutions
+Security
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
 ## Código de alto rendimiento (Senior)
