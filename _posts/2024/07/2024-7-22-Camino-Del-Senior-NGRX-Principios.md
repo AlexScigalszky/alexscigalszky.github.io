@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "NGRX Store - Effects"
-categories: senior
+title: "NGRX Store - Effects": Pricipios de Redux"
+categories: [senior, test]
 ---
 
-Azure tiene un sistema de soporte<!--more--> .
+Los tres principios de<!--more--> redux son:
+
+1. Una sóla fuente de verdad
+2. El estado es sólo de lectura
+3. 
