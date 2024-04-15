@@ -33,6 +33,9 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Operadores de Combinación
 ## Angular Pro (Intermediate)
 ## NGRX Store + Effects (Intermediate)
+Pricipios
+Conceptos
+
 ## RxJS MasterClass (Intermediate)
 
 # Backend:
