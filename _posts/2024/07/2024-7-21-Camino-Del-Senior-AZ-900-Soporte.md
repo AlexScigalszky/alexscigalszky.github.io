@@ -73,8 +73,8 @@ Se tienen que aprobar si o si para usar azure.
 # Service Lifecycle
 Existen etapas en el desarrollo de un servicio de azure:
 
-## Preview Private
-Antes de salir a producción total, los servicios salen como una preview. Alguna veces son **privadas** y otras **públicas**.
+## Preview
+Antes de salir a producción total, los servicios salen como una preview. Alguna veces son **privadas** y otras **públicas**. Se pueden ver en la preview.portal.azure.com
 
 ## General Availability
 Cuando el producto está completo. Puede que a veces sólo se habilite en algunas regiones y después pase al resto del mundo.
