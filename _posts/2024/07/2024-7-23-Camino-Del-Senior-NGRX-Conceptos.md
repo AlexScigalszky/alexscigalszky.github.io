@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Conceptos de Redux"
-categories: "senior, test"
+categories: ["senior", "test"]
 ---
 
 Los principales conceptos de Redux<!--more--> son:
