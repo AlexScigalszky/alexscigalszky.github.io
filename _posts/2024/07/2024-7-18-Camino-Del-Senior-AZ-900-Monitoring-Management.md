@@ -64,9 +64,30 @@ Para el control y observacion de las legislaciones. Existe:
 - Almacenamiento seguro para registrar documentos que prueban que la regulación está implementada.
 - Generar reportes para gerentes y auditores.
 
-
 # Privacy
+La Seguridad es parte del core de la plataforma.
+
+## Azure Information Protection
+Clasifica, etiqueta y protege los datos en base a la sensibilidad señalada.
+
+## Azure Policy
+Define y refuerza reglas para protegeer las privacidad y las regulaciones externas.
+
+## Guides
+Hay que usar las guías de seguridad para tener todo bien configurado y preparado para proteger los datos.
+
+## Compliance manager
+Para asegurarse que se están siguiendo las reglas de privacidad.
 
 # Trust
+Hay dos servicios que tienen que ver con la Confianza:
+
+## Trust Center
+Dashboard con links a todos los lugares de privacidad, seguridad, GDPR, ubicaciones, garantías, etc.
+
+## Service Trust Postal
+Resumen de todos los reports y auditorías de los productos de microsft.
 
 # Azure Arc
+Permite manejar y administrar servicios de Azure y Fuera de Azure (como on-promise, AWS, etc).
+Extiende el manejo de la plataforma a servicios fuera de Azure. Funciona instalando un programa en los otros entornos.
