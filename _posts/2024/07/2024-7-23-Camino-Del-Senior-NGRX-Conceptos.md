@@ -35,13 +35,16 @@ const action {
 Son funciones puras. A partir de una acción disparada, responde al tipo de acción, toma los datos del payload, compone un nuevo estado y lo devuelve.
 Por ejemplo:
 ```javascript
-const action {
-    type: 'ADD_TODO',
-    payload: {
-        label: 'Eat Pizza',
-        complete: false
+function reducer(state, action) {
+    switch (action.type) {
+        case 'ADD_TODO': {
+            const todo = action.payload;
+            const todos = [...state.todos, todo];
+            return { todos };
+        }
     }
-};
+    return state;
+}
 ```
 
 # Store
