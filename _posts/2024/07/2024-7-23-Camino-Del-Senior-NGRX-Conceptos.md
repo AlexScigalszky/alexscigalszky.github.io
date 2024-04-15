@@ -48,4 +48,11 @@ function reducer(state, action) {
 ```
 
 # Store
+Es el contenedor del **state**.
+Para interactuar con el store se hace con:
+1. Subscripciones a cambios de estados.
+2. Disparando nuevas acciones al Store.
+
+El store invoca los reducers con el __state__ anterior y la accion. Una vez que el reducer devuelve el nuevo state, el store lo toma como uno nuevo y notifica los subscriptores.
+
 # One-way dataflow
