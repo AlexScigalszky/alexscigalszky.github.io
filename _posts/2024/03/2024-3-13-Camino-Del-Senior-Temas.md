@@ -136,6 +136,7 @@ Authentication y Authorization
 Azure Solutions
 Security
 Monitoring and Management
+Precios
 ## Microservicios (Intermediate)
 ## RabbitMQ (Senior)
 ## Código de alto rendimiento (Senior)
