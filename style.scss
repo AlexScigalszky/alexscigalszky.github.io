@@ -18,7 +18,7 @@ html, html[data-theme="light"] {
   --main-background-color: #{$lightGray}; //hsl(0, 0%, 90%);
   --main-text-color: #{$darkGray}; //hsl(0, 0%, 20%);
   --h1: #{$black};
-  --h2: #{$secondTitle};
+  --h2: #{$darkerGray};
   --h3: #{$darkGray};
   --h4: #{$gray};
   --h4: #{$gray};
@@ -30,7 +30,7 @@ html[data-theme="dark"] {
   --main-background-color: #{$darkGray}; //hsl(0, 0%, 20%);
   --main-text-color: #{$lightGray}; //hsl(0, 0%, 85%); 
   --h1: #{$white};
-  --h2: #{$secondTitle};
+  --h2: #{$lightGray};
   --h3: #{$darkGray};
   --h4: #{$darkerGray};
   --h4: #{$gray};
@@ -44,7 +44,7 @@ html[data-theme="dark"] {
       --main-background-color: #{$darkGray}; //hsl(0, 0%, 20%);
       --main-text-color: #{$lightGray}; //hsl(0, 0%, 85%); 
       --h1: #{$white};
-      --h2: #{$secondTitle};
+      --h2: #{$lightGray};
       --h3: #{$darkGray};
       --h4: #{$darkerGray};
       --h4: #{$gray};
@@ -56,7 +56,7 @@ html[data-theme="dark"] {
       --main-background-color: #{$lightGray}; //hsl(0, 0%, 90%);
       --main-text-color: #{$darkGray}; //hsl(0, 0%, 20%);
       --h1: #{$black};
-      --h2: #{$secondTitle};
+      --h2: #{$darkerGray};
       --h3: #{$darkGray};
       --h4: #{$gray};
       --h4: #{$gray};
@@ -120,7 +120,9 @@ h2 {
   font-size: 16px;
   color: var(--h2);
 }
-
+h2::before {
+  content: "- ";
+}
 h3 {
   font-size: 14px;
   color: var(--h3);
