@@ -35,7 +35,7 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 ## NGRX Store + Effects (Intermediate)
 Pricipios de Redux
 Conceptos de Redux
-
+Inmutabilidad
 ## RxJS MasterClass (Intermediate)
 
 # Backend:
