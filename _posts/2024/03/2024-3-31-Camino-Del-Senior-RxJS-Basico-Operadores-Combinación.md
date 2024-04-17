@@ -7,7 +7,9 @@ categories: senior
 Operadores que trabajan con varios observables como entrada y devolviendo un nuevo observable.<!--more-->
 
 ## startWith
+
 Emite el primer valor especificado antes de cualquier otro evento de un obserbable,
+
 ```javascript
 of(1,2,3).pipe(
     startWith('a', 'b, 'c')
@@ -15,19 +17,18 @@ of(1,2,3).pipe(
 ```
 
 ## merge
+
 combina dos observables para devolver todos los eventos de cualquiera de los observables iniciales
 
 ```javascript
-const keys$ = fromEvent(document, 'keyup');
-const clicks$ = fromEvent(document, 'click');
+const keys$ = fromEvent(document, "keyup");
+const clicks$ = fromEvent(document, "click");
 
-merge(
-    keys$,
-    clicks$
-).subcribe()// todos los clicks o keyups
+merge(keys$, clicks$).subcribe(); // todos los clicks o keyups
 ```
 
 ## concat
+
 combina dos observables para devolver todos los eventos del primero observable hasta que se complete, luego continua con el siguiente observable hasta completarse
 
 ```javascript
@@ -40,28 +41,24 @@ merge(
 ```
 
 ## combineLatest
+
 Combina los valores emitidos por varios observables y los emite hasta tener un valor de cada observable inicial.
 Si un observable emitió dos valores antes que el otro, entonces se toma el último valor recibido.
 
 ```javascript
-const keys$ = fromEvent(document, 'keyup');
-const clicks$ = fromEvent(document, 'click');
+const keys$ = fromEvent(document, "keyup");
+const clicks$ = fromEvent(document, "click");
 
-combineLatest(
-    keys$,
-    clicks$
-).subcribe()// todos los clicks keyups en pares
+combineLatest(keys$, clicks$).subcribe(); // todos los clicks keyups en pares
 ```
 
 ## forkJoin
+
 Combina los ultimos valores emitidos por varios observables y los emite sólo cuando todos los observables iniciales estén completos.
 
 ```javascript
-const numbers$ = of(1,2,3);
-const letters$ = of('a', 'b','c');
+const numbers$ = of(1, 2, 3);
+const letters$ = of("a", "b", "c");
 
-forkJoin(
-    numbers$,
-    letters$
-).subcribe()// [3, 'c']
+forkJoin(numbers$, letters$).subcribe(); // [3, 'c']
 ```

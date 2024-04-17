@@ -2,6 +2,7 @@
 layout: post
 title: Cómo se escriben los commits
 ---
+
 Primero el nombre del issue/task del sistema de tareas y luego<!--more--> una explicación del cambio , mejora o fix que se realizo.
 
 ´feat´: nuevas features

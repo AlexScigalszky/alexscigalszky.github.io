@@ -4,14 +4,15 @@ title: "Entity Frameword Core: Fluent API"
 categories: senior
 ---
 
-Permite definir usando *código* (sin annotations) las <!--more-->relaciones entre las clases, propiedades y valores de la base de datos. A veces hasta tiene mayor alcance.
+Permite definir usando _código_ (sin annotations) las <!--more-->relaciones entre las clases, propiedades y valores de la base de datos. A veces hasta tiene mayor alcance.
 
 # Ubicación
 
 Entity Framework permite codificar las configuraciones del contexto usando código dentro del método del contexto `OnModelCreating`.
+
 ```csharp
 public class ApplicationDbContext : DbContext {
-    
+
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         // configuración del contexto - Fluent API
     }
@@ -19,22 +20,24 @@ public class ApplicationDbContext : DbContext {
 ```
 
 # Métodos Cómunes
+
 Los métodos más comunes son:
+
 ```csharp
 public class ApplicationDbContext : DbContext {
-    
+
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         // para especificar el nombre de la tabla
-        modelBuilder.Entity<Book>().ToTable("tb_book"); 
+        modelBuilder.Entity<Book>().ToTable("tb_book");
 
         // para especificar el nombre de la columna
         modelBuilder.Entity<Book>().Property(x => x.Name).HasCollumnName("cl_name");
 
         // para definir una propiedad requerida
-        modelBuilder.Entity<Book>().Property(x => x.Name).IsRequired(); 
+        modelBuilder.Entity<Book>().Property(x => x.Name).IsRequired();
 
         // para definir la longitud máxima
-        modelBuilder.Entity<Book>().Property(x => x.Title).HasMaxLenght(50); 
+        modelBuilder.Entity<Book>().Property(x => x.Title).HasMaxLenght(50);
 
         // para definir la clave
         modelBuilder.Entity<Book>().HasKey(x => x.Id);
@@ -72,20 +75,21 @@ public class ApplicationDbContext : DbContext {
 ```
 
 # Prioridades
+
 EntityFramework sigue una serie de prioridades para configurar un contexto (y crear migrations):
+
 1. FluentAPI
 2. Annotations
 3. Reglas Internas
 
-> **Nota 1:** Las  reglas internas siguen estándares como por ejemplo la propiedad "Id" corresponde a la clave de la clase.
+> **Nota 1:** Las reglas internas siguen estándares como por ejemplo la propiedad "Id" corresponde a la clave de la clase.
 
 # Separar en archivos
 
 Se pueden separar las configuraciones en diferentes clases heredando de `IEntityTypeConfiguration<>`
+
 ```csharp
 public class BookConfig : IEntityTypeConfiguration<Book> {
-    
+
 }
 ```
-
-

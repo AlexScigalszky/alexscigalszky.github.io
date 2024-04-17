@@ -31,6 +31,7 @@ const users: User[] = [
 console.log(users[0].courses?.lenght);
 console.log(users[1].courses?.lenght ?? 0);
 ```
+
 En caso de que la propiedad courses sea null, entonces no se está intentando obtener el length, directamente devuelve null
 
 Para evitar devolver `null` en la longitud de cursos, se puede utilizar el operador `??` así:

@@ -7,25 +7,19 @@ categories: senior
 Encapsula toda la lógica, servicios y componentes para una feature en particular. Evitando, <!--more--> tener muchos componentes en el modulo principal. Es una forma de separar el código y organizarse mejor
 
 ```ts
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common'
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 @NgModule({
-  declarations:[
-
-  ],
-  imports:[
-    CommonModule
-  ],
-  providers:[
-    
-  ]
+  declarations: [],
+  imports: [CommonModule],
+  providers: [],
 })
-export class ChatModule {
-
-}
+export class ChatModule {}
 ```
+
 Si queremos que los componentes que se definen dentro de un modulo se puedan utilizar fuera, se deben agregarse en la sección exports el módulo
+
 ```ts
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common'
@@ -67,7 +61,6 @@ import { ChatModule } from ./modules/chat/chat.module
     boostrap: [AppComponent]
 })
 export class AppModule {
-    
+
 }
 ```
-

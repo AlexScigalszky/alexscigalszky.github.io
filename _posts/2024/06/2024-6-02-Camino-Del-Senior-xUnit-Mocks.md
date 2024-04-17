@@ -4,14 +4,15 @@ title: "xUnit: Mocks"
 categories: senior
 ---
 
-Para mockear objetos con la librería Moq<!--more-->. 
+Para mockear objetos con la librería Moq<!--more-->.
 
 Se crea un objeto Mock especificando el tipo de objeto a "falsear" especificando qué métodos o propiedades se van a mockear.
 Luego se utiliza la propiedad `.Object` parta acceder al objeto mockeado.
 
-
 # Setup
+
 Para configurar la respuesta para un método o propiedad dada.
+
 ```csharp
 using xUnit;
 using Moq;
@@ -20,7 +21,7 @@ public class CalculatorTest {
     [Fact]
     public void Given_When_Then() {
         var mockSource = new Mock<Source>();
-        
+
         mockSource
             .Setup(x => x.Data) // la propiedad a mockear
             .Returns(new object[]{ 1,2,3,4,5 }); // el valor que devolverá cuando se llame a la propiedad
@@ -46,7 +47,9 @@ public class CalculatorTest {
 ```
 
 # SetupSecuence
+
 Para configuar la respuesta para una secuencia de llamadas.
+
 ```csharp
 using xUnit;
 using Moq;
@@ -72,7 +75,9 @@ public class CalculatorTest {
 ```
 
 # It
+
 Cuando se mockea un método con parámetros se puede especificar qué valores puede tener ese parámetro
+
 ```csharp
 using xUnit;
 using Moq;
@@ -80,7 +85,7 @@ using Moq;
 public class CalculatorTest {
     [Fact]
     public void Given_When_Then() {
-        
+
         mockSource
             .Setup(x => x.GetData("Sarasa"))// únicamente será mockeada el llamado con el valor exacto
             .Returns(...);
@@ -96,9 +101,10 @@ public class CalculatorTest {
 }
 ```
 
-
 # Verify y Verifiable
+
 Se puede agregar una validación para chequear que el método será (en la sección arrange) o fué llamado (en la sección assert)
+
 ```csharp
 using xUnit;
 using Moq;
@@ -106,14 +112,14 @@ using Moq;
 public class CalculatorTest {
     [Fact]
     public void Given_When_Then() {
-        
+
         // arrange
         mockSource
             .Setup(...)
             .Returns(...)
             .Verifiable(); // valida que se haya llamado al menos una vez
 
-        // act 
+        // act
         ...
 
         // assert

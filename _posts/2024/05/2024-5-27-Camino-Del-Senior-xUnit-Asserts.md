@@ -7,6 +7,7 @@ categories: senior
 Se usan para confirmar que una variable/método tiene <!--more-->lo que se espera que tenga. Ya sea un valor igual, distinto o incluso que dispare una excepción
 
 # Basicos
+
 ```csharp
 Assert.True(result.IsSuccess);
 Assert.False(result.Fail);
@@ -16,6 +17,7 @@ Assert.NotNull(result);
 ```
 
 # Números
+
 ```csharp
 Assert.Equal(10, result.PageCount); // integers
 Assert.Equal(2.7, result.PageCount); // doubles exacto
@@ -24,6 +26,7 @@ Assert.GreaterThan(10, result.PageCount); // mayor que
 ```
 
 # String
+
 ```csharp
 Assert.Equal("Search Result (page 1)", result.Title); // case sensitive
 Assert.Equal("Search Result (page 1)", result.Title, ignoreCase: true); // ignore case
@@ -43,6 +46,7 @@ Assert.True(!string.IsNullOrEmpty(result.Title));
 ```
 
 # Colecciones
+
 ```csharp
 Assert.All(result.CollectionData, n => Assert.True(x > 0)); // validar todos los elementos de una colección
 
@@ -55,15 +59,17 @@ Assert.InRange(result.PageCount, 1, 100)// validar que un valor se encuentra en 
 ```
 
 # Excepciones
+
 ```csharp
 Assert.Throws<Exception>(() => result.FunctionThatShouldFail()); // para chequear que una excepción del tipo especifico es lanzada
 
 // con un mensaje particular
-var exceptionDetails = Assert.Throws<Exception>(() => result.FunctionThatShouldFail()); 
+var exceptionDetails = Assert.Throws<Exception>(() => result.FunctionThatShouldFail());
 Assert.Equal("Mensaje de la excepción", exceptionDetails.Message);
 ```
 
 # Tipos de objetos
+
 ```csharp
 // para validar que un objeto es de una clase particular (especial para herencias)
 Assert.IsType(typeof(ExpectedClass), result.Data);

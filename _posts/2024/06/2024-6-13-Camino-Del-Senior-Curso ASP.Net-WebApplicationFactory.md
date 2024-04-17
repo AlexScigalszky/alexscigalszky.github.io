@@ -19,7 +19,7 @@ public class ServerTest {
         var client = _factory.CreateDefaultClient();// crea una nueva instancia del cliente
 
         HttpResponse response = await client.GetAsync("/home/route"); // realizar una petición GET
-        
+
         HttpResponse response = await client.PostAsync("/home/route", data); // realizar una petición POST
     }
 }

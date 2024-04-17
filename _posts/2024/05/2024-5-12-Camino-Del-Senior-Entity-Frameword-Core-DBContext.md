@@ -18,11 +18,12 @@ public class ApplicationDbContext : DbContext {
 ```
 
 # Tables
-Cada una de los DbSet deben tener una clave. Se puede hacer con __annotation__
+
+Cada una de los DbSet deben tener una clave. Se puede hacer con **annotation**
 
 ```csharp
 public class Book {
-    
+
     [Key] // data annotation
     public int Id {get; set;}
     // otras propiedades

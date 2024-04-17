@@ -7,10 +7,13 @@ categories: senior
 La diferencia es que<!--more-->
 
 # .Net Core
+
 La versión de .Net Framework **multiplataforma**. Puede correr en servidores Linux (abarata costos)
 
 # .Net Framework
+
 Plataforma de desarrollo de Microsoft.
 
 # .Net Standar
+
 Librería de compatibilidad entre .Net Framework y .Net Core

@@ -7,6 +7,7 @@ categories: senior
 Este es el template de un test con xUnit<!--more-->.
 
 # Template
+
 ```csharp
 using xUnit;
 
@@ -21,7 +22,9 @@ public class CalculatorTest {
 ```
 
 # Agrupar tests
+
 Se pueden agrupar tests en categorias usando el attributo `[Trait]`
+
 ```csharp
 using xUnit;
 
@@ -34,6 +37,7 @@ public class CalculatorTest {
 ```
 
 # Class Fixture
+
 Cuando la creación del objeto es muy larga o pesada como para hacerla en todos los tests.
 Se puede generar una instancia llamada `Fixture` que es **singleton** y **ThreadSafe** y herendando de `IClassFixture<>`
 
@@ -45,7 +49,7 @@ public class CalculatorFixture {
 }
 
 public class CalculatorTest : IClassFixture<CalculatorFixture> {
-    
+
     private CalculatorFixture _fixture;
 
     public CalculatorTest(ITestOutputHelper testOutputHelper, CalculatorFixture fixture) {

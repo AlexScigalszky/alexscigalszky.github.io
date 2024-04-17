@@ -3,17 +3,20 @@ layout: post
 title: "Fundamentos HTML: Introduccion a CSS3"
 categories: senior
 ---
+
 Etiquetas CSS3 disponibles.<!--more-->
 
 ## Viewport
+
 ```html
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- el viewport(ventana de visualización) el área visible del usuario de una página web. -->
-	<!-- width=device-width establece el ancho de la página para seguir el ancho de pantalla del dispositivo (que variará en función del dispositivo). -->
-	<!-- initial-scale=1.0 fija el nivel de zoom inicial cuando la página se carga por primera vez por el navegador.-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- el viewport(ventana de visualización) el área visible del usuario de una página web. -->
+<!-- width=device-width establece el ancho de la página para seguir el ancho de pantalla del dispositivo (que variará en función del dispositivo). -->
+<!-- initial-scale=1.0 fija el nivel de zoom inicial cuando la página se carga por primera vez por el navegador.-->
 ```
 
 ## CSS
+
 ```css
 *{
 	margin:0;
@@ -21,7 +24,7 @@ Etiquetas CSS3 disponibles.<!--more-->
 	list-style:none;
 	font-family:sans-serif;
 }
-	
+
 #id{
 	position:fixed;
 	width:250px;
@@ -45,7 +48,7 @@ header{
 	width:1000px;
 	height:120px;
 }
-	
+
 .class{
 	position:absolute;
 	width:42px;
@@ -55,11 +58,11 @@ header{
 	text-align:center;
 	line-height:42px;
 	color:white;
-}	
+}
 a .class:hover{
 	background:rgba(100,0,255,.4);
 }
-	
+
 a .class:active{
 	background:rgba(255,0,100,1);
 }
@@ -71,7 +74,7 @@ aside#id{
 	width:200px;
 	height:453px;
 }
-	
+
 aside.class{
 	position:absolute;
 	right:0;

@@ -11,4 +11,3 @@ Diferentes valores en la respuesta<!--more--> http.
 - 3XX => Redireccionamiento (redirect)
 - 4XX => Errores del cliente (invalid request, unauthorize, etc)
 - 5XX => Errores del servidor (Internal server error, etc)
-

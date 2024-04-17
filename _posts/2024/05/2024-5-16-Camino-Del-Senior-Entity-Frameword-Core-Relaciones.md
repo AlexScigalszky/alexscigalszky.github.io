@@ -7,7 +7,9 @@ categories: senior
 Existen diferentes formas de relacionar las tablas/clases<!--more--> en Entity Framework Core.
 
 # One To One
+
 Para definir una relación entre dos tablas dónde cada registro de una, corresponde otro registro en la otra.
+
 ```csharp
 public class Book {
     public int Id {get; set;}
@@ -24,7 +26,9 @@ public class BookDetail {
 ```
 
 # One To Many
+
 Para definir una relación entre dos tablas dónde cada registro de una, corresponde a varios de la otra.
+
 ```csharp
 public class Book {
     public int Id {get; set;}
@@ -41,7 +45,9 @@ public class Publisher {
 ```
 
 # Many To Many (sin Mapping Table)
+
 Para definir una relación entre dos tablas dónde muchos registros de una pueden tener varios en la otra sin crear una tabla explísitamente.
+
 ```csharp
 public class Book {
     public int Id {get; set;}
@@ -54,10 +60,13 @@ public class Author {
     public IEnumerable<Book> Books { get; set; }
 }
 ```
+
 Esta configuración creará una tabla llamada `AuthorBook` con el BookBookId y AuthorAuthorId. Existe un problema, no existe control de la tabla creada (por ejemplo si queremos agregar una nueva columna).
 
 # Many To Many (con Mapping Table)
+
 Para definir una relación entre dos tablas dónde muchos registros de una pueden tener varios en la otra definiendo la tabla de mapping.
+
 ```csharp
 public class Book {
     public int Id {get; set;}

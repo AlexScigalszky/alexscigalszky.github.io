@@ -7,6 +7,7 @@ categories: senior
 El TDD no es un framework, es una<!--more--> forma de realizar tests.
 
 # Tres pasos
+
 TDD funciona en tres pasos
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="auto" viewBox="-0.5 -0.5 360 245" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-04-03T14:34:54.458Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0&quot; version=&quot;24.1.0&quot; etag=&quot;nBbQBrD4fTNBh7XEn0hq&quot; scale=&quot;1&quot; border=&quot;0&quot;>
@@ -43,8 +44,6 @@ TDD funciona en tres pasos
 2. Se realizan los **minimos** cambios necesarios para pasar a los tests
 3. Se analiza el código para buscar mejoras y realizar refactoring en el código manteniendo los tests en **verde**
 
-
 > **Nota 1:** Se deben tener bien en claro los requerimientos.
-
 
 > **Nota 2:** Si no se conocen los requerimientos o cambian mucho en el tiempo, quizá TDD no es la mejor opción.

@@ -4,20 +4,23 @@ title: "Entity Frameword Core: Vistas y Stored Procedures"
 categories: senior
 ---
 
-Se pueden utilizar **vistas** o **stored procedures** <!--more-->desde EntityFramework. Ambas consultas se ejecutan en el servidor de base de datos. 
+Se pueden utilizar **vistas** o **stored procedures** <!--more-->desde EntityFramework. Ambas consultas se ejecutan en el servidor de base de datos.
 
 # Vistas
+
 Las vistas pueden ser mapeadas como tablas directamente en el contexto especificandolo con FluentAPI
 
 ```csharp
 public class ApplicationDbContext : DbContext {
-    
+
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         modelBuilder.Entity<BookView>().HasNoKey().ToView("GetBooksDetails");
     }
 }
 ```
+
 Para consultar esa vista se realiza de la misma manera que cualquier DbSet.
+
 ```csharp
 using var context = new ApplicationDbContext();
 // ejecuta la vista completa y devuelve todos los datos
@@ -31,7 +34,9 @@ var trackedEntities = context.BooksView.Where(x => x.Price > 2).FirstOrDefault()
 > **Nota 1:** Entidades obtenidas con vistas, no serán trackeadas porque son sólo de lectura.
 
 # Raw Queries
+
 Se pueden ejecutar consultas directamente a la base de datos:
+
 ```csharp
 using var context = new ApplicationDbContext();
 var id = 1;
@@ -45,6 +50,7 @@ var trackedEntities = await context.FromSQLInterpolatedAsync("select Id from Boo
 ```
 
 # Stored Procedures
+
 ```csharp
 using var context = new ApplicationDbContext();
 

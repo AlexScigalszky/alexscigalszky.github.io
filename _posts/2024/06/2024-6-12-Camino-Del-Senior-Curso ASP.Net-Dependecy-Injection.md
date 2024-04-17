@@ -9,6 +9,7 @@ Para injectar clase/objetos/servicios/repositorios se hace desde<!--more--> el S
 > **Nota 1:** También es común crear extension methods para agrupar las injectiones o ponerlas en otras librerías.
 
 Se hace dentro del ConfigureServices. En este caso, injectamos el servicio **PaginationService** usando su interfaz.
+
 ```csharp
 public class Startup {
     ...
@@ -19,15 +20,20 @@ public class Startup {
         services.AddTransient<IPaginationService3, PaginationService3>();
         ...
     }
-    
+
 }
 ```
 
 # AddScope
-Se crea una instancia por cada request.
-# AddSingleton
-Se crea una sóla instancia por todo el ciclo de vida de la aplicación.
-# AddTransient
-Cada vez que se injecta se crea un nueva instancia.
-> **Nota 1:** muy común para ILogger.
 
+Se crea una instancia por cada request.
+
+# AddSingleton
+
+Se crea una sóla instancia por todo el ciclo de vida de la aplicación.
+
+# AddTransient
+
+Cada vez que se injecta se crea un nueva instancia.
+
+> **Nota 1:** muy común para ILogger.

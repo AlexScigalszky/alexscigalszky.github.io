@@ -9,9 +9,7 @@ Los operadores se aplican sobre un pipe, una secuencia de operadores uno tras ot
 La salida del primero, será la entrada del segundo; la salida del segund, será la entrada del tercero y así
 
 ```javascript
-source$.pipe(
-    operatorOne(config),
-    operatorTwo(config)
-).subscribe();
+source$.pipe(operatorOne(config), operatorTwo(config)).subscribe();
 ```
+
 Los operadores no modifican el observable, crean uno nuevo.

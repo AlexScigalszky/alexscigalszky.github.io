@@ -40,51 +40,46 @@ export class ApiService {
   }
 }
 ```
- luego agregarlos al módulo como un `provider`
+
+luego agregarlos al módulo como un `provider`
+
 ```ts
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ApiService } from './api.service';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { ApiService } from "./api.service";
 
 @NgModule({
-  declarations:[
-
-  ],
-  imports:[
-    CommonModule
-  ],
-  providers:[
-    ApiService
-  ]
+  declarations: [],
+  imports: [CommonModule],
+  providers: [ApiService],
 })
-export class ChatModule {
-
-}
+export class ChatModule {}
 ```
 
 y por último injectarlos en el componente
+
 ```ts
-import { Component } from '@angular/core'
-import { ApiService } from './api.service';
+import { Component } from "@angular/core";
+import { ApiService } from "./api.service";
 
 @Component({
-    selector:'app-root',
-    template: `
-        <div>
-            {{ title }}
-        </div>
-    `
-}) 
+  selector: "app-root",
+  template: `
+    <div>
+      {{ title }}
+    </div>
+  `,
+})
 export class AppComponent {
-    title: string;
+  title: string;
 
-    contructor(private apiService: ApiServise){
-        this.title = 'My first title';
-    }
+  contructor(private apiService: ApiServise) {
+    this.title = "My first title";
+  }
 }
 ```
 
-> *Nota 1:* Los métodos `get`, `post`,`put` y `delete` permiten utilizar un tipo generico (T) para especificar el dato de respuesta
+> _Nota 1:_ Los métodos `get`, `post`,`put` y `delete` permiten utilizar un tipo generico (T) para especificar el dato de respuesta
 
 ```ts
 return this.http.get<T>(`${environment.API_URL}${path}`, { params })...

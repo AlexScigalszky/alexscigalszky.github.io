@@ -4,14 +4,16 @@ title: "xUnit: DDT (Data Driven Tests)"
 categories: senior
 ---
 
-Para realizar tests, muchas veces necesitamos diferentes<!--more--> valores y obtener otros distintos. 
+Para realizar tests, muchas veces necesitamos diferentes<!--more--> valores y obtener otros distintos.
 Para eso se necesita parametrizar los tests.
 
 # Atributos en linea
+
 - no compartible entre tests y clases.
 - se necesito un desarrollador para eso.
 
 Se utiliza un atributo llamado `InlineData` para asignar los datos estáticamente a los parámetros del tests.
+
 ```csharp
 using xUnit;
 
@@ -27,10 +29,12 @@ public class CalculatorTest {
 ```
 
 # Propiedades o Métodos
+
 - se pueden compartir entre tests métodos y clases.
 - se necesito un desarrollador para eso.
 
 Se pueden hacer de dos formas diferentes con **yield** o **TheoryData**.
+
 ```csharp
 using xUnit;
 public static class DataSource {
@@ -64,15 +68,17 @@ public class CalculatorTest {
     public void Suma_DebeCalcularCorrectamente(int a, int b, int rst){
         ...
     }
-    
+
 }
 ```
 
 # Datos externos
+
 - se pueden compartir entre tests métodos.
 - No se necesita desarrollador y un tester puede modificarlo.
 
 Basicamente es una clase stática que obtiene los datos de una fuente externa. En este caso es un `.csv` con dos columnas.
+
 ```csharp
 using xUnit;
 public static class DataSource {
@@ -99,10 +105,12 @@ public class CalculatorTest {
 ```
 
 # Attributos Especificos
+
 - se pueden compartir entre tests métodos.
 - se necesito un desarrollador para eso.
 
 Se realizan creando los propios atributos para los tests.
+
 ```csharp
 using xUnit;
 namespace XUnitTest.Tests{
@@ -119,7 +127,7 @@ namespace XUnitTest.Tests{
 
 public class CalculatorTest {
     [Theory]
-    [DataSource] // el nuevo atributo 
+    [DataSource] // el nuevo atributo
     public void GivenTwoNumbers_WhenAdd_ReturnResult(int input, int rst) {
         ...
     }

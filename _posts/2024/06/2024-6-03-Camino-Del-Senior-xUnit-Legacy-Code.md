@@ -7,7 +7,9 @@ categories: senior
 Para testear código legacy hay varias estrategias<!--more-->. Se **testea** el nuevo código pero no el viejo de forma **ordenada**.
 
 # Sprout Method
+
 Creando un nuevo método para agregar funcionalidad en vez de modificar el método legacy. Se modifican las parámetros o salidas para mantener la legibilidad y evitar modificar código que pueda romperse.
+
 ```csharp
 public class Calculadora
 {
@@ -27,7 +29,9 @@ public class Calculadora
 ```
 
 # Sprout Class
-Creando una nueva clase para agregar funcionalidad en vez de modificar la clase legacy. Se utilizan las funciones legacy pero se incorporan las nuevas funcionalidades en la nueva clase, que es fácilmente testeable. 
+
+Creando una nueva clase para agregar funcionalidad en vez de modificar la clase legacy. Se utilizan las funciones legacy pero se incorporan las nuevas funcionalidades en la nueva clase, que es fácilmente testeable.
+
 ```csharp
 public class Calculadora // clase legacy
 {

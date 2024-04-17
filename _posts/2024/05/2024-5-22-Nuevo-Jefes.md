@@ -7,7 +7,7 @@ Cuando los generentes, jefes o supervisores son nuevo <!--more--> es muy bueno t
 
 > **NOTA 1:** Media hora reservada cada 15 días entre jefes y representante de equipo es muy constructivo
 
-A veces no se tiene mucho para decir. En esos casos la reunión termina antes, pero es necesario mantenerla para tener la posibilidad. 
+A veces no se tiene mucho para decir. En esos casos la reunión termina antes, pero es necesario mantenerla para tener la posibilidad.
 
 > **Nota 2:** No tener ese espacio genera problemas de comunicación
 

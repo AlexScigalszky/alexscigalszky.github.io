@@ -6,10 +6,10 @@ categories: senior
 
 Aplica una función a cada elemento de dos colecciones<!--more--> a la vez para obtener un valor resultante (de cualquier tipo).
 
-
 > **Nota 1:** si se omite la función `resultSelector` entonces devolverá una colecció de `Tuple<T, R>` con un elemento de cada colección.
 
-En este caso, calcula la distancia entre cada uno de los puntos de un mapa. 
+En este caso, calcula la distancia entre cada uno de los puntos de un mapa.
+
 ```csharp
 var points = new []{
     new Point(10, 10),

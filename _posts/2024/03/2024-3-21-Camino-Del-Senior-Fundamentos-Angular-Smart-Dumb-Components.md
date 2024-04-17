@@ -7,9 +7,9 @@ categories: senior
 Una forma de dividir los componentes es en base a su función:<!--more-->
 
 - Smart (logico)
-Se puede comunicar con los servicios y puede renderizar los componentes hijos.
+  Se puede comunicar con los servicios y puede renderizar los componentes hijos.
 - Dumb (presentación)
-aceptan inputs y emiten cambios de datos
+  aceptan inputs y emiten cambios de datos
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-0.5 -0.5 993 612" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-03-12T22:44:49.464Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0&quot; etag=&quot;TTmWXYtb9PFapFy5b8w6&quot; version=&quot;23.1.6&quot; scale=&quot;1&quot; border=&quot;0&quot;>
   <diagram name=&quot;Page-1&quot; id=&quot;JJTNXoNoKsSB_E1OSOKj&quot;>

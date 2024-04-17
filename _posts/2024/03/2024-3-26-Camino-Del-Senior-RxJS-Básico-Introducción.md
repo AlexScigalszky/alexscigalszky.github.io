@@ -9,21 +9,18 @@ RxJs es una librería para manejar reactividad utilizando<!--more--> observer y 
 # First Observer
 
 ```javascript
-import { log } from './log';
-import  { Observable, fromEvent } from 'rxjs';
+import { log } from "./log";
+import { Observable, fromEvent } from "rxjs";
 
 const observer = {
-    next: v => log('next', v),
-    error: v => log('error', v),
-    complete: v => log('complete')
-}
+  next: (v) => log("next", v),
+  error: (v) => log("error", v),
+  complete: (v) => log("complete"),
+};
 
-var observable = new Observable(subscriber => {
-    subscriber.next('hello'),
-    subscriber.next('word'),
-    subscriber.complete()
+var observable = new Observable((subscriber) => {
+  subscriber.next("hello"), subscriber.next("word"), subscriber.complete();
 });
-
 
 observable.subscribe(observer);
 ```
