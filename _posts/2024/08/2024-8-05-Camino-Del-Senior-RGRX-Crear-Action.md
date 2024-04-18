@@ -30,6 +30,8 @@ export LoadProductsFail implements Action {
 export LoadProductsSuccess implements Action {
     readonly type = LOAD_PRODUCTS_SUCCESS;
 
-    contructor(products: Product[]) {} // payload
+    constructor(products: Product[]) {} // payload
 }
+
+export ProductsAction = LoadProducts | LoadProductsFail | LoadProductsSuccess;
 ```
