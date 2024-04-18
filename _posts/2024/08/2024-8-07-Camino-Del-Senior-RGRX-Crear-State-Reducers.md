@@ -24,7 +24,7 @@ export const getProducts = (state: ProductState) => state.data;
 
 export const getProductState = createFeatureSelector<ProductState>("products");
 
-export const getProductData = createSelector(getProductState, (state: ProductState) => state.data);
+export const getProductData = createSelector(getProductState, (state: ProductState) => Object.key(state.data).map((id) => state.data[id]));
 export const getProductLoaded = createSelector(getProductState, (state: ProductState) => state.loaded);
 export const getProductLoading = createSelector(getProductState, (state: ProductState) => state.loading);
 ```

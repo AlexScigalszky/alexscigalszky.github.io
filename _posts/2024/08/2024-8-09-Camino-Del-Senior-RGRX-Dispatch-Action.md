@@ -6,8 +6,6 @@ categories: senior
 
 Para hacer un dispatch de un action que<!--more--> puede ser sin parámetros o con parámetros.
 
-# Sin parámetros
-
 ```typescript
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -21,7 +19,8 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.store.select<any>('products').subscribe(state => console.log(state));
+    this.products$ = this.store.select(fromStore.getProductData); // escuchar los cambios de products
+    this.store.dispatch(new fromStore.LoadProducts());// disparar la búsqueda de los datos a la API
   }
 }
 

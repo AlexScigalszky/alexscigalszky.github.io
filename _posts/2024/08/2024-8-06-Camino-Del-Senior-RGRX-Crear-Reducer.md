@@ -11,7 +11,7 @@ import * as fromProducts from "./product.actions";
 import { Product } from "./product";
 
 export interface ProductState {
-  data: Product[];
+  data: { [id: number]: Product };
   loaded: boolean;
   loading: boolean;
 }
@@ -41,7 +41,13 @@ export function reducer(state: ProductState = initialState, action: fromProducts
         return {
             ...state,
             loading: false,
-            loaded: true
+            loaded: true,
+            data: action.payload.reduce((entities: {[id: number]: Product }, product: Product) => ({
+              ...entities,
+              [product.id]: product
+            }), {
+              ...state.data
+            })
         }
     }
   }
