@@ -25,30 +25,33 @@ export const initialState: ProductState = {
 export function reducer(state: ProductState = initialState, action: fromProducts.ProductsAction): ProductState {
   switch (action.tyoe) {
     case fromProducts.LOAD_PRODUCTS: {
-        return {
-            ...state,
-            loading: true
-        }
+      return {
+        ...state,
+        loading: true,
+      };
     }
     case fromProducts.LOAD_PRODUCTS_FAIL: {
-        return {
-            ...state,
-            loading: false,
-            loaded: false
-        }
+      return {
+        ...state,
+        loading: false,
+        loaded: false,
+      };
     }
     case fromProducts.LOAD_PRODUCTS_SUCCESS: {
-        return {
-            ...state,
-            loading: false,
-            loaded: true,
-            data: action.payload.reduce((entities: {[id: number]: Product }, product: Product) => ({
-              ...entities,
-              [product.id]: product
-            }), {
-              ...state.data
-            })
-        }
+      return {
+        ...state,
+        loading: false,
+        loaded: true,
+        data: action.payload.reduce(
+          (entities: { [id: number]: Product }, product: Product) => ({
+            ...entities,
+            [product.id]: product,
+          }),
+          {
+            ...state.data,
+          }
+        ),
+      };
     }
   }
   return state;

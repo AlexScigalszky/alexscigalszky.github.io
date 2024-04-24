@@ -6,6 +6,8 @@ categories: senior
 
 <!--more-->
 
+// component.ts
+
 ```typescript
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -30,4 +32,12 @@ export class HomeComponent implements OnInit {
     this.products$ = this.store.select(fromStore.getProductData);
   }
 }
+```
+
+// selectors.ts
+
+```typescript
+export const getProductData = createSelector(getProductState, (state: ProductState) => Object.key(state.data).map((id) => state.data[id]));
+export const getProductLoaded = createSelector(getProductState, (state: ProductState) => state.loaded);
+export const getProductLoading = createSelector(getProductState, (state: ProductState) => state.loading);
 ```

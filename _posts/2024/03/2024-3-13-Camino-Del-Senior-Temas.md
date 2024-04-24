@@ -3,15 +3,20 @@ layout: post
 title: "Camino del Senior(.Net + Angular): Temas"
 categories: senior
 ---
-Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
+
+Voy a comenzar mi camino hacia el rol de _Senior Developer_<!--more-->
 
 # Frontend:
 
 ## Fundamentos HTML (Junior)
+
 - HTML5
 - CSS3
+
 ## Fundamentos CSS (Junior)
+
 ## Fundamentos de Angular (Junior)
+
 - Arquitectura básica de Angular
 - ES5 y TypeScript
 - Modulo y Componente
@@ -23,35 +28,48 @@ Voy a comenzar mi camino hacia el rol de *Senior Developer*<!--more-->
 - Http
 - Form Stateless
 - Routes
+
 ## Masterclass de Angular Testing (Junior)
+
 ## RxJS Básico (Junior)
+
 - Introducción
 - Operadores de Creación
 - Pipe
 - Operadores Básicos
 - Operadores de Filtro
 - Operadores de Combinación
+
 ## Angular Pro (Intermediate)
+
 ## NGRX Store + Effects (Intermediate)
+
 Pricipios de Redux
 Conceptos de Redux
 Inmutabilidad
+
 ## RxJS MasterClass (Intermediate)
 
 # Backend:
+
 ## Fundamentos de C# con Microsoft (Junior)
+
 - Escribe el primer codigo C#
 - Crea y Ejecuta una aplicación de consola en C#
 - Agrega lógica a la aplicación de consola
 - Variables
 - Métodos
 - Debug
+
 ## Conceptos de C# (Junior)
+
 - Elvis Operator
 - Extension Methods
 - Métodos Anónimos
 - Tipos Anónimos
+
 ## Tutorial LINQ (Junior)
+
 - Expresiones Lamda
 - deferer execution con LINQ
 - Any
@@ -85,6 +103,7 @@ Inmutabilidad
 - Chunk
 
 ## Entity Frameword Core (Junior)
+
 - DBContext
 - Migraciones
 - Data Annotations
@@ -95,7 +114,9 @@ Inmutabilidad
 - Tracking vs No Tracking
 - Vistas y Stored Procedures
 - Raw SQL
+
 ## Curso ASP.Net (Junior)
+
 - .Net Core vs .Net Framework vs .Net Standard
 - ASP .Net Core
 - REST Api
@@ -105,7 +126,9 @@ Inmutabilidad
 - Dependecy Injection
 - WebApplicationFactory
 - ITestOutputHelper
+
 ## Curso xUnit (Junior)
+
 - Template
 - Asserts
 - Arrange
@@ -114,8 +137,11 @@ Inmutabilidad
 - Mocks
 - Legacy Code
 - TDD (Test Driven Development)
+
 ## SQL Book (Junior)
+
 ## Antipatrones C# (Intermediate)
+
 - Muchas Constantes
 - Números Booleanos
 - Fechas en forma de string
@@ -127,22 +153,29 @@ Inmutabilidad
 - Tipo de antipatrón: Swift-Army-Knife
 - Tipo de antipatrón: Asumir lo Peor
 - Tipo de antipatrón: Bola de Cristal
+
 ## AZ-900 Curso de Azure (Intermediate)
-Azure Concepts
-Could Concepts
-Azure Architecture
-Compute
-Networking
-Storage
-Database
-Authentication y Authorization
-Azure Solutions
-Security
-Monitoring and Management
-Precios
-Soporte
+
+- Azure Concepts
+- Could Concepts
+- Azure Architecture
+- Compute
+- Networking
+- Storage
+- Database
+- Authentication y Authorization
+- Azure Solutions
+- Security
+- Monitoring and Management
+- Precios
+- Soporte
+
 ## Microservicios (Intermediate)
+
 ## RabbitMQ (Senior)
+
 ## Código de alto rendimiento (Senior)
+
 ## CI/CD (Senior)
+
 ## Temas avanzados en C# (Senior)
