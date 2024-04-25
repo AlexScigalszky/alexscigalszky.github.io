@@ -3,6 +3,8 @@ Event Source
 
 connection multiplexer
 
+Minimal value architecture
+
 Layered Architecture
     Conceptos clave
     Capas abiertas y Capas cerradas
@@ -16,4 +18,3 @@ Layered Architecture
         Escalabilidad: Baja
         Facilidad de desarrollo: Alta
 Event-Driven Architecture
-

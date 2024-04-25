@@ -8,6 +8,13 @@ Patrón de diseño:
 - Bridge
 - Facede
 
+Patrones de tolerancia a fallos:
+- Retry: Reintentar si falla una petición (normalmente con una cantidad definida máxima)
+- Circuit Braker: Dejar de hacer pedidos a un servicio si falla por mucho tiempo (y así se evita sobrecargar el servicio)
+- Circuit Braker con Retry
+- Bulkhead: el sistema A devuelve fallos  antes de que el sistema B falle totalmente.
+- Rate Limiter: Parecido a Bulkhead, limita la cantidad de peticiones por determinado tiempo por usuario. Puede ser un número estático o dinámico (en base a la carga del servicio).
+
 Guilds. Gente que se junta a aprender un tema en común.
 
 Detalles de diapositivas. Pocas palabras, claras, no más de 7 cosas a la vez. las diapositivas son de ayuda, no de lectura. Fotos sin mucho detalle. Colores no cansadores.
@@ -22,24 +29,20 @@ qué significa:
     IETF
     RFC
 
-
 Swagger
     ¿qué es?
     archivo json para describir
 
-
-Docket
+Docker
     qué es?
 
 Ser claro hablando con la gente de otra cultura.
 
 Repetir lo que dicen con otras palabras para aclarar dudas y demostrar que se entendió lo explicado.
 
-Notas en papel antes de una meeting
-
 Test first. Forma de programar test antes del código.
 
-Domain MAP.- Tabla dónde se pueden identificar quienes conocen sobre un tema
+Domain MAP. Tabla dónde se pueden identificar quienes conocen sobre un tema
 
 Uso de la cámara en reuniones virtuales.
 
