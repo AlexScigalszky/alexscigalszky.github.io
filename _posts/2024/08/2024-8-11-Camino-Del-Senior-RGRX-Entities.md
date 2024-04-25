@@ -60,3 +60,47 @@ export interface ProductState {
 ```
 
 > **Nota 1:** Esto se llama **object lookup**.
+
+# Operaciones
+
+## Agregar
+
+```javascript
+const newData = {...};
+const newDataList = {
+  ...newDataList,
+  [newData.id] : newData
+};
+const final = {
+  data: newDataList,
+  loaded: true,
+  loading: false
+}
+```
+
+## Actualizar
+
+```javascript
+const newData = {...};
+const newDataList = {
+  ...newDataList,
+};
+newDataList[newData.id] = newData;
+const final = {
+  data: newDataList,
+  loaded: true,
+  loading: false
+}
+```
+
+## Eliminar
+
+```javascript
+const dataToEliminate = {...};
+const { [dataToEliminate.id]: removed, ...others } = newDataList;
+const final = {
+  data: others,
+  loaded: true,
+  loading: false
+}
+```
