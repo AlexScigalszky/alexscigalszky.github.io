@@ -36,8 +36,6 @@ Swagger
 Docker
     qué es?
 
-Ser claro hablando con la gente de otra cultura.
-
 Repetir lo que dicen con otras palabras para aclarar dudas y demostrar que se entendió lo explicado.
 
 Test first. Forma de programar test antes del código.
@@ -45,5 +43,3 @@ Test first. Forma de programar test antes del código.
 Domain MAP. Tabla dónde se pueden identificar quienes conocen sobre un tema
 
 Uso de la cámara en reuniones virtuales.
-
-Evitar frases como " tal como lo dije ayer.." evitan problemas
