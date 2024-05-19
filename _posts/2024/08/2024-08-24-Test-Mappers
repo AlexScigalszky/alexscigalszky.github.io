@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Testear mappers"
+---
+
+**Siempre** testear los mappers, <!--more--> no importa si son mediante una librería o manualmente.
+
+> **Nota 1:** Es la manera de asegurarse que el mapeo es correcto.
+
+Hay que tener en cuenta que futuras actualizaciones de las librerías pueden romper el mapeo esperado.
