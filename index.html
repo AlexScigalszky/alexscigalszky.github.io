@@ -3,10 +3,19 @@ layout: default
 ---
 
 <div class="posts">
+  {% for category in site.categories %}
+alex{% capture category_name %}{{ category | first }}{% endcapture %}pablo
+  {% endfor %}
+
   {% for post in site.posts %} {% if post.categories contains 'senior' %}{% else %}
   <article class="post">
-    <div class="categories {{ post.categories }}">{{ post.categories }}</div>
-    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    
+    <h1>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
+      
+        <div class="categories {{ post.categories }}">{{ post.categories }}</div>
+      </a>
+    </h1>
   </article>
   {% endif %} {% endfor %}
 </div>
