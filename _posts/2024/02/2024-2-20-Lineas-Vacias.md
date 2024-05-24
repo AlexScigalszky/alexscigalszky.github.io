@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lineas vacías entre declaración de varibles/propiedades
+categories: ["coding", "git"]
 ---
 
 Las variables todas juntas o separadas pero no separadas por espacios.<!--more-->

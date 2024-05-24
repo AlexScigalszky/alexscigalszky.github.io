@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Authentication y Authorization"
-categories: ["senior"]
+categories: ["senior", "cloud", "api"]
 ---
 
 Azure implementa diferentes motores de bases de datos<!--more-->.

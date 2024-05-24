@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Modificadores de Acceso"
+categories: ["coding"]
 ---
 
 Los **modificades de acceso** son<!--more--> los que dan visualización/scope a los métodos, clases y propiedades.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJS Básico: Operadores de Creación"
-categories: ["senior"]
+categories: ["senior", "typescript", "coding"]
 ---
 
 Existen varios operadores dentro de la librería con los cuales<!--more--> se pueden crear observables.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Revert commit"
+categories: ["git"]
 ---
 
 Para revertir un commit solamente hay que<!--more--> buscar el hash del commit y ejecutar dos comandos de consola

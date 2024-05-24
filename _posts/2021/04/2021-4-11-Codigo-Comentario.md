@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Buenas prácticas en el código: Comentarios"
+categories: ["coding"]
 ---
 Los comentarios solo están justificados cuando no somos capaces de expresarnos con el código. En general,<!--more--> basta con escribir y encapsular todo en una función que se llame como lo que hay en el comentario.
 ## Solo algunos comentarios son positivos:

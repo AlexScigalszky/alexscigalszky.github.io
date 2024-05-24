@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Estudiar Teoría"
+categories: ["dev-life"]
 ---
 
 Estudiar la teoría de un tema puede ser muy pesado y hasta <!--more-->aburrido (salvo algunos casos especiales).

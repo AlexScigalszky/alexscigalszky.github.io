@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Grupos"
-categories: ["senior"]
+categories: ["senior", "csharp", "coding"]
 ---
 
 Permite agrupar los elemento a partir<!--more--> de un criterio.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Crear Reducer"
-categories: ["senior"]
+categories: ["senior", "angular", "typescript", "coding"]
 ---
 
 Para crear los reducer primero hay que<!--more--> crear las interfaces y el estado inicial.

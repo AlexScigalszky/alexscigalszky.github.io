@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cómo hacer Subscribe y Unsubscribe"
+categories: ["coding", "typescript"]
 ---
 
 Cuando se llama al método subscribe, normalmente nos devuelve una función para unsubscribe<!--more--> para hacerlo hay que implementarlo así:

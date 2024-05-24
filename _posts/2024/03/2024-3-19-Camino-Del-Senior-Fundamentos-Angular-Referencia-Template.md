@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: Referencias al Template"
-categories: ["senior"]
+categories: ["senior", "angular", "coding"]
 ---
 
 La referencia al template se utiliza para acceder a<!--more--> los elementos del template en el componente

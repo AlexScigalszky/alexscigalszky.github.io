@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular Pro: Content Child"
-categories: ["senior"]
+categories: ["senior", "typescript", "coding"]
 ---
 
 Se puede tener una referencia al elemento en nuestro template.<!--more-->

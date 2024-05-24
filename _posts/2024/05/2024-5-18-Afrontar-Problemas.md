@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Afrontar Problemas"
+categories: ["team", "dev-life"]
 ---
 
 Cuando se tiene un problema, <!--more--> hay que evitar entrar en pánico o estresarse. Unas forma es ver el problema de la forma

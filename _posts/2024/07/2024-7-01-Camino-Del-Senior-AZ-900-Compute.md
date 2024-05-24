@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Compute"
-categories: ["senior"]
+categories: ["senior", "cloud"]
 ---
 
 Corresponse a todos los servicios que involucran computación en su uso<!--more-->:

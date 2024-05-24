@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Nuevas colleciones"
-categories: ["senior"]
+categories: ["senior", "csharp", "coding"]
 ---
 
 Existen varios métodos para generar colecciones<!--more-->.

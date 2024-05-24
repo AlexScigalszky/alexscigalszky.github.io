@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Skip"
-categories: ["senior"]
+categories: ["senior", "csharp", "coding"]
 ---
 
 Saltea los primeros elementos de <!--more-->una de una colección y devuelve el resto.

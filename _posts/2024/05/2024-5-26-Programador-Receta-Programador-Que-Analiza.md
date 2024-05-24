@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Programador Receta (cursos) vs Programador que analiza"
+categories: ["dev-life"]
 ---
 
 Sé un programador que analiza<!--more-->

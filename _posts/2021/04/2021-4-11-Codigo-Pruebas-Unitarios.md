@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Buenas prácticas en el código: Pruebas Unitarias"
+categories: ["coding"]
 ---
 Las pruebas al tener que evolucionar al mismo ritmo que el código, deben ser igualmente mantenibles.<!--more-->
 ## 3 leyes de TDD:

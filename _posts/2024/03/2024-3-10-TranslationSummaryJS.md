@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Librería: TranslationSummaryJS (Javascript)"
+categories: ["coding", "javscript", "proyect"]
 ---
 
 Librería que permite visualizar un <!--more-->resumen los archivos de traducción dentro de una carpeta.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Typescript: Definir un tipo objeto"
+categories: ["coding", "typescript"]
 ---
 
 Para definir un objeto dónde las propiedades pueden tener cualquier nombre se puede <!--more-->hacer de esta forma:

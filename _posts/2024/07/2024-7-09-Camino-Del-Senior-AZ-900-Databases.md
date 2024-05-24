@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Database"
-categories: ["senior"]
+categories: ["senior", "cloud", "db"]
 ---
 
 Azure implementa diferentes motores de bases de datos<!--more-->.

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Angular: Lazy Loading de un componente standalone"
+categories: ["typescript", "angular", "coding"]
 ---
 
 <!--more-->

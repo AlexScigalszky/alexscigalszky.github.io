@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Comunicación y Colaboración"
+categories: ["team"]
 ---
 
 Hablar con el equipo, ayudar a todos cómo funciona el <!--more-->sistema.

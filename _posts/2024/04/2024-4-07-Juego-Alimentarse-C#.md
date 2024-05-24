@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Juego de Consola: Alimentarse"
+categories: ["csharp", "coding"]
 ---
 
 Juego para ir comiendo comida en diferentes estados, puede estar enfermo por esa comida.<!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Cambio de tipo de colección"
-categories: ["senior"]
+categories: ["senior", "csharp", "coding"]
 ---
 
 Existe toda una familia de métodos que <!--more-->pueden usarse para cambiar el tipo de colección.

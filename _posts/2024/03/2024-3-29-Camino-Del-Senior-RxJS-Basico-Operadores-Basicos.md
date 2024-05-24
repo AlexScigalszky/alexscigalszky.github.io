@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJS Básico: Operadores Basicos"
-categories: ["senior"]
+categories: ["senior", "typescript", "coding"]
 ---
 
 Estos son los operadores comunmente utilizados<!--more-->.

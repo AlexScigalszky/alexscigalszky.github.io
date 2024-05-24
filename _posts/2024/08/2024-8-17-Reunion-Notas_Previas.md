@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Notas previas en las reuniones"
+categories: ["team"]
 ---
 
 Es muy buena estrategia tener <!--more--> anotadas en papel al lado de la computado una lista de temas a conversar en una reunión.

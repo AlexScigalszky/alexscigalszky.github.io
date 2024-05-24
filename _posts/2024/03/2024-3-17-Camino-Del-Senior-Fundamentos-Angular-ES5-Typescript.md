@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: ES5 y TypeScript"
-categories: ["senior"]
+categories: ["senior", "typescript", "coding"]
 ---
 
 La diferencia de codigo entre funciones Javascript y clases de TypeScript son: <!--more-->

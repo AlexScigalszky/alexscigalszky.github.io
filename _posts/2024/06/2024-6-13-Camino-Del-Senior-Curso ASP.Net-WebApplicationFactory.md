@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: WebApplicationFactory"
-categories: ["senior"]
+categories: ["senior", "csharp", "coding", "test", "api"]
 ---
 
 Se utiliza para crear versiones del<!--more--> Startup. Se usa para crear clientes Http en los tests.
@@ -25,4 +25,4 @@ public class ServerTest {
 }
 ```
 
-> **Nota 1:** Existen version no Async de cada método.
+> **Nota 1:** Existen versiones no Async de cada método.

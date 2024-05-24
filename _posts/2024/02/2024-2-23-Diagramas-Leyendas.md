@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Diagramas: Leyendas"
+categories: ["team", "documentation"]
 ---
 
 Todos los diagramas deben tener una leyenda que ayude a personas no acostumbradas a tecnicismos. Por ejemplo:<!--more-->

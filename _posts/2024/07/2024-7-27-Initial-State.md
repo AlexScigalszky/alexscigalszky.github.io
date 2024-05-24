@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Initial State"
+categories: ["coding", "typescript"]
 ---
 
 En un proyecto que implementa Redux<!--more-->, es común tener propiedades en el estado para mostrar el estado de los datos (puede ser de la aplicación entera o sólo del módulo que está trajanado).

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CSS: Centrar un div"
+categories: ["senior", "css", "coding"]
 ---
 
 <!--more-->

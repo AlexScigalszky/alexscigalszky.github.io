@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos HTML: Introduccion a CSS3"
-categories: ["senior"]
+categories: ["senior", "html"]
 ---
 
 Etiquetas CSS3 disponibles.<!--more-->

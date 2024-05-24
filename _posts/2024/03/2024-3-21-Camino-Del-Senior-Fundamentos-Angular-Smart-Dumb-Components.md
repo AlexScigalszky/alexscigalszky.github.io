@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: Smart Dumb Components"
-categories: ["senior"]
+categories: ["senior", "angular", "coding"]
 ---
 
 Una forma de dividir los componentes es en base a su función:<!--more-->

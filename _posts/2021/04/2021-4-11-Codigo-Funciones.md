@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Buenas prácticas en el código: Funciones"
+categories: ["coding"]
 ---
 
 Deben ser reducidas (~20 líneas) y con nombres descriptivos (no importan si son un poco largos). Debemos evitar<!--more--> el anidamiento excesivo (~complejidad ciclomática).

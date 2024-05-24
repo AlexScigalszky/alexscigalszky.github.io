@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Librería: FunctionSimpleMapper.Extensions (C#)"
+categories: ["coding", "csharp", "proyect"]
 ---
 Extensión de la librería FunctionSimpleMapper que<!--more--> hasta el momento permite agregarlo al ServiceCollection
 

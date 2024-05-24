@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: LifeCycle"
-categories: ["senior"]
+categories: ["senior", "angular", "coding"]
 ---
 
 Los cambios de estados de cada componente en angular se pueden <!--more--> entender en el siguiente gráfico.

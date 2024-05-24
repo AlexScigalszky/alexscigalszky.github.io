@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Qué es"
-categories: ["senior"]
+categories: ["senior", "angular"]
 ---
 
 Redux nos inspira a crear manejadores de estado reactivos. Las características de RGRX/Store son<!--more-->:

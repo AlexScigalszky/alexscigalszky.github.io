@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Any"
-categories: ["senior"]
+categories: ["senior", "csharp", "coding"]
 ---
 
 Se utiliza para chequear una condición en una <!--more-->colleción al menos una vez. Devuelve un booleano.
