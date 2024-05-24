@@ -96,8 +96,8 @@ h6 {
   color: var(--main-text-color);
   font-weight: bold;
 
-  line-height: 1.7;
-  margin: 1em 0 15px;
+  // line-height: 1.7;
+  margin: 1rem 0 15px;
   padding: 0;
 
   @include mobile {
@@ -322,7 +322,7 @@ nav {
 //
 
 .posts > .post {
-  //padding-bottom: 1rem;
+  padding-bottom: 1rem;
   border-bottom: 1px solid var(--main-text-color);
 }
 
