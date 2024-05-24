@@ -6,7 +6,7 @@ layout: default
   {% for post in site.posts %} {% if post.categories contains 'senior' %}{% else %}
   <article class="post">
     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-    <div class="categories {{ post.categories }}">{% for category in post.categories %}<span>{{ category }}</span>{% endfor %}</div>
+    <div class="categories {{ post.categories }}">{% for category in post.categories | remove:',' %}<span>{{ category }}</span>{% endfor %}</div>
   </article>
   {% endif %} {% endfor %}
 </div>
