@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Effects"
-categories: senior
+categories: ["senior"]
 ---
 
 Los Effects se usan para<!--more-->:

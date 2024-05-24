@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: ITestOutputHelper"
-categories: senior
+categories: ["senior"]
 ---
 
 Es una interfaz que brinda el paquete<!--more--> xUnit que permite realizar outputs durante las pruebas unitarias.

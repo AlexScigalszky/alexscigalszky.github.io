@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: Asserts"
-categories: senior
+categories: ["senior"]
 ---
 
 Se usan para confirmar que una variable/método tiene <!--more-->lo que se espera que tenga. Ya sea un valor igual, distinto o incluso que dispare una excepción

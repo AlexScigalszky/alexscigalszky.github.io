@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Chunk"
-categories: senior
+categories: ["senior"]
 ---
 
 Permite dividir una colección en <!--more-->colecciones del mismo tamaño

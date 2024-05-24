@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: Status Codes"
-categories: senior
+categories: ["senior"]
 ---
 
 Diferentes valores en la respuesta<!--more--> http.

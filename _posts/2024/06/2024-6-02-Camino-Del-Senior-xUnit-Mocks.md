@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: Mocks"
-categories: senior
+categories: ["senior"]
 ---
 
 Para mockear objetos con la librería Moq<!--more-->.

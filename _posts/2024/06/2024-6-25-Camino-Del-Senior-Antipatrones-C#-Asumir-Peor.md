@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Tipo de antipatrón: Asumir lo Peor"
-categories: senior
+categories: ["senior"]
 ---
 
 Cuando el desarrollador se encuentra **siempre** a la defensiva <!--more-->. Esto hace que se agregan chequeos completamente innecesarios.

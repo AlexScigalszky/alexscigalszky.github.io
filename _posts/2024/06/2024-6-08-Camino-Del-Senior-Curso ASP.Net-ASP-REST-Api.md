@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: REST API"
-categories: senior
+categories: ["senior"]
 ---
 
 Es un protocolo de comunicación<!--more--> que corresponde a las siglas de **REpresentational State Transfer**. Utiliza JSON como lenguaje de estructura de datos de preferencia

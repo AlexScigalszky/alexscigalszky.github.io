@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: DDT (Data Driven Tests)"
-categories: senior
+categories: ["senior"]
 ---
 
 Para realizar tests, muchas veces necesitamos diferentes<!--more--> valores y obtener otros distintos.

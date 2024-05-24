@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: DBContext"
-categories: senior
+categories: ["senior"]
 ---
 
 Para crer un contexto para la base de datos se <!--more--> debe heredar de la clase DbContext de EntityFrameworkCore.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: Arquitectura básica de Angular"
-categories: senior
+categories: ["senior"]
 ---
 
 La arquitectura básica de angular se compone de:<!--more-->

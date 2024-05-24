@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: WebApplicationFactory"
-categories: senior
+categories: ["senior"]
 ---
 
 Se utiliza para crear versiones del<!--more--> Startup. Se usa para crear clientes Http en los tests.

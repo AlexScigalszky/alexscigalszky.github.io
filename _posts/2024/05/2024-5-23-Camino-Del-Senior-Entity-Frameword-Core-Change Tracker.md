@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Change Tracker"
-categories: senior
+categories: ["senior"]
 ---
 
 Se puede ver qué entidades están siendo trackeadas <!--more-->por Entity Framework.

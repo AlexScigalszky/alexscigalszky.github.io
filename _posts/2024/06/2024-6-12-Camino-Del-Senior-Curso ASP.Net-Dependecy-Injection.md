@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: Dependecy Injection"
-categories: senior
+categories: ["senior"]
 ---
 
 Para injectar clase/objetos/servicios/repositorios se hace desde<!--more--> el Startup

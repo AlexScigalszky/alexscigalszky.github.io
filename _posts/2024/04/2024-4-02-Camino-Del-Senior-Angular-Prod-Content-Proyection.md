@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular Pro: Content Proyection"
-categories: senior
+categories: ["senior"]
 ---
 
 Content Projection permite injectar contenido en algún lugar.<!--more-->

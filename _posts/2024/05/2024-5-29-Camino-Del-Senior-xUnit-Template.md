@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: Template"
-categories: senior
+categories: ["senior"]
 ---
 
 Este es el template de un test con xUnit<!--more-->.

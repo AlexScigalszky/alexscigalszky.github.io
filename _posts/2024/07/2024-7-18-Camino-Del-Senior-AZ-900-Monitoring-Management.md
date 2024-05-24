@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Monitoring and Management"
-categories: senior
+categories: ["senior"]
 ---
 
 <!--more-->

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Relaciones"
-categories: senior
+categories: ["senior"]
 ---
 
 Existen diferentes formas de relacionar las tablas/clases<!--more--> en Entity Framework Core.

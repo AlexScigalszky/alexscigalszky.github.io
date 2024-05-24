@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Data Annotations"
-categories: senior
+categories: ["senior"]
 ---
 
 Para definir las propiedades de columnas o tablas en las clases se<!--more--> pueden usan los **Data Annotations**.

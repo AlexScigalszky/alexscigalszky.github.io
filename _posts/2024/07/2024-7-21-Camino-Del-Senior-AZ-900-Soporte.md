@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Soporte"
-categories: senior
+categories: ["senior"]
 ---
 
 Azure tiene un sistema de soporte<!--more--> .

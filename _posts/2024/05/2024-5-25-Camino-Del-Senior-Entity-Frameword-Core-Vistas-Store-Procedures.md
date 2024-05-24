@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Vistas y Stored Procedures"
-categories: senior
+categories: ["senior"]
 ---
 
 Se pueden utilizar **vistas** o **stored procedures** <!--more-->desde EntityFramework. Ambas consultas se ejecutan en el servidor de base de datos.

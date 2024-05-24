@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Selectors"
-categories: senior
+categories: ["senior"]
 ---
 
 <!--more-->

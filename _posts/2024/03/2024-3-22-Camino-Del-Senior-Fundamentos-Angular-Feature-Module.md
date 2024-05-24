@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: Feature Module"
-categories: senior
+categories: ["senior"]
 ---
 
 Encapsula toda la lógica, servicios y componentes para una feature en particular. Evitando, <!--more--> tener muchos componentes en el modulo principal. Es una forma de separar el código y organizarse mejor

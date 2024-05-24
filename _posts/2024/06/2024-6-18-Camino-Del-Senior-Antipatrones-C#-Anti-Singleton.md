@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Anti Singleton"
-categories: senior
+categories: ["senior"]
 ---
 
 El patrón Singleton debe<!--more-->:

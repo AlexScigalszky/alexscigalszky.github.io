@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJS Básico: Operadores de Filtro"
-categories: senior
+categories: ["senior"]
 ---
 
 Operadores que filtran el flujo de datos en un obserable<!--more-->.

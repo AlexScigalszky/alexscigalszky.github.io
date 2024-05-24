@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Azure Concepts"
-categories: senior
+categories: ["senior"]
 ---
 
 Los conceptos claves de azure son<!--more-->:

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Azure Solutions"
-categories: senior
+categories: ["senior"]
 ---
 
 Azure tiene muchas soluciones<!--more-->:

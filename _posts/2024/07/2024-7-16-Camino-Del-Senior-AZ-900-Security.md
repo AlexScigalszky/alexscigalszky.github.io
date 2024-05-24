@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Security"
-categories: senior
+categories: ["senior"]
 ---
 
 La seguridad en Azure es muy importante, podemos ver:<!--more-->:

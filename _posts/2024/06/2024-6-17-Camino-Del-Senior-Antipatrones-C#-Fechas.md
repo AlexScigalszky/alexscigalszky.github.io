@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Fechas en forma de string"
-categories: senior
+categories: ["senior"]
 ---
 
 Reglas para utilizar las fechas <!--more-->.

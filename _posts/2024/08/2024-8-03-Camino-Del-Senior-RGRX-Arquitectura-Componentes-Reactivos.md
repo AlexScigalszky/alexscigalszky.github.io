@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Arquitectura de componentes reactivos"
-categories: senior
+categories: ["senior"]
 ---
 
 Angular Reactivo se realiza con componentes de los tipos<!--more-->:

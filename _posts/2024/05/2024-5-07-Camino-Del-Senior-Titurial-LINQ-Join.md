@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Join"
-categories: senior
+categories: ["senior"]
 ---
 
 Cómo unir dos colecciones de diferentes tipos<!--more-->.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conceptos C#: Métodos Anónimos"
-categories: senior
+categories: ["senior"]
 ---
 
 Métodos Anónimos son métodos que no tienen<!--more--> nombre, ya sea porque se pasan como parámetro a una función o se registran en una variable.

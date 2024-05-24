@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Storage"
-categories: senior
+categories: ["senior"]
 ---
 
 Una cuenta de almacenaje (Storage Account) define <!--more-->como un **unico namespace en azure**.

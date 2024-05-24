@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Contains"
-categories: senior
+categories: ["senior"]
 ---
 
 Se utiliza para corroborar que al menos un elemento existe en la colleción<!--more-->. Devuelve un booleano.

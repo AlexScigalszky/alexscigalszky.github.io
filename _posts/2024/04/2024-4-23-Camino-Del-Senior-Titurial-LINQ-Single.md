@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Single"
-categories: senior
+categories: ["senior"]
 ---
 
 Devuelve el único elemento que cumple la<!--more--> condición dada de una colección. Si existe más de un elemento, entonces dispara una excepción

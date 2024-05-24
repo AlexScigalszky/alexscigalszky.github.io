@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Consultas"
-categories: senior
+categories: ["senior"]
 ---
 
 Para realizar consultas a la base de datos <!--more-->existen varias formas.

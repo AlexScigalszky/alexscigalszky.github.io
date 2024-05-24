@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Networking"
-categories: senior
+categories: ["senior"]
 ---
 
 El manejo de las redes en azure se realiza<!--more-->:

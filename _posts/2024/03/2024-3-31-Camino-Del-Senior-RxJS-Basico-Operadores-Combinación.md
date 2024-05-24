@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJS Básico: Operadores de Combinación"
-categories: senior
+categories: ["senior"]
 ---
 
 Operadores que trabajan con varios observables como entrada y devolviendo un nuevo observable.<!--more-->
