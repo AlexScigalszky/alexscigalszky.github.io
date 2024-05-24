@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Distinct"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Remueve todos los elementos duplicados <!--more-->de una colección. La función resultante tiene todos elementos únicos

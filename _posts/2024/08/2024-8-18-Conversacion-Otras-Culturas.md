@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conversaciones con gente de otras culturas"
-categories: ["team"]
+categories: team
 ---
 
 Cuando se trabaja en un equipo multicultural, <!--more--> hay que ser claro y **explísito** en lo que se quiere.

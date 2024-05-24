@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Testear mappers"
-categories: ["test"]
+categories: test
 ---
 
 **Siempre** testear los mappers, <!--more--> no importa si son mediante una librería o manualmente.

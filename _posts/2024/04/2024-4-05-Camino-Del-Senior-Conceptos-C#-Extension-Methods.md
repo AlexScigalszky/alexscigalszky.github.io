@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conceptos C#: Extension Methods"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Extension methods son una forma de agregar funcionalidad a una clase sin tener que modificarla directamente<!--more-->.

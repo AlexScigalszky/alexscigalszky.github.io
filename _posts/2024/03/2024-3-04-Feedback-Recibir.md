@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Feedback: Recibir"
-categories: ["dev-life"]
+categories: dev-life
 ---
 Escuchar detenidamente.
 Cualquier cosa que digan, siempre es <!--more-->bueno (aunque no guste).

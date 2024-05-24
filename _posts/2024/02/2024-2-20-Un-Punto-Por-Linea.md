@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Regla de un punto por línea
-categories: ["coding", "csharp"]
+categories: coding, csharp
 ---
 
 Cuando se llaman a varias funciones continuas, se debe utilizar<!--more--> una línea para cada función. Esto permite la lectura simple y rápida. La regla es utilizar un solo punto por línea.

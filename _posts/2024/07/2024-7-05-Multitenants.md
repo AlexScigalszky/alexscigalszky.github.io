@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Multitenants"
-categories: ["design"]
+categories: design
 ---
 
 Es el término que se utilizan para aplicaciones con múltiples clientes<!--more-->. Existen diferentes enfoques:

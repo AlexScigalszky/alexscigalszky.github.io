@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Precios"
-categories: ["senior", "cloud"]
+categories: senior, cloud
 ---
 
 Manejar los costos y precios en azure<!--more--> es muy importante. Puntos a tener en cuenta:

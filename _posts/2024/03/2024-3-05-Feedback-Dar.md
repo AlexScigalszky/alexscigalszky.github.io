@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Feedback: Dar"
-categories: ["dev-life"]
+categories: dev-life
 ---
 Siempre buscar cosas a mejorar.
 Las cosas buenas hay que mostrarlas en detalle. Evitar decir <!--more-->cosas genéricas como "Tu trabajo es excelente" y pasar a explicar qué cosas son buenas como por ejemplo: "Me gusta cómo detallas tu progreso diario y cómo tus comentarios buscan entender el flujo".

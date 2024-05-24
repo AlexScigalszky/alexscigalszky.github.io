@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: Modulo y Componente"
-categories: ["senior", "angular", "coding"]
+categories: senior, angular, coding
 ---
 
 Estructura de un módulo y componente en angular. <!--more-->

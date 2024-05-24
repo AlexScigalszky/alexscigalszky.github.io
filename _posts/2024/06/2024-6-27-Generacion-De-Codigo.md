@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generación de Código (en proceso)"
-categories: ["codding", "csharp"]
+categories: coding, csharp
 ---
 
 Código que genera código en tu código<!--more-->.

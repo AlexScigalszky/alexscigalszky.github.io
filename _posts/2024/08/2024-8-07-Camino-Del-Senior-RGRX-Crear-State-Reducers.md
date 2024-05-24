@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Crear State y Reducers"
-categories: ["senior", "angular", "typescript", "coding"]
+categories: senior, angular, typescript, coding
 ---
 
 <!--more-->

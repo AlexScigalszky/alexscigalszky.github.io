@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Select"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Proyecta cada elemento en un nuevo objeto <!--more-->(puede ser una clase especifica o anonima).

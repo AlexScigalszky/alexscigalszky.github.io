@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Principios SOLID"
-categories: ["coding"]
+categories: coding
 ---
 
 Mantener siempre en mente estos principios:<!--more-->

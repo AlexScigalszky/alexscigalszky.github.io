@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Tipo de antipatrón: Swift-Army-Knife"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Tener un objeto que realiza <!--more-->muchas cosas a la vez, muchas responsabilidades se considera un antipatrón.

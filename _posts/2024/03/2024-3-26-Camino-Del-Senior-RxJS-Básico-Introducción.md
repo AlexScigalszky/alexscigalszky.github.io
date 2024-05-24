@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJS Básico: Introducción"
-categories: ["senior", "typescript", "coding"]
+categories: senior, typescript, coding
 ---
 
 RxJs es una librería para manejar reactividad utilizando<!--more--> observer y observables.

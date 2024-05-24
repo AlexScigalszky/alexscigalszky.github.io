@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Normalización de una base de datos"
-categories: ["db"]
+categories: db
 ---
 
 Una base de datos sana corresponde a aquella que está <!--more-->normalizada.

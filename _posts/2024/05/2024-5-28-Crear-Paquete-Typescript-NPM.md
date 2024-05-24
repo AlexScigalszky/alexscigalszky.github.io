@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Crear un paquete Typescript en NPM"
-categories: ["typescript"]
+categories: typescript, coding
 ---
 
 Pasos para crear un paquete npm en npmjs.com<!--more-->.

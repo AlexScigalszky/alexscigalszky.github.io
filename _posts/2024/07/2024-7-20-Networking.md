@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Networking"
-categories: ["dev-life"]
+categories: dev-life
 ---
 
 Para conseguir trabajos bueno, interesante y <!--more-->bien pagos hay que tener lo que se llama Networking.

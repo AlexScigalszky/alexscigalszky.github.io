@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Inmutabilidad"
-categories: ["senior", "coding", "angular", "typescript"]
+categories: senior, coding, angular, typescript
 ---
 
 La inmutabilidad en un dato es<!--more--> que ninguna propiedad o propiedad de las propiedades o propiedades internas son modificadas en el tiempo de vida de ese dato. Para cambiar el valor, se crea una copia con todo igual, menos la propiedad modificada.

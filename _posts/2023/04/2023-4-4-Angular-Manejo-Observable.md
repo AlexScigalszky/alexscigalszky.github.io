@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Manejo de Observables en Angular"
-categories: ["coding", "angular"]
+categories: coding, angular
 ---
 Muchas veces no le prestamos atención a los detalles de los observable haciendo que nuestro código no trabaje optimamente. Un compañero de trabajo me pasó el código que utilizó para mostrar un mensaje de error cuando la hora de inicio es posterior a la hora de fin.<!--more-->Me encuentro con un codigo como este y dije, voy a explicar la situación y las consecuencias.
 Veamos lo que tenemos:

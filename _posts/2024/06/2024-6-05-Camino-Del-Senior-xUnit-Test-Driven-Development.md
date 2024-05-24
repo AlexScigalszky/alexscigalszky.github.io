@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: TDD (Test Driven Development)"
-categories: ["senior", "csharp", "coding", "test"]
+categories: senior, csharp, coding, test
 ---
 
 El TDD no es un framework, es una<!--more--> forma de realizar tests.

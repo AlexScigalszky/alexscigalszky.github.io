@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Concat y Union"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Combina dos colecciones del<!--more--> mismo tipo.

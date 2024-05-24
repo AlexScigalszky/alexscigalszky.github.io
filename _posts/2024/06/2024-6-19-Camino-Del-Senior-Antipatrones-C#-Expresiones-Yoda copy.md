@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Expresiones Yoda"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Las expresiones Yoda son<!--more--> aquellas donde los valores se escriben de otra manera.

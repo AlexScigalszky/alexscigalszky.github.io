@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: ASP .Net Core"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 ASP Net core funciona como MVC pero sin la vista.<!--more-->

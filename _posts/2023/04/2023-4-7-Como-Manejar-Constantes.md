@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cómo manejar constantes o IDs con Typescript"
-categories: ["coding", "typescript"]
+categories: coding, typescript
 ---
 Una manera segura, robusta y elegante de manejar constantes en Angular con Typescript y encontrar errores en “compilación” y NO durante la ejecución<!--more-->
 

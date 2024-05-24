@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Feature Flags"
-categories: []
+categories: 
 ---
 
 Permite habilitar o deshabilitar una característica del sistema a <!--more--> ciertos usuarios. 

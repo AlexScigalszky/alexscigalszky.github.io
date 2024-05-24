@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Base de datos: ACID"
-categories: ["db"]
+categories: db
 ---
 
 Las bases de datos deben cumplir con las reglas ACID para<!--more--> garantizar su integridad.

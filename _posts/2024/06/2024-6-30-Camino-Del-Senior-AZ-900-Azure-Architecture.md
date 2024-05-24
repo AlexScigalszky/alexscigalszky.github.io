@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AZ-900 Curso de Azure: Azure Architecture"
-categories: ["senior", "cloud"]
+categories: senior, cloud
 ---
 
 Los sistemas Could computing se distinguen entre<!--more-->:

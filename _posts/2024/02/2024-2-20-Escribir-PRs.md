@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Cómo se escriben los PRs
-categories: ["coding", "git"]
+categories: coding, git
 ---
 
 Link a la tarea, issue, sistema de registro.<!--more-->

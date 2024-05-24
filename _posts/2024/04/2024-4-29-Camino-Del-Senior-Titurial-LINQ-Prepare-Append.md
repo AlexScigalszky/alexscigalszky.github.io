@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Prepare y Append"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Agregan un nuevo elemento a una colección<!--more-->. La colleción original no se modifica,

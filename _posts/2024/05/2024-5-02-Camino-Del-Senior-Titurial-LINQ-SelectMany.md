@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: SelectMany"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Genera una colección a partir de las colecciones "hijas" de cada elemento<!--more-->. Es decir, crea una colección de **una** dimensión a partir de otra de **dos** dimensiones.

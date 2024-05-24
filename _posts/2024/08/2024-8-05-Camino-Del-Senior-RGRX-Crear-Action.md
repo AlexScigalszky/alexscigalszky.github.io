@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Crear Action"
-categories: ["senior", "angular", "typescript", "coding"]
+categories: senior, angular, typescript, coding
 ---
 
 Para crear los action se hace<!--more--> heredando de `Action` y agregando el **payload** con el tipo correspondiente (en caso de ser necesario).

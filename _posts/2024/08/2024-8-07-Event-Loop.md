@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Event Loop"
-categories: ["javascript"]
+categories: javascript
 ---
 
 Es un mecanismo que permite a un programa manejar múltiples tareas de forma <!--more-->concurrente sin necesidad de crear múltiples hilos de ejecución.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Al Entrar a un Proyecto"
-categories: ["team"]
+categories: team
 ---
 
 Hay que aprender cómo funcionan las cosas, <!--more--> a quiénes contactar, qué tecnologías se utilizan, qué clase de problemas se estan resolviendo actualmente y muchos otros detalles.

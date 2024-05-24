@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: ElementAt"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Devuelve el elemento que se encuentra en la <!--more-->la posición dada dentro de una colleción.

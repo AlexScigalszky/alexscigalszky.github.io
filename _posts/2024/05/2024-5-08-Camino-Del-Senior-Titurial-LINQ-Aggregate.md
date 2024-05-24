@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Aggregate"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Permite realizar una operación sobre cada <!--more-->elemento y obtener un valor resultante (de cualquier tipo). Recibe una función de 2 parámetros: `accumulator` que tiene el resultado temporal de la operación y el segundo el `current` que es el elemento actual en la iteración.

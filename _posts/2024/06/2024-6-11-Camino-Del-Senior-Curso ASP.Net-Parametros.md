@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: Parámetros"
-categories: ["senior", "csharp", "coding", "api"]
+categories: senior, csharp, coding, api
 ---
 
 Las formas de pasar parámetros a una API más comunes son<!--more-->:

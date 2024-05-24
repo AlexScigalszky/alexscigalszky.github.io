@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: Legacy Code"
-categories: ["senior", "csharp", "coding", "test"]
+categories: senior, csharp, coding, test
 ---
 
 Para testear código legacy hay varias estrategias<!--more-->. Se **testea** el nuevo código pero no el viejo de forma **ordenada**.

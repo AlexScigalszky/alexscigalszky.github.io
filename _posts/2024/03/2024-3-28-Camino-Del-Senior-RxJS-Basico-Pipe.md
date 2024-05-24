@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "RxJS Básico: Pipe"
-categories: ["senior", "typescript", "coding"]
+categories: senior, typescript, coding
 ---
 
 La función pipe se utiliza para pode aplicar los operadores a un obserble de forma encadenada<!--more-->.

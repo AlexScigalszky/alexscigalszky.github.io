@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Entities"
-categories: ["senior", "angular", "typescript", "coding"]
+categories: senior, angular, typescript, coding
 ---
 
 Tener una lista de objetos en el store no es muy conveniente porque<!--more--> hay que hacer búsquedas todo el tiempo.

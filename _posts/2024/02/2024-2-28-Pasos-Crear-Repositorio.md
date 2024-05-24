@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pasos al crear un repositorio"
-categories: ["coding", "git", "team"]
+categories: documentation, git, team
 ---
 
 Los pasos son:<!--more-->

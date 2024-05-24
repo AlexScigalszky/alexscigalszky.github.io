@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Angular: Request API"
-categories: ["angular", "typescript", "coding"]
+categories: angular, typescript, coding
 ---
 
 <!--more-->

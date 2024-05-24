@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Effects"
-categories: ["senior", "angular", "typescript", "coding"]
+categories: senior, angular, typescript, coding
 ---
 
 Se usa para tener en el store <!--more-->las rutas y manejar todo con el store como debe ser.

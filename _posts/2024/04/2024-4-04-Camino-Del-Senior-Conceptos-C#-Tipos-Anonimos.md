@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conceptos C#: Tipos Anónimos"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Son tipos de data que no tienen nombre y que sólo <!--more-->almacenan datos.

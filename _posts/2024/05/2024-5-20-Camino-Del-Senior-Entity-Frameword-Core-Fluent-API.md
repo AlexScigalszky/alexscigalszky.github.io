@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Fluent API"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Permite definir usando _código_ (sin annotations) las <!--more-->relaciones entre las clases, propiedades y valores de la base de datos. A veces hasta tiene mayor alcance.

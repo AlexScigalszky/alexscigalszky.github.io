@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Migraciones"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Una vez creado el contexto y vinculado a la base de datos, se deben manejar los cambios de estructura (y datos) a travéz de migraciones<!--more-->. Para eso se utiliza la herramienta: Tools > Nuget Package Manager > Nuget Package Console.

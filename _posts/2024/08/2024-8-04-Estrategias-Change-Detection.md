@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Estrategias de Change Detections"
-categories: ["angular"]
+categories: angular
 ---
 
 Angular tiene dos estrategias para el Change Detection<!--more-->:

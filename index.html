@@ -9,7 +9,7 @@ layout: default
     <h1>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
       
-        <div class="categories {{ post.categories }}">{{ post.categories }}</div>
+        <div class="categories {{ post.categories }}">{{ post.categories | split: ', ' }}</div>
       </a>
     </h1>
   </article>

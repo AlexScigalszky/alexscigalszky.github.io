@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: Verbos"
-categories: ["senior", "csharp", "coding", "api"]
+categories: senior, csharp, coding, api
 ---
 
 Los verbos más comunes son<!--more-->:

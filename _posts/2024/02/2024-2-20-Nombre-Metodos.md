@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nombres de métodos
-categories: ["coding"]
+categories: coding
 ---
 
 Utiliza verbos. <!--more-->

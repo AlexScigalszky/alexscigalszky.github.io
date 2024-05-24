@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Dispatch un action"
-categories: ["senior", "angular", "typescript", "coding"]
+categories: senior, angular, typescript, coding
 ---
 
 Para hacer un dispatch de un action que<!--more--> puede ser sin parámetros o con parámetros.

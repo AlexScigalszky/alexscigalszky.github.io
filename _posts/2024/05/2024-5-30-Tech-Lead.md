@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tech Leads"
-categories: ["team", "dev-life"]
+categories: team, dev-life
 ---
 
 Lo que un tech lead debe cumplir:<!--more-->

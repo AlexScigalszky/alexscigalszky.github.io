@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compañeros de Equipo"
-categories: ["team"]
+categories: team
 ---
 
 Los compañeros de equipo pueden ser muy<!--more--> diferente a lo se espera. Eso es bueno, porque tienen otra forma de trabajar y de ver las cosas.

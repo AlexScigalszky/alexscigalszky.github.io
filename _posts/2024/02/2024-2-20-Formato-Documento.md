@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Siempre aplicar un formato en todos los documentos "
-categories: ["coding", "git"]
+categories: coding, git
 ---
 
 En todo el equipo se debe usar el mismo.

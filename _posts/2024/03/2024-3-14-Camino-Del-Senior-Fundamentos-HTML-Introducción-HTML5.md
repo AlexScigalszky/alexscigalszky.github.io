@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos HTML: Introduccion a HTML5"
-categories: ["senior", "html"]
+categories: senior, html
 ---
 
 Etiquetas HTML disponibles.<!--more-->

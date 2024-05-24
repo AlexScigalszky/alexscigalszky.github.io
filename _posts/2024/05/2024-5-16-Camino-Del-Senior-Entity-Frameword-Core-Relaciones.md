@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Relaciones"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Existen diferentes formas de relacionar las tablas/clases<!--more--> en Entity Framework Core.

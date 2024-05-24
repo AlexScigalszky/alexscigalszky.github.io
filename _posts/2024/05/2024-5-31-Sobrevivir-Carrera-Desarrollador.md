@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sobrevivir a una carrera de desarrollador"
-categories: ["dev-life"]
+categories: dev-life
 ---
 
 Reglas para tener una carrera de programador larga<!--more-->

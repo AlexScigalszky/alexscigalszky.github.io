@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Delegates"
-categories: ["csharp"]
+categories: csharp
 ---
 
 Los **delegates** son<!--more--> como punteros a una función.

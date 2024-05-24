@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "xUnit: Template"
-categories: ["senior", "csharp", "coding", "test"]
+categories: senior, csharp, coding, test
 ---
 
 Este es el template de un test con xUnit<!--more-->.

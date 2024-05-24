@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "End of Day"
-categories: ["task"]
+categories: task
 ---
 
 Este es un email, con una reseña simple y concisa para el equipo sobre<!--more--> tres puntos. Sirve para que el equipo se coordine y cada individuo planee su siguiente día:

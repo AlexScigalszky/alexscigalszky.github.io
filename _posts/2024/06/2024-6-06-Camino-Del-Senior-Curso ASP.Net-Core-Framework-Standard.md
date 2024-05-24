@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: .Net Core vs .Net Framework vs .Net Standard"
-categories: ["senior", "csharp"]
+categories: senior, csharp
 ---
 
 La diferencia es que<!--more-->

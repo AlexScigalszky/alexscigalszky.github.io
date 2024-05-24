@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Curso ASP.Net: WebApplicationFactory"
-categories: ["senior", "csharp", "coding", "test", "api"]
+categories: senior, csharp, coding, test, api
 ---
 
 Se utiliza para crear versiones del<!--more--> Startup. Se usa para crear clientes Http en los tests.

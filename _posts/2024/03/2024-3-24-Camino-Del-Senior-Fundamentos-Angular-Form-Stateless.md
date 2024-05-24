@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Fundamentos de Angular: Form Stateless"
-categories: ["senior", "angular", "coding"]
+categories: senior, angular, coding
 ---
 
 Formulario que posee ni modifica el estado interno.<!--more-->

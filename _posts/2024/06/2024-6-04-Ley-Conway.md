@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ley de Conway"
-categories: ["dev-life", "team", "task"]
+categories: dev-life, team, task
 ---
 
 La ley de Conway dice<!--more-->:

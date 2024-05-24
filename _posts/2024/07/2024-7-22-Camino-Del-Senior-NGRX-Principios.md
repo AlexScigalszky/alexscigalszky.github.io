@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Pricipios de Redux"
-categories: ["senior", "angular", "typescript"]
+categories: senior, angular, typescript
 ---
 
 Los tres principios de<!--more--> redux son:

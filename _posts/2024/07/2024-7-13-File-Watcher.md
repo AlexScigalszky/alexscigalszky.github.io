@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "File Watcher"
-categories: ["coding", "proyect", "csharp"]
+categories: coding, proyect, csharp
 ---
 
 Para trabajar con herramientas FTP o SFTP que actualizan archivos en una <!--more-->ubicación en diferentes momentos, se debe observar cambios en esa carpeta y disparar un evento cuando ocurra (puede ser enviar un mensaje a una queue o un proceso backgound o cargarlo a una base de datos).

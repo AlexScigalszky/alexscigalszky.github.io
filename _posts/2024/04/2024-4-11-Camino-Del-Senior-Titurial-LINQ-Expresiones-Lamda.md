@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Expresiones Lamda"
-categories: ["senior", "csharp", "coding"]
+categories: [senior, csharp, coding
 ---
 
 Son parte del lenguaje C#.<!--more-->Una lambda es una función anónima que puede definirse en línea. 

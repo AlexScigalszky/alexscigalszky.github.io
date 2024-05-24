@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "NGRX Store - Effects: Effects"
-categories: ["senior", "angular", "typescript", "coding"]
+categories: senior, angular, typescript, coding
 ---
 
 Los Effects se usan para<!--more-->:
