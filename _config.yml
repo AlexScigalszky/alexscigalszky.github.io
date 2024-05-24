@@ -92,7 +92,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-liquid:
-  error_mode: strict
-  strict_filters: true
