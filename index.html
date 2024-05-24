@@ -5,11 +5,15 @@ layout: default
 <div class="posts">
   {% for post in site.posts %} {% if post.categories contains 'senior' %}{% else %}
   <article class="post">
-    
     <h1>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}
-      
-        <div class="categories {{ post.categories }}">{{ post.categories | split: ', ' }}</div>
+      <a href="{{ site.baseurl }}{{ post.url }}"
+        >{{ post.title }}
+
+        <div class="categories {{ post.categories }}">
+          {% for category in post.categories | split: ', ' %}
+          <span>{{ category }}</span>
+          {% endfor %}
+        </div>
       </a>
     </h1>
   </article>
