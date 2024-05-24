@@ -323,11 +323,11 @@ nav {
 
 .posts > .post {
   //padding-bottom: 1rem;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid var(--main-text-color);
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
+  //padding-bottom: 1em;
   border-bottom: none;
 }
 
