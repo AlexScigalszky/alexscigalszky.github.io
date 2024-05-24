@@ -10,7 +10,7 @@ layout: default
         >{{ post.title }}
 
         <div class="categories {{ post.categories }}">
-          {% for category in post.categories | split: ', ' %}
+          {% for category in post.categories %}
           <span>{{ category }}</span>
           {% endfor %}
         </div>

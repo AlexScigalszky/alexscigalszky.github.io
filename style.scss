@@ -412,6 +412,11 @@ body table td {
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
+  span {
+    border: var(--main-text-color) 1px solid;
+    border-radius: 3px;
+    padding: 3px;
+  }
 }
 
 .tbd {
