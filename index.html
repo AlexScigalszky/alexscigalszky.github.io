@@ -3,10 +3,6 @@ layout: default
 ---
 
 <div class="posts">
-  {% for category in site.categories %}
-alex{{ category}}pablo
-  {% endfor %}
-
   {% for post in site.posts %} {% if post.categories contains 'senior' %}{% else %}
   <article class="post">
     
