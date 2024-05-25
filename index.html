@@ -6,7 +6,7 @@ layout: default
 <h1>Categorias:</h1>
   {% for category in site.categories %}
   <span>
-  {% capture category_name %}{{ category | first | remove:','  }}{% endcapture %}
+  {% capture category_name %}{{ category_name | remove:','  }}{% endcapture %}
   </span>
   {% endfor %}</div>
 
