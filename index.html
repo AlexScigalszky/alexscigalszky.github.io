@@ -4,7 +4,11 @@ layout: default
 
 <div class="posts">
 <h1>Categorias:</h1>
-  {% for category in site.categories %}<span>{{ category | remove:',' }}</span>{% endfor %}</div>
+  {% for category in site.categories %}
+  <span>
+  {% capture category_name %}{{ category | first | remove:','  }}{% endcapture %}
+  </span>
+  {% endfor %}</div>
 
   {% for post in site.posts %} {% if post.categories contains 'senior' %}{% else %}
   <article class="post">
