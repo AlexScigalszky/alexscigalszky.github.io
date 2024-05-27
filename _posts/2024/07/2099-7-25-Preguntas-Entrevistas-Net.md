@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Preguntas de Entrevistas: Net"
-categories: TBD
+categories: tbd
 ---
 
 Listado de preguntas que se pueden hacer en una entrevista:<!--more-->.
