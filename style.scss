@@ -97,7 +97,7 @@ h6 {
   font-weight: bold;
 
   // line-height: 1.7;
-  margin: 1rem 0 15px;
+  margin: 5px 0;
   padding: 0;
 
   @include mobile {
@@ -405,17 +405,17 @@ body table td {
 /**********************/
 
 .categories {
-  display: inline-block;
-  padding: 4px 8px;
+  // display: inline-block;
+  // padding: 4px 8px;
   border-radius: 12px;
   color: var(--main-text-color);
   font-size: 12px;
   font-weight: bold;
-  text-transform: uppercase;
   span {
     border: var(--main-text-color) 1px solid;
     border-radius: 3px;
     padding: 3px;
+    margin-left: 5px;
   }
 }
 
