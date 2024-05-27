@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Intersect y Except"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Permiten buscar datos en común o diferente entre <!--more-->dos colecciones.

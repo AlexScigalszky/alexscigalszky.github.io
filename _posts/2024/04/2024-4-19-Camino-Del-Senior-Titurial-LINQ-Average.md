@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Average"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Devuelve el valor promedio valor de <!--more-->una colleción usando el parámetro para seleccionar el criterio.

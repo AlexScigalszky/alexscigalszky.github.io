@@ -3,13 +3,12 @@ layout: default
 ---
 
 <div class="posts">
-  <h1>Categorias:</h1>
-  {% for post in site.posts %} {% if post.categories contains 'senior, ' %}{% else %}
+  {% for post in site.posts %}
   <article class="post">
     <h1>
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       <span class="categories {% for category in post.categories %} {{ category | remove:',' }} {% endfor %}">{% for category in post.categories %}<span>{{ category | remove:',' }}</span>{% endfor %}</span>
     </h1>
   </article>
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Where"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Filtra una colección en base a un <!--more-->predicado.

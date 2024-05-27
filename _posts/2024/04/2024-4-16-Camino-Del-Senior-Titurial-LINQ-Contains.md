@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Contains"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Se utiliza para corroborar que al menos un elemento existe en la colleción<!--more-->. Devuelve un booleano.

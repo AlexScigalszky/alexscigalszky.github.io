@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: OfType"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Filtra los elementos que <!--more--> son de un tipo específico. La colección puede ser una combinación de muchos tipos de datos o clases.

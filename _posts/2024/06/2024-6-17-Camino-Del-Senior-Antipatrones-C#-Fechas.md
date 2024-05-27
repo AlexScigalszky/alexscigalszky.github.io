@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Fechas en forma de string"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Reglas para utilizar las fechas <!--more-->.

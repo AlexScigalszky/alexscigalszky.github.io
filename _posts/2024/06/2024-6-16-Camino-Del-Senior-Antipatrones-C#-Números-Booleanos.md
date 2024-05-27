@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Números Booleanos"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 No se debe usar <!--more--> números como valores booleanos (por ejemplo **-1** y **1**).

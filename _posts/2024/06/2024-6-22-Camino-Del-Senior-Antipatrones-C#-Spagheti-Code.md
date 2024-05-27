@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Antipatrones C#: Spagheti Code"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Corresponde a <!--more--> trabajar con codigo con muchas sentencias dónde el developer intenta reducir a pocas lineas.

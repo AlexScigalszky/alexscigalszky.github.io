@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: First y Last"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Devuelve el primer y el último elemento <!--more-->de una colleción. O sea, el elemento en el indice **0 (cero)**.

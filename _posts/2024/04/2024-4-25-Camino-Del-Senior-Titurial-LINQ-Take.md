@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Take"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Retorna una cantidad de elementos iniciales <!--more-->de una colección.

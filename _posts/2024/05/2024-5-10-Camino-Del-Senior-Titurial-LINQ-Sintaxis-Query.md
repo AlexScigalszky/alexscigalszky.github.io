@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: Sintaxis Query"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 SE una forma de escribir consultas expresivas y <!--more-->legibles sobre colecciones, usando palabras clave proporcionadas por LINQ (Language Integrated Query).

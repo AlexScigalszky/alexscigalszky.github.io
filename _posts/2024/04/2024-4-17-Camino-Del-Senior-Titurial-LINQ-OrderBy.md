@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: OrderBy"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Ordena una colleción usando un criterio que <!--more--> es pasado como parámetro.

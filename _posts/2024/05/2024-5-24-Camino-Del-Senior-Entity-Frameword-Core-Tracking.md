@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Entity Frameword Core: Tracking vs No Tracking"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Entity Framework nos deja decirle cuándo<!--more--> queremos trackear o cuándo no las entidades. Entity Framework trackea todos los objetos que obtiene y mantiene sus cambios para aplicarlos en la base de datos. A veces no queremos eso, por eso existen herramientas para poder controlar ese comportamiento.

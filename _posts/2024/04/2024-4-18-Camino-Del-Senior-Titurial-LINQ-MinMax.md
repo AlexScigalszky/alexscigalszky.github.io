@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tutorial LINQ: MinMax"
-categories: [senior, csharp, coding
+categories: senior, csharp, coding
 ---
 
 Devuelve el menor o mayor valor de <!--more-->una colleción usando el parámetro para seleccionar el criterio.
