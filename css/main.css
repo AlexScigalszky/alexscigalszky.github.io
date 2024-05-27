@@ -12,8 +12,3 @@ body {
 a {
 	color: var(--link-color);
 }
-
-article {
-	max-width: 650px; 
-	/* margin: 2em auto; */
-}
