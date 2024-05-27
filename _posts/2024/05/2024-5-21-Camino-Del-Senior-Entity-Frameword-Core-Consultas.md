@@ -65,6 +65,17 @@ using var context = new ApplicationDbContext();
 var result = context.Books.Where(x => x.Id == 123).FirstOrDefault();
 ```
 
+Se puede agregar una condición que siempre será agregada a cualquier insulta sobre una tabla. Por ejemplo, cuando queremos hacer un soft delete
+
+```csharp
+protected override void OnModelCreating(Model builder model builder) {
+...
+  modelBuilder.HasQueryFilter(a => !a.IsDeleted);
+
+...
+}
+```
+
 ## Actualizar
 
 ```csharp
