@@ -24,7 +24,7 @@ Listado de casos de uso:
 
 #### Diagrama de proceso de negocio
 
-> Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas.
+Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas.
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="auto" height="auto" viewBox="-0.5 -0.5 995 371" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-05-31T16:49:31.959Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0&quot; version=&quot;24.4.10&quot; etag=&quot;H76FXnnUv0emKKbMBkHr&quot; scale=&quot;1&quot; border=&quot;0&quot;>
   <diagram name=&quot;Page-1&quot; id=&quot;9F5J4C8Olquiwe9zhvTH&quot;>
     <mxGraphModel dx=&quot;2762&quot; dy=&quot;3232&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;850&quot; pageHeight=&quot;1100&quot; math=&quot;0&quot; shadow=&quot;0&quot;>
@@ -108,7 +108,7 @@ Listado de casos de uso:
 
 #### Diagrama conceptual
 
-> Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
+Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="auto" height="auto" viewBox="-0.5 -0.5 826 261" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-05-31T17:39:49.479Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0&quot; version=&quot;24.4.10&quot; etag=&quot;dVgNrfXfjlHyLbEaHrjJ&quot; scale=&quot;1&quot; border=&quot;0&quot;>
   <diagram name=&quot;Page-1&quot; id=&quot;fMZgVKwsU5UzQwC-Uw25&quot;>
     <mxGraphModel dx=&quot;2537&quot; dy=&quot;3111&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;850&quot; pageHeight=&quot;1100&quot; math=&quot;0&quot; shadow=&quot;0&quot;>
@@ -165,7 +165,7 @@ Listado de casos de uso:
 
 #### Diagrama de componentes
 
-> Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
+Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
 <svg xmlns="http://www.w3.org/2000/svg" style="background-color: rgb(255, 255, 255);" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="auto" height="auto" viewBox="-0.5 -0.5 1013 602" content="<mxfile host=&quot;app.diagrams.net&quot; modified=&quot;2024-05-31T22:10:17.779Z&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0&quot; version=&quot;24.4.10&quot; etag=&quot;MsKGlLo89M42WkiYPuEs&quot; scale=&quot;1&quot; border=&quot;0&quot;>
   <diagram name=&quot;Page-1&quot; id=&quot;uoNS_Mo2Jz4wfkG1TT-6&quot;>
     <mxGraphModel dx=&quot;2643&quot; dy=&quot;3168&quot; grid=&quot;1&quot; gridSize=&quot;10&quot; guides=&quot;1&quot; tooltips=&quot;1&quot; connect=&quot;1&quot; arrows=&quot;1&quot; fold=&quot;1&quot; page=&quot;1&quot; pageScale=&quot;1&quot; pageWidth=&quot;850&quot; pageHeight=&quot;1100&quot; math=&quot;0&quot; shadow=&quot;0&quot;>
@@ -298,15 +298,15 @@ Listado de casos de uso:
 
 #### Diagrama de proceso de negocio
 
-> Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
+Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
 
 #### Diagrama conceptual
 
-> Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
+Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
 
 #### Diagrama de componentes
 
-> Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
+Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
 
 ## Healthcheck
 
@@ -314,15 +314,15 @@ Listado de casos de uso:
 
 #### Diagrama de proceso de negocio
 
-> Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
+Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
 
 #### Diagrama conceptual
 
-> Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
+Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
 
 #### Diagrama de componentes
 
-> Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
+Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
 
 ## Desubscribir
 
@@ -330,15 +330,15 @@ Listado de casos de uso:
 
 #### Diagrama de proceso de negocio
 
-> Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
+Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
 
 #### Diagrama conceptual
 
-> Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
+Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
 
 #### Diagrama de componentes
 
-> Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
+Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
 
 ## Ejecutar proceso de Notificacion
 
@@ -346,12 +346,12 @@ Listado de casos de uso:
 
 #### Diagrama de proceso de negocio
 
-> Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
+Se ilustra el proceso desde el punto de vista de gente de negocio. Sin palabras técnicas
 
 #### Diagrama conceptual
 
-> Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
+Una visión general y de alto nivel sobre cómo funcionará la feature. A nivel de arquitectura abstrayendo componentes del sistema.
 
 #### Diagrama de componentes
 
-> Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
+Diagramas de más bajo nivel y técnico que detalla los componentes que existen y cómo van a interactuar entre ellos.
