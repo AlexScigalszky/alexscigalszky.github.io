@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Swagger Comparator proyect"
+title: "Proyecto Swagger Comparator"
 categories: design, proyect, coding
 ---
 
