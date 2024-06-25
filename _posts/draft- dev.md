@@ -45,3 +45,4 @@ Domain MAP. Tabla dónde se pueden identificar quienes conocen sobre un tema
 Uso de la cámara en reuniones virtuales.
 
 no buscar la perfección. buscar código que sea lo suficientemente bueno para funcionar y ser mantenido
+Relga del Boy Scout -> dejar todo mejor de lo que lo recibiste
