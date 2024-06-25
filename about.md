@@ -3,126 +3,137 @@ layout: page
 title: About
 permalink: /about/
 ---
-# Alex Scigalsky
+<p align="center"> 
+  <img src="https://s.gravatar.com/avatar/49e755c948a7e2b1efa3666bcb3ce7db?s=80" alt="gravatar" /> 
+</p>
+<h1 align="center">
+  Hi 👋, I'm Alex P. Scigalszky
+</h1>
+<h3 align="center">
+  Backend - frontend developer. I am always interested in new challenges.
+</h3>
 
-## .Net + Angular Developer
+<p align="left"> 
+  <img src="https://komarev.com/ghpvc/?username=alexscigalszky" alt="alexscigalszky" /> 
+</p>
 
----
+- 🌱 I’m currently learning **Distributed app with .Net, Razor and Architecture**
+- 🌱 I’m currently learning everything 🤣
+- 👯 I am looking to collaborate with other content creators
+- 🥅 2023/24 Goals: Contribute more to Open Source projects and improve my English
+- 💬 Ask me about **Angular, TypeScript, .Net Core, Entity Framework, MSSQL, PHP, Javascript, RxJS, Node, AngularJS, VueJS, Cypress, XUnit, Moq, Netlify**
+- 💬 Ask me about **MongoDB, MSSQL, MySQL, Cypress, Azure (pipeline-release-repositories), Github, Heroku (starter)**
+- 💬 Ask me about **Testing, TDD, Mocking**
+- 📫 How to reach me **alexpablo.90@gmail.com**
+- ⚡ Fun fact **I drink mate (argentinian)**
 
-### Technologies:
+### Education
+* Electro-mechanic technician
+* Degree in IT (Licenciado en Informática)
 
-- C#
-- Net Core
-- Angular
-- SQL
-- JavaScript
+### Geography
+* Argentina
 
-### Certifications:
+### Lenguages
+* Spanish (native)
+* English (professional competence)
 
-- Informatic Degree
+## Contact
+- [Github](https://github.com/AlexScigalszky/AlexScigalszky)
+- [LinkedIn](https://www.linkedin.com/in/alexscigalszky/)
+- [Mail](mailto:alexpablo.90@gmail.com)
+- [Twitter](https://twitter.com/alex_scigalszky)
 
----
 
-## Work Experience
+## 👯 I collaborate on 
+- [Scully](https://github.com/scullyio/scully)
+- [Runox](https://github.com/jorgeucano/RunoX)
+- [runox-game-engine](https://github.com/runox-game/game-engine)
 
-### Unosquare Notified Event Editor (2022-Today)
+## 🏗 Own Projects
+- [FunctionSimpleMapper](https://www.nuget.org/packages/FunctionSimpleMapper)
+- [FunctionSimpleMapper.Extensions](https://www.nuget.org/packages/FunctionSimpleMapper.Extensions)
+- [Numbers in your Code](https://alexscigalszky.github.io/constantnumberinyourcode/)
+- [Fika page](https://alexscigalszky.github.io/fika/)
+- [Tickecito](https://tickecito.netlify.app)
+- [Three Things To Do in Life](https://alexscigalszky.github.io/threethingstodoinlife_ui/login)
+- [Is a Public IP or Not?](https://alexscigalszky.github.io/ispublicip/)
+- [Do not Divide by Zero](https://alexscigalszky.github.io/donotdividebyzero/)
+- [English Random topics](https://alexscigalszky.github.io/english/)
+- [palabrasaleatorias.ar](https://palabrasaleatorias.ar)
+- [Remote Desktop](https://alexscigalszky.github.io/remote-work/)
+- [TurnoWeb](https://alexscigalszky.github.io/TurnoWeb/)
+- [Tatuel](https://play.google.com/store/apps/details?id=io.alex.tatuel)
+- [@translation-summary/core](https://www.npmjs.com/package/@translation-summary/core)
+- [json-to-multiple-files](https://www.npmjs.com/package/json-to-multiple-files)
+- [Palabras Aleatorias (offline) current version](https://play.google.com/store/apps/details?id=palabras.aleatorias.com)
+- [Palabras Aleatorias (offline) alpha version](https://palabras-aleatorias-pwa.herokuapp.com/#/)
+- [Palabras Aleatorias API](https://palabras-aleatorias-public-api.herokuapp.com/)
+- [Amanecer Ocaso](https://alexscigalszky.github.io/amanecer-ocaso/)
+- [HTML to Markdown API](https://html-to-md-api.herokuapp.com/)
+- [Random names](https://alexscigalszky.github.io/random-names-ui/)
+- [Random names API](https://random-names-api.herokuapp.com/random)
+- [Weekly Tool](https://weekly-qa.herokuapp.com/test)
 
-**Role:** .Net + Angular Developer
+## 🦾 Project where I worked
+- Greendot (integration)
+- Greendot (Core)
+- Notified
+- Greendot (integration)
+- EAP
+- Seapol
+- Mailroom
+- clicavisos
+- Cotizador online
+- EDES - Overtime Charging system
+- EDELAP - Personal Protection Materials delivery system
+### AMTE
+- Administration of associates and loans system
+### <img src="https://pbs.twimg.com/profile_images/1112472842258604033/CWkACNph_400x400.jpg" width="16px" height="16px" alt="gravatar" /> EDAviation
+- Avionics parts purchase and sale system
+### <img src="https://play-lh.googleusercontent.com/dpO3Qjolp85A-xHIp-JXWu6TrRdiCN3vSTsp8NoXIGem09SumxduDsBsTszq4aMBIxE" width="16px" height="16px" alt="gravatar" /> Saludsa
+- App Mobile and Intranet 
+### <img src="https://play-lh.googleusercontent.com/xhse4q1uysdBGueS0aiB2SBAthR2jKWVN5SNnVhxtDQ361ag-qTp7PoTFhfm38WSeTw=s180" width="16px" height="16px" alt="gravatar" /> OCASA
+- Internal desk system for reception and dispatch packages
+### <img src="https://www.eaplatina.com/es/wp-content/uploads/2013/10/logo-retina.png" width="16px" height="16px" alt="gravatar" /> EAP-EAS
+- Activities manager and tech migration of core system
+### COELSA
+- Compensadora Electrónica SA. Cámara Electrónica de Compensación de Medios de Pago. Background Process
+### <img src="https://play-lh.googleusercontent.com/AidrRy9nYzV-SUWqV5IYeH7Si2DjuEX6tzXvfWu92rMuQ2LRfbXv3VtSgJuGfUHG_oY" width="16px" height="16px" alt="gravatar" />  Palabras Aleatorias
+- App mobile, API Rest, and Web App (alpha version) of random words in Spanish
 
-Notified is a communication cloud for events, public relations, and investor relations. It provides clients with the tools needed to reach and engage customers, investors, employees, and the media. I worked on the event editor, a page builder where clients can customize the public pages of an event. The event editor includes several parts: the page editor, the page builder, and the theme (with multiple visual styles). All these parts were built using a data-driven concept where I developed general components based on data, improved stored procedures, and created multiple unit and integration tests in both frontend and backend to enhance the project's health for other contributors and stakeholders.
+## Code challanges
+- [Mars Rover Challenge (C#) ](https://github.com/AlexScigalszky/MarsChallenge)
+- [Game of life (C#) ](https://github.com/AlexScigalszky/game-of-life)
+- [Simple console chat (js) ](https://github.com/AlexScigalszky/chat)
 
-- **Team:** 3 developers and 2 testers
-- **Responsibilities:** Involved in frontend and backend development, bug fixing, adding new features, and writing unit tests to improve software quality
-- **Technologies:** SQL Server, .Net Core/Net Framework, Angular, XUnit, Jest, Git, Azure DevOps
+## 🦾 Code libraries, code examples, guidelines, etc
+- [OpenAPI 7 Swagger (C# + BDD) ](https://github.com/AlexScigalszky/OpenApi.ErrorCodes.Library)
+- [OpenAPI 7 Swagger (C#) ](https://github.com/AlexScigalszky/InterfaceExtentions)
+- [OpenAPI 7 Swagger (C#) ](https://github.com/AlexScigalszky/development)
 
-### Unosquare Greendot Integration (2021-2022)
 
-**Role:** .Net + SQL Developer
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=alexscigalszky&show_icons=true" alt="alexscigalszky" />
+</p>
+<!-- 
+<p align="center">
+<a href="https://linkedin.com/in/alexscigalszky" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="alexscigalszky" height="20" width="20" /></a>
+</p> -->
 
-Greendot is a financial technology and bank holding company. I worked on an integration between old software and the new version, creating endpoints for the older system. The team included two developers (one per system) and an engineer guiding the integration steps.
+<p align="center"> 
+  <a href="https://cafecito.app/palabrasaleatorias">
+    <img src="https://cdn.cafecito.app/imgs/buttons/button_1.svg" alt="cafecito icon"/>
+  </a>
+</p>
 
-- **Responsibilities:** Creating new endpoints or updating existing ones with the correct data
-- **Technologies:** .Net Core, SQL Server, Xunit/NUnit, Perforce, Jira
-
-### W3IT EAP, Seapol, Mailroom (2019-2021)
-
-**Role:** .Net + Angular Developer
-
-W3 It Solution is a software factory with multiple clients. EAP, a client of W3 It Solution, is a health care B2B company. I built an activity tracking system from scratch and integrated it with a new version of the company’s main system. Worked in multiple teams (backend, frontend, tester) and adopted a sprint methodology mid-development. Also made small changes in Mailroom’s logistics software.
-
-- **Technologies:** .Net Core/Net Framework, Angular, XUnit, Jest, Cypress, Git, Azure DevOps
-
-### TinbSys Various (2013-2019)
-
-**Role:** .Net + Android + Objective C Developer
-
-Created mobile applications, defined APIs, and developed UI communication.
-
-- **Responsibilities:** Deploying in App Store and Play Store, defining data structure, and teamwork
-
-### Freelance Various (2014-Today)
-
-**Role:** Fullstack Developer
-
-I undertake new projects to learn new technologies and take on different freelance projects, gaining real-world experience.
-
-- **Projects:**
-  - TechNews (Tech promotion platform)
-  - ITDatabase (Admin backend of Technews)
-  - ClickAvisos!
-  - Admin backend in Trafer (agro company)
-  - Marketplace Mobile Application
-  - Repartiendo (Mobile app for Argentina) [Repartiendo on Play Store](https://play.google.com/store/apps/details?id=io.alex.repartiendo)
-
----
-
-## Education
-
-- **Bachelor, Computer Science (2016)**
-  - Universidad Nacional de La Plata
-- **University Programmer Analyst (2016)**
-  - Universidad Nacional de La Plata
-- **Baccalaureate, Production of Goods and Services (2008)**
-  - Technical Education School Nº 1
-- **Technician, Instrumentation and Maintenance Technologies/Technicians electromechanical (2008)**
-  - Technical Education School Nº 1
-
----
-
-## Courses
-
-### UDEMY: FRONTEND MASTERS:
-
-- Learn Microservices architecture with .NET Core MVC (.NET 6) and Identity Server Integration with Azure Service Bus
-- Learn about latest features of C#7, C#8, C#9, and C#10
-- Typescript: De Cero a Experto 2021
-- Angular Testing Masterclass (Angular 14)
-- Hands-On Machine Learning for .NET Developers
-- Design Patterns in C# and .NET
-- Unit Testing Dotnet (.NET) Application with xUnit .net & MOQ
-- The Complete 2021 Flutter development bootcamp with Dart (65%)
-- Angular 13 Fundamentals
-- TypeScript Fundamentals, v3
-- Production-Grade Angular
-
-### Technical Skills
-
-- **.Net Core / Net Framework**
-- **Angular**
-- **SQL Server**
-- **JavaScript**
-- **XUnit**
-- **Jest**
-- **Cypress**
-- **Git**
-- **Azure DevOps**
-- **Perforce**
-- **Jira**
-- **Objective C**
-- **Android Development**
-
----
-
-## Contact Information
-
-- **Email:** alexpablo.90@gmail.com
+<h3 align="center"> 
+  <a href="https://www.buymeacoffee.com/alexscigalszky">
+    Buy me a Book
+  </a>
+</h3>
+<h3 align="center"> 
+  <a href="https://ko-fi.com/Y8Y7BUT9N">
+    <img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="ko.fi icon"/>
+  </a>
+</h3>
