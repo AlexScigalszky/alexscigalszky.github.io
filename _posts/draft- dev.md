@@ -46,3 +46,9 @@ Uso de la cámara en reuniones virtuales.
 
 no buscar la perfección. buscar código que sea lo suficientemente bueno para funcionar y ser mantenido
 Relga del Boy Scout -> dejar todo mejor de lo que lo recibiste
+
+Ley de Eagleson.
+“Cualquier código que hayas desarrollado tú mismo y que no lo hayas revisado desde hace seis meses parecerá que lo hubiese escrito otra persona”.
+
+
+

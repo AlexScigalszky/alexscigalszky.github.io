@@ -34,6 +34,7 @@ npm init
 npm install typescript ts-node --save-dev
 npm -g install @angular/cli
 npm install @angular/core --save
+npm install @angular/platform-browser --save
 npm install @jest/globals --save
 ```
 
@@ -110,6 +111,8 @@ Publicar paquete
 ```bash
 npm publish
 ```
+
+> NOTA: Puede tirar un error `403 Forbidden` cuando el nombre del paquete ya está creado.
 
 # Paquete listo para usar
 
