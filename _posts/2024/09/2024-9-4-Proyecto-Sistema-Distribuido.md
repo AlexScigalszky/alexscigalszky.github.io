@@ -12,7 +12,7 @@ Multiples proyectos que implementan la misma interfaz para conocerse unos a otro
 
 ## Diagrama
 
-```mermaid
+<pre class="mermaid">
 graph TD
     A[Seed Node] --> B[Node 1]
     A --> C[Node 2]
@@ -27,7 +27,7 @@ graph TD
     D -->|Devuelve Lista de Nodos| X
     F -->|Devuelve Lista de Nodos| X
 
-```
+</pre>
 
 # ¿Qué debe hacer un sistema?
 
@@ -66,7 +66,7 @@ Comparte la lista actualizada con otros nodos.
 
 Actualiza la lista con nuevos nodos o elimina nodos inactivos.
 
-```mermaid
+<pre class="mermaid">
 graph TD
     A[Inicio del Nodo] --> B(Conectar al Nodo Semilla)
     B -->|Exitoso| C[Obtener Lista de Nodos]
@@ -86,7 +86,7 @@ graph TD
     I --> E
     J --> E
 
-```
+</pre>
 
 # Startup de cada Nodo
 
