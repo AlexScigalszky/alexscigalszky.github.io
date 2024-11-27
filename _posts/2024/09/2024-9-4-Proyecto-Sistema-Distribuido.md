@@ -6,9 +6,9 @@ categories: project, design
 
 Idea: sistema totalmente distribuido para aprender cómo funciona un sistema sin una central.<!--more-->
 
-# Idea
+# Descripción
 
-Multiples proyectos que implementan la misma interfaz para conocerse unos a otros y poder decis a quiénes conoce.
+Esta aplicación que maneja nodos en una red distribuida. Permite registrar nodos, sincronizar la lista de nodos conocidos, y verificar la actividad de un nodo. Además, ofrece información sobre el nodo actual y la red de nodos conectados. Usa una lista de nodos semilla para iniciar la conexión y actualizar periódicamente los nodos conocidos. La comunicación con otros nodos se hace a través de solicitudes HTTP, con endpoints para obtener, agregar y sincronizar nodos.
 
 ## Diagrama
 
@@ -92,7 +92,13 @@ graph TD
 
 ## Inicio de la aplicación:
 
-El nodo inicializa el servidor Express y configura los endpoints necesarios (`/nodes`, `/ping`).
+El nodo inicializa el servidor Express y configura los endpoints necesarios.
+
+- GET `/nodes`: Retorna la lista actual de nodos conocidos.
+- POST `/nodes`: Registra nuevos nodos.
+- GET `/ping`: Indica que el nodo está funcionando.
+- GET `/ping`: Muestra la información de nodo.
+- GET `/network`: Retorna los datos de todos los nodos en la red.
 
 ## Conexión al nodo semilla:
 
@@ -123,77 +129,132 @@ Si no puede contactar a un nodo, lo marca como inactivo en consola, pero mantien
 Otros nodos pueden verificar si este nodo está activo mediante el endpoint GET `/ping`.
 Retorna una respuesta indicando que el nodo está activo.
 
-## Respuesta a solicitudes de otros nodos:
-
-- GET `/nodes`: Retorna la lista actual de nodos conocidos.
-- POST `/nodes`: Registra nuevos nodos.
-- GET `/ping`: Indica que el nodo está funcionando.
-
 # Ejemplo en Javascript
 
 ```Javascript
 // Importar dependencias
-const express = require('express');
-const fetch = require('node-fetch');
+import express from 'express';
+import fetch from 'node-fetch';
 
 // Inicializar la aplicación Express
 const app = express();
 app.use(express.json());
 
-let knownNodes = []; // Lista en memoria de nodos conocidos
-const seedNodeUrl = "http://localhost:3000"; // Nodo semilla
+// Url del Nodo (la forma de identificarlo)
+const nodeUrl = process.env.NODE_URL;
+// Nombre del Nodo (la forma de identificarlo)
+const nodeName = process.env.NODE_NAME ?? 'unknown name';
+// Iniciar el servidor en el puerto 3000
+const port = process.env.PORT || 3000;
+// Nodo semilla
+const seedNodeUrls = process.env.SEED_NODE_URLS || '';
 
-// Función para conectarse al nodo semilla
-async function connectToSeedNode() {
-  try {
-    const response = await fetch(`${seedNodeUrl}/nodes`);
-    const nodesFromSeed = await response.json();
-    knownNodes = [...new Set([...knownNodes, ...nodesFromSeed])];
-    console.log("Conectado al nodo semilla y sincronizado.");
-  } catch (error) {
-    console.error("No se pudo conectar al nodo semilla:", error.message);
-  }
+// Tiempo entre cada actualización
+var refreshTime = 60 * 60 * 1000 // 1 hora
+
+// Lista en memoria de nodos conocidos
+let knownNodes = seedNodeUrls ? [...seedNodeUrls.split(',')] : [];
+
+/************ BEGIN internal functions ************/
+
+// Función que devuelve toda la info de este nodo
+function myInfo() {
+    return {
+        name: nodeName,
+        version: '0.0.1'
+    };
+}
+
+// Función para registrar el nodo en el semilla
+async function registerNode() {
+    knownNodes.forEach(async (seedUrl) => {
+        try {
+            const response = await fetch(`${seedUrl}/nodes`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ nodeUrl }),
+            });
+            if (response.ok) {
+                console.log(`Nodo registrado: ${nodeUrl}`);
+            } else {
+                console.error('Error al registrar el nodo:', response.statusText);
+            }
+        } catch (error) {
+            console.error('Error al registrar el nodo:', error);
+        }
+    });
 }
 
 // Sincronizar nodos conocidos periódicamente
 function syncNodes() {
-  knownNodes.forEach(async (nodeUrl) => {
-    try {
-      const response = await fetch(`${nodeUrl}/nodes`);
-      const newNodes = await response.json();
-      knownNodes = [...new Set([...knownNodes, ...newNodes])];
-    } catch (error) {
-      console.error(`Error sincronizando con el nodo ${nodeUrl}: ${error.message}`);
-    }
-  });
+    console.log("Sincronizando...")
+    console.log("Nodos conocidos:", knownNodes);
+    knownNodes.forEach(async (nodeUrl) => {
+        try {
+            console.log("Sincronizando con el nodo", nodeUrl);
+            const response = await fetch(`${nodeUrl}/nodes`);
+            const newNodes = await response.json();
+            knownNodes = [...new Set([...knownNodes, ...newNodes])];
+        } catch (error) {
+            console.error(`Error sincronizando con el nodo ${nodeUrl}: ${error.message}`);
+            if (knownNodes.lengh !== 0) {
+                knownNodes = [...knownNodes.filter(x => x !== nodeUrl)];
+            }
+        }
+    });
 }
-setInterval(syncNodes, 30000); // Ejecutar cada 30 segundos
+/************ END internal functions ************/
+
+/************ BEGIN endpoints ************/
 
 // Endpoint GET /nodes - Retorna la lista de nodos
 app.get('/nodes', (req, res) => {
-  res.json(knownNodes);
+    res.json(knownNodes);
 });
 
 // Endpoint POST /nodes - Registra un nuevo nodo
 app.post('/nodes', (req, res) => {
-  const { nodeUrl } = req.body;
-  if (!knownNodes.includes(nodeUrl)) {
-    knownNodes = [...knownNodes, nodeUrl];
-  }
-  res.status(201).json({ message: 'Nodo agregado', knownNodes });
+    const { nodeUrl } = req.body;
+    console.log('Agregando el nodo', nodeUrl);
+    if (!knownNodes.includes(nodeUrl) && nodeUrl !== nodeUrl) {
+        knownNodes.push(nodeUrl);
+    }
+    console.log("Nodos conocidos:", knownNodes);
+    res.status(201).json({ message: 'Nodo agregado', knownNodes });
 });
 
 // Endpoint GET /ping - Verifica si el nodo está activo
 app.get('/ping', (req, res) => {
-  res.json({ message: 'Nodo activo' });
+    res.json({ message: 'Nodo activo' });
 });
 
-// Iniciar el servidor en el puerto 3000
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`Servidor corriendo en puerto ${PORT}`);
-  connectToSeedNode(); // Conectar al nodo semilla al iniciar
+app.get('/info', (req, res) => {
+    res.json(myInfo());
 });
+
+app.get('/network', async (req, res) => {
+    var rst = [myInfo()];
+    for (let i = 0; i < knownNodes.length; i++) {
+        const response = await fetch(`${knownNodes[i]}/info`);
+        rst = [...rst, await response.json()];
+    }
+    res.json(rst);
+});
+
+/************ END endpoints ************/
+
+setInterval(syncNodes, refreshTime);
+
+app.listen(port, async () => {
+    console.log(`Servidor ${nodeName} iniciado en ${nodeUrl}`);
+    console.log(`Seeds registrados ${seedNodeUrls}`);
+    // Registrar el nodo en el seed después de que el servidor se inicie
+    await registerNode();
+    syncNodes(); // Conectar al nodo semilla al iniciar
+});
+
 ```
 
   <script type="module">
