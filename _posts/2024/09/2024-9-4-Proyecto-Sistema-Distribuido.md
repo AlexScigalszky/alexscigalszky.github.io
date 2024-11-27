@@ -10,6 +10,25 @@ Idea: sistema totalmente distribuido para aprender cómo funciona un sistema sin
 
 Multiples proyectos que implementan la misma interfaz para conocerse unos a otros y poder decis a quiénes conoce.
 
+## Diagrama
+
+```mermaid
+graph TD
+    A[Seed Node] --> B[Node 1]
+    A --> C[Node 2]
+    B --> D[Node 3]
+    B --> E[Node 4]
+    C --> F[Node 5]
+    C --> G[Node 6]
+    D --> H[Node 7]
+
+    %% Actor externo solicitando la lista de nodos a Node 3
+
+    D -->|Devuelve Lista de Nodos| X
+    F -->|Devuelve Lista de Nodos| X
+
+```
+
 # ¿Qué debe hacer un sistema?
 
 - Debe implementar todo lo necesario para descubrir los demás componentes (Nodos) en la red.
@@ -176,3 +195,8 @@ app.listen(PORT, () => {
   connectToSeedNode(); // Conectar al nodo semilla al iniciar
 });
 ```
+
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
