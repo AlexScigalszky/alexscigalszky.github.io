@@ -313,7 +313,7 @@ graph TD
 
 # Ejemplo en Javascript
 
-```Javascript
+```javascript
 // Importar dependencias
 import express from 'express';
 import fetch from 'node-fetch';
